@@ -1,0 +1,1997 @@
+{
+  "episode": 9,
+  "lang": "hi",
+  "language": "Hindi",
+  "model": "groq/openai/gpt-oss-120b",
+  "engine": "edge",
+  "pipeline": "v2-fix-only-overflow",
+  "logline": "When a frantic mother brings her critically ill child to the woodland cottage, Juliana successfully cures him with her mother's herbal remedies, unknowingly igniting dangerous rumors that reach the ears of the Blond Nobleman.",
+  "duration": 115.5,
+  "syl_per_sec": {
+    "F": 5.016,
+    "M": 5.255
+  },
+  "summary": {
+    "lines": 33,
+    "baseline_fit": 0.1515,
+    "baseline_tight": 0.0606,
+    "baseline_overflow": 0.7879,
+    "dubfit_fit": 0.5758,
+    "dubfit_tight": 0.303,
+    "dubfit_overflow": 0.1212,
+    "changed": 26,
+    "needs_review": 9,
+    "meaning_avg": 4.19,
+    "meaning_low": 5,
+    "rewritten": 26
+  },
+  "usage": {
+    "calls": 35,
+    "cached": 10,
+    "prompt_tokens": 40023,
+    "completion_tokens": 31568,
+    "seconds": 103.3760814666748,
+    "cost_usd": 0.0,
+    "errors": [
+      "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "RateLimitError: litellm.RateLimitError: RateLimitError: GroqException - {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m6r47gbwe",
+      "RateLimitError: litellm.RateLimitError: RateLimitError: GroqException - {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m6r47gbwe"
+    ]
+  },
+  "wall_seconds": 169.2,
+  "lines": [
+    {
+      "id": "E009-L001",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Authoritative, Protective",
+      "on_screen": true,
+      "start": 3.6,
+      "end": 5.0,
+      "window": 1.4,
+      "soft_window": 2.7,
+      "limit": 1.4,
+      "en": "Stay back. I'll open it.",
+      "en_seconds": 2.575,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f453afb4d5353b57.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "पीछे हटो। मैं खोलता हूँ।",
+        "syllables": 9,
+        "seconds": 2.762,
+        "ratio": 1.973,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0f915990ba764abe.mp3"
+      },
+      "dubfit": {
+        "text": "हटो, मैं खोलूँगा।",
+        "syllables": 6,
+        "seconds": 1.337,
+        "ratio": 0.955,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ca6dfcf6eccaf94b.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "पीछे हटो। मैं खोलता हूँ।",
+            "seconds": 2.762,
+            "ratio": 1.973,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "पीछे हटो, मैं खोलूँगा।",
+            "seconds": 1.7,
+            "ratio": 1.214,
+            "status": "overflow"
+          },
+          {
+            "text": "हटो, मैं खोलूँगा।",
+            "seconds": 1.337,
+            "ratio": 0.955,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Move aside, I will open.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L002",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "PEASANT MOTHER",
+      "gender": "F",
+      "emotion": "Frantic, Weeping",
+      "on_screen": true,
+      "start": 6.3,
+      "end": 11.1,
+      "window": 4.8,
+      "soft_window": 5.1,
+      "limit": 4.8,
+      "en": "Please! They told me there was a woman here who knows herbs. My boy is burning with fever!",
+      "en_seconds": 6.138,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/04692a73c0d07f87.mp3",
+      "budget": 26,
+      "baseline": {
+        "text": "कृपया! उन्होंने कहा था यहाँ एक औरत है जो जड़ी‑बूटियों को जानती है। मेरा बच्चा बुखार से जल रहा है!",
+        "syllables": 37,
+        "seconds": 8.975,
+        "ratio": 1.87,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a61ef982e7078b77.mp3"
+      },
+      "dubfit": {
+        "text": "कृपया! यहाँ जड़ी‑बूटी वाली है, बच्चा बुखार से जल रहा है!",
+        "syllables": 21,
+        "seconds": 5.338,
+        "ratio": 1.112,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d3d3652b4fba3145.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कृपया! उन्होंने कहा था यहाँ एक औरत है जो जड़ी‑बूटियों को जानती है। मेरा बच्चा बुखार से जल रहा है!",
+            "seconds": 8.975,
+            "ratio": 1.87,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कृपया! यहाँ जड़ी‑बूटी वाली औरत है, मेरा बच्चा बुखार से जल रहा है!",
+            "seconds": 6.288,
+            "ratio": 1.31,
+            "status": "overflow"
+          },
+          {
+            "text": "कृपया! यहाँ जड़ी‑बूटी वाली है, बच्चा बुखार से जल रहा है!",
+            "seconds": 5.338,
+            "ratio": 1.112,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Please! Here is the herbal one, the child is burning with fever!",
+      "meaning_score": 2,
+      "meaning_note": "Lost request for herbal woman",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L003",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Urgent, Compassionate",
+      "on_screen": true,
+      "start": 11.4,
+      "end": 13.3,
+      "window": 1.9,
+      "soft_window": 4.1,
+      "limit": 1.9,
+      "en": "Bring him here. Quickly.",
+      "en_seconds": 2.3,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/813828464b76d1ae.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "इसे यहाँ ले आओ। जल्दी से।",
+        "syllables": 10,
+        "seconds": 3.288,
+        "ratio": 1.731,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ebad7396cb401685.mp3"
+      },
+      "dubfit": {
+        "text": "इसे ले आओ, जल्दी!",
+        "syllables": 7,
+        "seconds": 2.012,
+        "ratio": 1.059,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a6c71cab9d2d0b8b.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "इसे यहाँ ले आओ। जल्दी से।",
+            "seconds": 3.288,
+            "ratio": 1.731,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "इसे ले आओ, जल्दी!",
+            "seconds": 2.012,
+            "ratio": 1.059,
+            "status": "tight"
+          },
+          {
+            "text": "इसे लाओ, जल्दी!",
+            "seconds": 1.825,
+            "ratio": 0.961,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Bring it, quickly!",
+      "meaning_score": 1,
+      "meaning_note": "Object changed, meaning wrong",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L004",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Reassuring, Focused",
+      "on_screen": true,
+      "start": 15.5,
+      "end": 19.8,
+      "window": 4.3,
+      "soft_window": 5.0,
+      "limit": 4.3,
+      "en": "He seems very unwell, but he is resting steadily. How long has he been like this?",
+      "en_seconds": 5.35,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ca11e460a479966c.mp3",
+      "budget": 21,
+      "baseline": {
+        "text": "वह बहुत बुरा लग रहा है, लेकिन वह धीरे‑धीरे आराम कर रहा है। वह कब से ऐसा है?",
+        "syllables": 28,
+        "seconds": 6.888,
+        "ratio": 1.602,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c11886ddcb482693.mp3"
+      },
+      "dubfit": {
+        "text": "वह बहुत बुरा है, पर आराम कर रहा है। कब से?",
+        "syllables": 15,
+        "seconds": 4.4,
+        "ratio": 1.023,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6a491b02eb908e3d.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "वह बहुत बुरा लग रहा है, लेकिन वह धीरे‑धीरे आराम कर रहा है। वह कब से ऐसा है?",
+            "seconds": 6.888,
+            "ratio": 1.602,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "वह बहुत बुरा है, पर आराम कर रहा है। कब से?",
+            "seconds": 4.4,
+            "ratio": 1.023,
+            "status": "tight"
+          },
+          {
+            "text": "बुरा है, पर आराम है। कब से?",
+            "seconds": 3.425,
+            "ratio": 0.797,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "He is very bad, but is resting. Since when?",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L005",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "PEASANT MOTHER",
+      "gender": "F",
+      "emotion": "Trembling, Anxious",
+      "on_screen": true,
+      "start": 20.5,
+      "end": 23.9,
+      "window": 3.4,
+      "soft_window": 8.5,
+      "limit": 3.4,
+      "en": "Since yesterday morning. He has barely eaten since sunset.",
+      "en_seconds": 4.113,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7a0ed7585a9a05fb.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "कल सुबह से। सूरज ढलने के बाद से उसने मुश्किल से कुछ खाया है।",
+        "syllables": 22,
+        "seconds": 5.538,
+        "ratio": 1.629,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f0d367970a91c5bb.mp3"
+      },
+      "dubfit": {
+        "text": "कल सुबह से, शाम से खाने में मुश्किल।",
+        "syllables": 12,
+        "seconds": 3.012,
+        "ratio": 0.886,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f5e4af8c4fd93d5d.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कल सुबह से। सूरज ढलने के बाद से उसने मुश्किल से कुछ खाया है।",
+            "seconds": 5.538,
+            "ratio": 1.629,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कल सुबह से, शाम से खाने में मुश्किल।",
+            "seconds": 3.012,
+            "ratio": 0.886,
+            "status": "fit"
+          },
+          {
+            "text": "कल से, शाम से खाने में मुश्किल।",
+            "seconds": 2.625,
+            "ratio": 0.772,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Since yesterday morning, difficulty eating since evening.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L006",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Muttering, Intent",
+      "on_screen": true,
+      "start": 29.0,
+      "end": 30.8,
+      "window": 1.8,
+      "soft_window": 2.8,
+      "limit": 1.8,
+      "en": "Feverfew... Not alone.",
+      "en_seconds": 2.425,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/24fee7c69ed45b0b.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "फीवरफ़्यू... अकेला नहीं।",
+        "syllables": 9,
+        "seconds": 2.95,
+        "ratio": 1.639,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1c5cf5f379eb9fb3.mp3"
+      },
+      "dubfit": {
+        "text": "फीवरफ़्यू, अकेला नहीं।",
+        "syllables": 9,
+        "seconds": 2.288,
+        "ratio": 1.271,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3062f3c8a398525b.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "फीवरफ़्यू... अकेला नहीं।",
+            "seconds": 2.95,
+            "ratio": 1.639,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "फीवरफ़्यू, अकेला नहीं।",
+            "seconds": 2.288,
+            "ratio": 1.271,
+            "status": "overflow"
+          },
+          {
+            "text": "फीवरफ़्यू, अकेला नहीं।",
+            "seconds": 2.288,
+            "ratio": 1.271,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "Feverfew, not alone.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [
+        "still too long"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L007",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Determined",
+      "on_screen": true,
+      "start": 31.8,
+      "end": 33.8,
+      "window": 2.0,
+      "soft_window": 3.1,
+      "limit": 2.0,
+      "en": "Chamomile... and willow bark.",
+      "en_seconds": 1.712,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/54d55ff0e4b555b4.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "कैमोमाइल... और विलो की छाल।",
+        "syllables": 10,
+        "seconds": 3.188,
+        "ratio": 1.594,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/41e0f4285ff54ab2.mp3"
+      },
+      "dubfit": {
+        "text": "कैमोमाइल और विलो की छाल।",
+        "syllables": 10,
+        "seconds": 2.175,
+        "ratio": 1.087,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e353bc68d8c41859.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कैमोमाइल... और विलो की छाल।",
+            "seconds": 3.188,
+            "ratio": 1.594,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कैमोमाइल और विलो की छाल।",
+            "seconds": 2.175,
+            "ratio": 1.087,
+            "status": "tight"
+          },
+          {
+            "text": "कैमोमाइल, विलो की छाल।",
+            "seconds": 2.237,
+            "ratio": 1.119,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Chamomile and willow bark.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L008",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Grave",
+      "on_screen": true,
+      "start": 34.9,
+      "end": 35.8,
+      "window": 0.9,
+      "soft_window": 1.4,
+      "limit": 0.9,
+      "en": "You're certain?",
+      "en_seconds": 0.763,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/582a6adfbc1e8f9c.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "क्या तुम पक्के हो?",
+        "syllables": 5,
+        "seconds": 1.1,
+        "ratio": 1.222,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/49da7e3109dda857.mp3"
+      },
+      "dubfit": {
+        "text": "तुम पक्की हो?",
+        "syllables": 4,
+        "seconds": 0.888,
+        "ratio": 0.987,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f61c4dd4bdbae266.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "क्या तुम पक्के हो?",
+            "seconds": 1.1,
+            "ratio": 1.222,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम पक्की हो?",
+            "seconds": 0.888,
+            "ratio": 0.987,
+            "status": "fit"
+          },
+          {
+            "text": "पक्की हो?",
+            "seconds": 0.625,
+            "ratio": 0.694,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Are you certain?",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L009",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Resolute",
+      "on_screen": true,
+      "start": 36.3,
+      "end": 37.4,
+      "window": 1.1,
+      "soft_window": 1.9,
+      "limit": 1.1,
+      "en": "I have to be.",
+      "en_seconds": 0.863,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/be84ca1453062b29.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "मुझे पक्का होना चाहिए।",
+        "syllables": 9,
+        "seconds": 1.712,
+        "ratio": 1.556,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6a40bb64cd555127.mp3"
+      },
+      "dubfit": {
+        "text": "मुझे पक्का होना है।",
+        "syllables": 7,
+        "seconds": 1.375,
+        "ratio": 1.25,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8885c3f82577cb08.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "मुझे पक्का होना चाहिए।",
+            "seconds": 1.712,
+            "ratio": 1.556,
+            "status": "overflow"
+          },
+          {
+            "text": "पक्का होना चाहिए।",
+            "seconds": 1.438,
+            "ratio": 1.307,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "पक्का होना चाहिए।",
+            "seconds": 1.438,
+            "ratio": 1.307,
+            "status": "overflow"
+          },
+          {
+            "text": "मुझे पक्का होना है।",
+            "seconds": 1.375,
+            "ratio": 1.25,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "I have to be certain.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [
+        "still too long"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L010",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Urgent",
+      "on_screen": true,
+      "start": 38.2,
+      "end": 39.8,
+      "window": 1.6,
+      "soft_window": 1.7,
+      "limit": 1.6,
+      "en": "Alexander, I need hot water.",
+      "en_seconds": 1.887,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9618201908565a54.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "अलेक्ज़ेंडर, मुझे गरम पानी चाहिए।",
+        "syllables": 13,
+        "seconds": 2.812,
+        "ratio": 1.757,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2bd6055c436baac0.mp3"
+      },
+      "dubfit": {
+        "text": "गरम पानी चाहिए।",
+        "syllables": 7,
+        "seconds": 1.425,
+        "ratio": 0.891,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4414862186d197d5.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "अलेक्ज़ेंडर, मुझे गरम पानी चाहिए।",
+            "seconds": 2.812,
+            "ratio": 1.757,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "अलेक्ज़ेंडर, गरम पानी चाहिए।",
+            "seconds": 2.487,
+            "ratio": 1.554,
+            "status": "overflow"
+          },
+          {
+            "text": "गरम पानी चाहिए।",
+            "seconds": 1.425,
+            "ratio": 0.891,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Hot water is needed.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L011",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Prompt",
+      "on_screen": true,
+      "start": 39.9,
+      "end": 40.8,
+      "window": 0.9,
+      "soft_window": 1.1,
+      "limit": 0.9,
+      "en": "I'm on it.",
+      "en_seconds": 0.787,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7b60ec930084cb2c.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "मैं कर रहा हूँ।",
+        "syllables": 5,
+        "seconds": 1.062,
+        "ratio": 1.18,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bf51675d9fccb8bc.mp3"
+      },
+      "dubfit": {
+        "text": "कर रहा हूँ।",
+        "syllables": 4,
+        "seconds": 0.763,
+        "ratio": 0.848,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1101f320de4db7d4.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मैं कर रहा हूँ।",
+            "seconds": 1.062,
+            "ratio": 1.18,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैं कर रहा हूँ।",
+            "seconds": 1.062,
+            "ratio": 1.18,
+            "status": "overflow"
+          },
+          {
+            "text": "कर रहा हूँ।",
+            "seconds": 0.763,
+            "ratio": 0.848,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I am doing it.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L012",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "PEASANT MOTHER",
+      "gender": "F",
+      "emotion": "Sobbing",
+      "on_screen": true,
+      "start": 41.0,
+      "end": 42.5,
+      "window": 1.5,
+      "soft_window": 2.8,
+      "limit": 1.5,
+      "en": "Please save him.",
+      "en_seconds": 0.9,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/235fd951bd0d3f84.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "कृपया उसकी मदद करो।",
+        "syllables": 10,
+        "seconds": 1.787,
+        "ratio": 1.191,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/81e3b07c1047fd1b.mp3"
+      },
+      "dubfit": {
+        "text": "उसकी मदद करो।",
+        "syllables": 7,
+        "seconds": 1.3,
+        "ratio": 0.867,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1658e78baeefe69d.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कृपया उसकी मदद करो।",
+            "seconds": 1.787,
+            "ratio": 1.191,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कृपया उसकी मदद करो।",
+            "seconds": 1.787,
+            "ratio": 1.191,
+            "status": "overflow"
+          },
+          {
+            "text": "उसकी मदद करो।",
+            "seconds": 1.3,
+            "ratio": 0.867,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Help him/her.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L013",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Gentle, Steadfast",
+      "on_screen": true,
+      "start": 43.8,
+      "end": 45.6,
+      "window": 1.8,
+      "soft_window": 8.7,
+      "limit": 1.8,
+      "en": "He is not beyond saving.",
+      "en_seconds": 1.45,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6b275bb8311b7179.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "वह बचाए जाने से बाहर नहीं है।",
+        "syllables": 12,
+        "seconds": 2.475,
+        "ratio": 1.375,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/28dba92dba6a8a1f.mp3"
+      },
+      "dubfit": {
+        "text": "वह बचाया जा सकता है।",
+        "syllables": 9,
+        "seconds": 1.725,
+        "ratio": 0.958,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6f93461bc835b838.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "वह बचाए जाने से बाहर नहीं है।",
+            "seconds": 2.475,
+            "ratio": 1.375,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "वह बचाया जा सकता है।",
+            "seconds": 1.725,
+            "ratio": 0.958,
+            "status": "fit"
+          },
+          {
+            "text": "बचाया जा सकता है।",
+            "seconds": 1.525,
+            "ratio": 0.847,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "He/She can be saved.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L014",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "PEASANT MOTHER",
+      "gender": "F",
+      "emotion": "Despairing",
+      "on_screen": true,
+      "start": 52.5,
+      "end": 54.0,
+      "window": 1.5,
+      "soft_window": 1.8,
+      "limit": 1.5,
+      "en": "Why isn't it working?",
+      "en_seconds": 1.112,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d35ea2bc5fda8699.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "क्यों नहीं काम कर रहा?",
+        "syllables": 7,
+        "seconds": 1.412,
+        "ratio": 0.941,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7d31187c85c19964.mp3"
+      },
+      "dubfit": {
+        "text": "क्यों नहीं काम कर रहा?",
+        "syllables": 7,
+        "seconds": 1.412,
+        "ratio": 0.941,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7d31187c85c19964.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L015",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Quiet, Focused",
+      "on_screen": true,
+      "start": 54.3,
+      "end": 55.2,
+      "window": 0.9,
+      "soft_window": 4.5,
+      "limit": 0.9,
+      "en": "Wait.",
+      "en_seconds": 0.525,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2dd4ad5b07ac9e02.mp3",
+      "budget": 3,
+      "baseline": {
+        "text": "रुको।",
+        "syllables": 2,
+        "seconds": 0.638,
+        "ratio": 0.709,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/93cee6741c6aa805.mp3"
+      },
+      "dubfit": {
+        "text": "रुको।",
+        "syllables": 2,
+        "seconds": 0.638,
+        "ratio": 0.709,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/93cee6741c6aa805.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L016",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "PEASANT MOTHER",
+      "gender": "F",
+      "emotion": "Overcome with Emotion",
+      "on_screen": true,
+      "start": 58.8,
+      "end": 61.8,
+      "window": 3.0,
+      "soft_window": 5.4,
+      "limit": 3.0,
+      "en": "His fever... it's breaking.",
+      "en_seconds": 1.675,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/56ce070acc3b35c5.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "उसका बुखार... टूट रहा है।",
+        "syllables": 9,
+        "seconds": 2.913,
+        "ratio": 0.971,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/767c8b256dfd5e29.mp3"
+      },
+      "dubfit": {
+        "text": "उसका बुखार... टूट रहा है।",
+        "syllables": 9,
+        "seconds": 2.913,
+        "ratio": 0.971,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/767c8b256dfd5e29.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L017",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "PEASANT MOTHER",
+      "gender": "F",
+      "emotion": "Tearful, Grateful",
+      "on_screen": true,
+      "start": 64.2,
+      "end": 65.5,
+      "window": 1.3,
+      "soft_window": 1.6,
+      "limit": 1.3,
+      "en": "You saved him.",
+      "en_seconds": 0.875,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8253dcd85409c4c0.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "तुमने उसकी जान बचा ली।",
+        "syllables": 10,
+        "seconds": 1.862,
+        "ratio": 1.432,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/18b80feb2eb2a3a4.mp3"
+      },
+      "dubfit": {
+        "text": "तुमने बचा ली।",
+        "syllables": 6,
+        "seconds": 1.137,
+        "ratio": 0.875,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/27a2f04e61624b94.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुमने उसकी जान बचा ली।",
+            "seconds": 1.862,
+            "ratio": 1.432,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुमने उसकी जान बचा ली।",
+            "seconds": 1.862,
+            "ratio": 1.432,
+            "status": "overflow"
+          },
+          {
+            "text": "तुमने बचा ली।",
+            "seconds": 1.137,
+            "ratio": 0.875,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You have saved (her).",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L018",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Soft, Gracious",
+      "on_screen": true,
+      "start": 65.8,
+      "end": 68.2,
+      "window": 2.4,
+      "soft_window": 5.4,
+      "limit": 2.4,
+      "en": "The herbs did their work. Let him rest.",
+      "en_seconds": 3.087,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6047692b31b5efb4.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "जड़ी‑बूटियों ने अपना काम किया। उसे आराम दो।",
+        "syllables": 17,
+        "seconds": 4.475,
+        "ratio": 1.865,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9af4c7693c78fd5a.mp3"
+      },
+      "dubfit": {
+        "text": "जड़ी‑बूटियों ने मदद की, अब आराम।",
+        "syllables": 13,
+        "seconds": 2.825,
+        "ratio": 1.177,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1bb440d6437af1b3.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "जड़ी‑बूटियों ने अपना काम किया। उसे आराम दो।",
+            "seconds": 4.475,
+            "ratio": 1.865,
+            "status": "overflow"
+          },
+          {
+            "text": "जड़ी‑बूटियों ने काम किया, आराम दो।",
+            "seconds": 2.9,
+            "ratio": 1.208,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "जड़ी‑बूटियों ने काम किया, आराम दो।",
+            "seconds": 2.9,
+            "ratio": 1.208,
+            "status": "overflow"
+          },
+          {
+            "text": "जड़ी‑बूटियों ने मदद की, अब आराम।",
+            "seconds": 2.825,
+            "ratio": 1.177,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "The herbs helped, now rest.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [
+        "still too long"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L019",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "PEASANT MOTHER",
+      "gender": "F",
+      "emotion": "Reverent, Vowing",
+      "on_screen": true,
+      "start": 71.2,
+      "end": 74.8,
+      "window": 3.6,
+      "soft_window": 3.9,
+      "limit": 3.6,
+      "en": "I will tell the village what you did. They will never forget you.",
+      "en_seconds": 3.812,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3e3307d587b5e108.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "मैं गाँव को बताऊँगी तुमने क्या किया। वे तुम्हें कभी नहीं भूलेंगे।",
+        "syllables": 23,
+        "seconds": 5.45,
+        "ratio": 1.514,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/26304b646a1d6b7b.mp3"
+      },
+      "dubfit": {
+        "text": "मैं गाँव को बताऊँगी तुमने क्या किया, वे नहीं भूलेंगे।",
+        "syllables": 19,
+        "seconds": 3.887,
+        "ratio": 1.08,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/92fde98c2a4830e0.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मैं गाँव को बताऊँगी तुमने क्या किया। वे तुम्हें कभी नहीं भूलेंगे।",
+            "seconds": 5.45,
+            "ratio": 1.514,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैं गाँव को बताऊँगी तुमने क्या किया, वे तुम्हें नहीं भूलेंगे।",
+            "seconds": 4.312,
+            "ratio": 1.198,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं गाँव को बताऊँगी तुमने क्या किया, वे नहीं भूलेंगे।",
+            "seconds": 3.887,
+            "ratio": 1.08,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "I will tell the village what you did, they will not forget.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L020",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Stern, Warning",
+      "on_screen": true,
+      "start": 75.1,
+      "end": 77.5,
+      "window": 2.4,
+      "soft_window": 2.5,
+      "limit": 2.4,
+      "en": "You cannot let the whole village start talking about you.",
+      "en_seconds": 2.788,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/11d71b187df06135.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "तुम नहीं दे सकते कि पूरा गाँव तुम्हारे बारे में बात करना शुरू कर दे।",
+        "syllables": 25,
+        "seconds": 4.525,
+        "ratio": 1.885,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d94dd676f5804f67.mp3"
+      },
+      "dubfit": {
+        "text": "गाँव तुम्हारे बारे में न बोले।",
+        "syllables": 10,
+        "seconds": 1.987,
+        "ratio": 0.828,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/27420d2204b0e850.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम नहीं दे सकते कि पूरा गाँव तुम्हारे बारे में बात करना शुरू कर दे।",
+            "seconds": 4.525,
+            "ratio": 1.885,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम नहीं चाहती कि गाँव तुम्हारे बारे में बात करे।",
+            "seconds": 3.038,
+            "ratio": 1.266,
+            "status": "overflow"
+          },
+          {
+            "text": "गाँव तुम्हारे बारे में न बोले।",
+            "seconds": 1.987,
+            "ratio": 0.828,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "May the village not speak about you.",
+      "meaning_score": 2,
+      "meaning_note": "Changed negation intent",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L021",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Defiant, Principled",
+      "on_screen": true,
+      "start": 77.6,
+      "end": 79.4,
+      "window": 1.8,
+      "soft_window": 2.0,
+      "limit": 1.8,
+      "en": "A child's life matters more than gossip.",
+      "en_seconds": 2.1,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/50effffaac9df540.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "एक बच्चे की ज़िन्दगी गपशप से ज्यादा महत्वपूर्ण है।",
+        "syllables": 18,
+        "seconds": 3.675,
+        "ratio": 2.042,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b265c216a10a1aa3.mp3"
+      },
+      "dubfit": {
+        "text": "बच्चे की ज़िन्दगी गपशप से बड़ी।",
+        "syllables": 12,
+        "seconds": 2.438,
+        "ratio": 1.354,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6c1e2c50c7afa393.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "एक बच्चे की ज़िन्दगी गपशप से ज्यादा महत्वपूर्ण है।",
+            "seconds": 3.675,
+            "ratio": 2.042,
+            "status": "overflow"
+          },
+          {
+            "text": "बच्चे की ज़िन्दगी गपशप से महत्त्वपूर्ण।",
+            "seconds": 2.987,
+            "ratio": 1.659,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "बच्चे की ज़िन्दगी गपशप से बड़ी।",
+            "seconds": 2.438,
+            "ratio": 1.354,
+            "status": "overflow"
+          },
+          {
+            "text": "बच्चे की जान गपशप से ज़्यादा है।",
+            "seconds": 2.512,
+            "ratio": 1.396,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "The child's life is bigger than gossip.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [
+        "still too long"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L022",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Dark, Cautionary",
+      "on_screen": true,
+      "start": 79.6,
+      "end": 81.6,
+      "window": 2.0,
+      "soft_window": 2.4,
+      "limit": 2.0,
+      "en": "Gossip has a way of becoming dangerous.",
+      "en_seconds": 2.3,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ebfc2a97ac83e834.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "गपशप कभी‑न कभी ख़तरनाक बन जाता है।",
+        "syllables": 16,
+        "seconds": 2.8,
+        "ratio": 1.4,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e4649cc301d6e4c2.mp3"
+      },
+      "dubfit": {
+        "text": "गपशप ख़तरनाक बनता है।",
+        "syllables": 11,
+        "seconds": 1.812,
+        "ratio": 0.906,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2f0461901a046a3f.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "गपशप कभी‑न कभी ख़तरनाक बन जाता है।",
+            "seconds": 2.8,
+            "ratio": 1.4,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "गपशप कभी‑न कभी ख़तरनाक बन जाता है।",
+            "seconds": 2.8,
+            "ratio": 1.4,
+            "status": "overflow"
+          },
+          {
+            "text": "गपशप ख़तरनाक बनता है।",
+            "seconds": 1.812,
+            "ratio": 0.906,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Gossip becomes dangerous.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L023",
+      "episode": 9,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Committed, Unshakable",
+      "on_screen": true,
+      "start": 82.0,
+      "end": 83.8,
+      "window": 1.8,
+      "soft_window": 1.8,
+      "limit": 1.8,
+      "en": "Then we will face it together.",
+      "en_seconds": 1.512,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/db327408477114cf.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "तो हम मिलकर इसका सामना करेंगे।",
+        "syllables": 14,
+        "seconds": 2.262,
+        "ratio": 1.257,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f2c4589e592b1764.mp3"
+      },
+      "dubfit": {
+        "text": "हम साथ मिलेंगे।",
+        "syllables": 5,
+        "seconds": 1.35,
+        "ratio": 0.75,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1bc83559d145d413.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तो हम मिलकर इसका सामना करेंगे।",
+            "seconds": 2.262,
+            "ratio": 1.257,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तो हम मिलकर इसका सामना करेंगे।",
+            "seconds": 2.262,
+            "ratio": 1.257,
+            "status": "overflow"
+          },
+          {
+            "text": "हम साथ मिलेंगे।",
+            "seconds": 1.35,
+            "ratio": 0.75,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "We will meet together.",
+      "meaning_score": 2,
+      "meaning_note": "Changed 'face' to 'meet'",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L024",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "BLOND NOBLEMAN",
+      "gender": "M",
+      "emotion": "Aloof, Without Looking Up",
+      "on_screen": true,
+      "start": 86.6,
+      "end": 87.4,
+      "window": 0.8,
+      "soft_window": 1.4,
+      "limit": 0.8,
+      "en": "What is it?",
+      "en_seconds": 0.7,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/040a0de1ddc2cb2d.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "क्या बात है?",
+        "syllables": 3,
+        "seconds": 0.812,
+        "ratio": 1.015,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ca2ee193ce46470d.mp3"
+      },
+      "dubfit": {
+        "text": "क्या बात है?",
+        "syllables": 3,
+        "seconds": 0.812,
+        "ratio": 1.015,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ca2ee193ce46470d.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L025",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Hesitant, Deferential",
+      "on_screen": true,
+      "start": 88.0,
+      "end": 90.3,
+      "window": 2.3,
+      "soft_window": 2.6,
+      "limit": 2.3,
+      "en": "There is a rumor going around, my Lord.",
+      "en_seconds": 2.387,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/90d8a0d73fc20ceb.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "एक अफवाह चल रही है, मेरे सरदार।",
+        "syllables": 14,
+        "seconds": 2.663,
+        "ratio": 1.158,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/60091bf6f47deb6e.mp3"
+      },
+      "dubfit": {
+        "text": "एक अफवाह चल रही है, सर।",
+        "syllables": 10,
+        "seconds": 2.05,
+        "ratio": 0.891,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2b90a7662ef544d4.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "एक अफवाह चल रही है, मेरे सरदार।",
+            "seconds": 2.663,
+            "ratio": 1.158,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "एक अफवाह चल रही है, सर।",
+            "seconds": 2.05,
+            "ratio": 0.891,
+            "status": "fit"
+          },
+          {
+            "text": "अफवाह है, सर।",
+            "seconds": 1.262,
+            "ratio": 0.549,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "A rumor is going around, sir.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L026",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "BLOND NOBLEMAN",
+      "gender": "M",
+      "emotion": "Coldly Curious",
+      "on_screen": true,
+      "start": 90.6,
+      "end": 91.4,
+      "window": 0.8,
+      "soft_window": 1.5,
+      "limit": 0.8,
+      "en": "What rumor?",
+      "en_seconds": 0.863,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/5363c407a8c5c91d.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "कौन सी अफवाह?",
+        "syllables": 5,
+        "seconds": 1.037,
+        "ratio": 1.296,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/acdfd1873c6adbdb.mp3"
+      },
+      "dubfit": {
+        "text": "अफवाह?",
+        "syllables": 3,
+        "seconds": 0.537,
+        "ratio": 0.671,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c178521f0a9ce849.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कौन सी अफवाह?",
+            "seconds": 1.037,
+            "ratio": 1.296,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कौन सी अफवाह?",
+            "seconds": 1.037,
+            "ratio": 1.296,
+            "status": "overflow"
+          },
+          {
+            "text": "अफवाह?",
+            "seconds": 0.537,
+            "ratio": 0.671,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Rumor?",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L027",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Uneasy",
+      "on_screen": true,
+      "start": 92.1,
+      "end": 95.1,
+      "window": 3.0,
+      "soft_window": 3.2,
+      "limit": 3.0,
+      "en": "About a war veteran. Some say he resembles the late Duke.",
+      "en_seconds": 4.213,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/48d82ad56a996566.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "एक युद्ध के दिग्गज के बारे में। कुछ कहते हैं वह मृत ड्यूक जैसा दिखता है।",
+        "syllables": 23,
+        "seconds": 6.175,
+        "ratio": 2.058,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a08f24966507d03a.mp3"
+      },
+      "dubfit": {
+        "text": "युद्ध दिग्गज, कहते हैं वह ड्यूक जैसा दिखता।",
+        "syllables": 14,
+        "seconds": 3.337,
+        "ratio": 1.112,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/62f5b2c0042d1b9c.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "एक युद्ध के दिग्गज के बारे में। कुछ कहते हैं वह मृत ड्यूक जैसा दिखता है।",
+            "seconds": 6.175,
+            "ratio": 2.058,
+            "status": "overflow"
+          },
+          {
+            "text": "युद्ध दिग्गज, कहते हैं वह ड्यूक जैसा दिखता है।",
+            "seconds": 3.637,
+            "ratio": 1.212,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "युद्ध दिग्गज, कहते हैं वह ड्यूक जैसा दिखता।",
+            "seconds": 3.337,
+            "ratio": 1.112,
+            "status": "tight"
+          },
+          {
+            "text": "कहते हैं वह दिग्गज ड्यूक जैसा दिखता।",
+            "seconds": 2.575,
+            "ratio": 0.858,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "War veteran, they say he looks like a duke.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L028",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "BLOND NOBLEMAN",
+      "gender": "M",
+      "emotion": "Mocking, Arrogant",
+      "on_screen": true,
+      "start": 95.3,
+      "end": 97.3,
+      "window": 2.0,
+      "soft_window": 2.2,
+      "limit": 2.0,
+      "en": "People see ghosts whenever they want a story.",
+      "en_seconds": 2.3,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2a348eabe5f340eb.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "लोग कहानी चाहिए तो भूत देख लेते हैं।",
+        "syllables": 13,
+        "seconds": 3.413,
+        "ratio": 1.706,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/602226fcd4f975d1.mp3"
+      },
+      "dubfit": {
+        "text": "भूत देखना, कहानी चाहिए तो।",
+        "syllables": 11,
+        "seconds": 2.188,
+        "ratio": 1.094,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/eed4606fd67a7c4c.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "लोग कहानी चाहिए तो भूत देख लेते हैं।",
+            "seconds": 3.413,
+            "ratio": 1.706,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "लोग कहानी चाहिए तो भूत देख लेते हैं।",
+            "seconds": 3.413,
+            "ratio": 1.706,
+            "status": "overflow"
+          },
+          {
+            "text": "भूत देखना, कहानी चाहिए तो।",
+            "seconds": 2.188,
+            "ratio": 1.094,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "To see a ghost, if you need a story.",
+      "meaning_score": 2,
+      "meaning_note": "Meaning altered",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E009-L029",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Tense, Solemn",
+      "on_screen": true,
+      "start": 97.5,
+      "end": 101.2,
+      "window": 3.7,
+      "soft_window": 3.9,
+      "limit": 3.7,
+      "en": "The man is said to have the same kind of scar the Duke carried after the war.",
+      "en_seconds": 3.612,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/37af35729f87c2e9.mp3",
+      "budget": 19,
+      "baseline": {
+        "text": "कहते हैं उस आदमी के पास वही निशान है जो ड्यूक के पास युद्ध के बाद था।",
+        "syllables": 23,
+        "seconds": 5.175,
+        "ratio": 1.399,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/37f470ce7899cafd.mp3"
+      },
+      "dubfit": {
+        "text": "उसके पास वही निशान है जो ड्यूक के पास था।",
+        "syllables": 14,
+        "seconds": 3.125,
+        "ratio": 0.845,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/18ea4fd0bc046c4e.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कहते हैं उस आदमी के पास वही निशान है जो ड्यूक के पास युद्ध के बाद था।",
+            "seconds": 5.175,
+            "ratio": 1.399,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "उसके पास वही निशान है जो ड्यूक के पास था।",
+            "seconds": 3.125,
+            "ratio": 0.845,
+            "status": "fit"
+          },
+          {
+            "text": "वही निशान है जो ड्यूक का था।",
+            "seconds": 2.125,
+            "ratio": 0.574,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "He has the same scar that the duke had.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L030",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "BLOND NOBLEMAN",
+      "gender": "M",
+      "emotion": "Sharp, Demanding",
+      "on_screen": true,
+      "start": 101.4,
+      "end": 101.9,
+      "window": 0.5,
+      "soft_window": 0.9,
+      "limit": 0.5,
+      "en": "Where?",
+      "en_seconds": 0.6,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ee2a8395b006c991.mp3",
+      "budget": 2,
+      "baseline": {
+        "text": "कहाँ?",
+        "syllables": 2,
+        "seconds": 0.3,
+        "ratio": 0.6,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/27c19b5859e3801e.mp3"
+      },
+      "dubfit": {
+        "text": "कहाँ?",
+        "syllables": 2,
+        "seconds": 0.3,
+        "ratio": 0.6,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/27c19b5859e3801e.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L031",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Cautious",
+      "on_screen": true,
+      "start": 102.3,
+      "end": 103.6,
+      "window": 1.3,
+      "soft_window": 1.9,
+      "limit": 1.3,
+      "en": "No one seems certain.",
+      "en_seconds": 1.312,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/34fab9430397a4ba.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "कोई भी पक्का नहीं कह रहा।",
+        "syllables": 10,
+        "seconds": 1.662,
+        "ratio": 1.278,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b4298254220c8a24.mp3"
+      },
+      "dubfit": {
+        "text": "कोई पक्का नहीं कह रहा।",
+        "syllables": 9,
+        "seconds": 1.487,
+        "ratio": 1.144,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6dd994ae5d10aaa3.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कोई भी पक्का नहीं कह रहा।",
+            "seconds": 1.662,
+            "ratio": 1.278,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कोई पक्का नहीं कह रहा।",
+            "seconds": 1.487,
+            "ratio": 1.144,
+            "status": "tight"
+          },
+          {
+            "text": "पक्का नहीं कोई कह रहा।",
+            "seconds": 1.525,
+            "ratio": 1.173,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "No one is saying it for sure.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L032",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "BLOND NOBLEMAN",
+      "gender": "M",
+      "emotion": "Dismissive, Masking Panic",
+      "on_screen": true,
+      "start": 104.2,
+      "end": 105.9,
+      "window": 1.7,
+      "soft_window": 5.6,
+      "limit": 1.7,
+      "en": "Then let it remain a rumor.",
+      "en_seconds": 1.625,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7def3e2dce076f97.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "तो इसे अफवाह ही रहने दो।",
+        "syllables": 11,
+        "seconds": 1.887,
+        "ratio": 1.11,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0fd58ebc1228d022.mp3"
+      },
+      "dubfit": {
+        "text": "तो इसे अफवाह ही रहने दो।",
+        "syllables": 11,
+        "seconds": 1.887,
+        "ratio": 1.11,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0fd58ebc1228d022.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E009-L033",
+      "episode": 9,
+      "scene": 2,
+      "speaker": "BLOND NOBLEMAN",
+      "gender": "M",
+      "emotion": "Whispering, Shaken",
+      "on_screen": true,
+      "start": 109.8,
+      "end": 111.2,
+      "window": 1.4,
+      "soft_window": 5.7,
+      "limit": 1.4,
+      "en": "Impossible.",
+      "en_seconds": 0.912,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e922fe34ddfff7c9.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "असंभव।",
+        "syllables": 4,
+        "seconds": 0.588,
+        "ratio": 0.42,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ec40fe99d9b43156.mp3"
+      },
+      "dubfit": {
+        "text": "असंभव।",
+        "syllables": 4,
+        "seconds": 0.588,
+        "ratio": 0.42,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ec40fe99d9b43156.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    }
+  ]
+}

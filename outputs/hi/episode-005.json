@@ -1,0 +1,1493 @@
+{
+  "episode": 5,
+  "lang": "hi",
+  "language": "Hindi",
+  "model": "groq/openai/gpt-oss-120b",
+  "engine": "edge",
+  "pipeline": "v2-fix-only-overflow",
+  "logline": "Formally disowned and stripped of her inheritance, Juliana is publicly humiliated when her stepmother throws her late mother's treasured ledger into the mud, but her rugged new husband defends her dignity and guides her away from her callous family.",
+  "duration": 110.5,
+  "syl_per_sec": {
+    "F": 5.016,
+    "M": 5.255
+  },
+  "summary": {
+    "lines": 29,
+    "baseline_fit": 0.4483,
+    "baseline_tight": 0.1034,
+    "baseline_overflow": 0.4483,
+    "dubfit_fit": 0.8276,
+    "dubfit_tight": 0.1724,
+    "dubfit_overflow": 0.0,
+    "changed": 13,
+    "needs_review": 5,
+    "meaning_avg": 3.85,
+    "meaning_low": 5,
+    "rewritten": 13
+  },
+  "usage": {
+    "calls": 19,
+    "cached": 6,
+    "prompt_tokens": 21681,
+    "completion_tokens": 17211,
+    "seconds": 50.97580289840698,
+    "cost_usd": 0.0,
+    "errors": []
+  },
+  "wall_seconds": 133.6,
+  "lines": [
+    {
+      "id": "E005-L001",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LORD ASHCROFT",
+      "gender": "M",
+      "emotion": "Stern, Commanding",
+      "on_screen": true,
+      "start": 4.2,
+      "end": 5.8,
+      "window": 1.6,
+      "soft_window": 2.6,
+      "limit": 1.6,
+      "en": "Miss Ashcroft.",
+      "en_seconds": 1.1,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/67d0fe0c1b0729e1.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "मिस ऐशक्रॉफ्ट।",
+        "syllables": 5,
+        "seconds": 1.175,
+        "ratio": 0.734,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78cad865bf3ae8fb.mp3"
+      },
+      "dubfit": {
+        "text": "मिस ऐशक्रॉफ्ट।",
+        "syllables": 5,
+        "seconds": 1.175,
+        "ratio": 0.734,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78cad865bf3ae8fb.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L002",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LORD ASHCROFT",
+      "gender": "M",
+      "emotion": "Cold, Condemnatory",
+      "on_screen": true,
+      "start": 6.8,
+      "end": 10.4,
+      "window": 3.6,
+      "soft_window": 4.9,
+      "limit": 3.6,
+      "en": "You will not leave this church carrying the Ashcroft name.",
+      "en_seconds": 2.712,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6f6658f07faf687f.mp3",
+      "budget": 18,
+      "baseline": {
+        "text": "तुम इस चर्च से ऐशक्रॉफ्ट नाम लेकर नहीं निकलोगी।",
+        "syllables": 16,
+        "seconds": 3.475,
+        "ratio": 0.965,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/72ccb8eea68d8839.mp3"
+      },
+      "dubfit": {
+        "text": "तुम इस चर्च से ऐशक्रॉफ्ट नाम लेकर नहीं निकलोगी।",
+        "syllables": 16,
+        "seconds": 3.475,
+        "ratio": 0.965,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/72ccb8eea68d8839.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L003",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Defiant, Steadfast",
+      "on_screen": true,
+      "start": 11.7,
+      "end": 15.5,
+      "window": 3.8,
+      "soft_window": 4.3,
+      "limit": 3.8,
+      "en": "The vows are spoken, Father. I am his wife now.",
+      "en_seconds": 3.788,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6c9f046e51b2e55f.mp3",
+      "budget": 19,
+      "baseline": {
+        "text": "वचन कहे जा चुके हैं, पिताजी। मैं अब उसकी पत्नी हूँ।",
+        "syllables": 19,
+        "seconds": 5.738,
+        "ratio": 1.51,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0106a91f7c4640b8.mp3"
+      },
+      "dubfit": {
+        "text": "मैं अब उसकी पत्नी हूँ।",
+        "syllables": 8,
+        "seconds": 2.175,
+        "ratio": 0.572,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/739751f9f3af5024.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "वचन कहे जा चुके हैं, पिताजी। मैं अब उसकी पत्नी हूँ।",
+            "seconds": 5.738,
+            "ratio": 1.51,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "वचन हो गए, पिताजी। मैं उसकी पत्नी हूँ।",
+            "seconds": 4.663,
+            "ratio": 1.227,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं अब उसकी पत्नी हूँ।",
+            "seconds": 2.175,
+            "ratio": 0.572,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I am now his wife.",
+      "meaning_score": 3,
+      "meaning_note": "Lost vows and address to Father",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E005-L004",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LORD ASHCROFT",
+      "gender": "M",
+      "emotion": "Harsh, Final",
+      "on_screen": true,
+      "start": 16.0,
+      "end": 18.0,
+      "window": 2.0,
+      "soft_window": 2.5,
+      "limit": 2.0,
+      "en": "Then leave as his wife.",
+      "en_seconds": 1.362,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/34c346597d0c9b35.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "तो फिर उसकी पत्नी बनकर निकल जाओ।",
+        "syllables": 14,
+        "seconds": 2.462,
+        "ratio": 1.231,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d8dfed98af2691f3.mp3"
+      },
+      "dubfit": {
+        "text": "फिर उसकी पत्नी बन निकलो।",
+        "syllables": 10,
+        "seconds": 1.787,
+        "ratio": 0.893,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/98770c4d7eb20b90.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तो फिर उसकी पत्नी बनकर निकल जाओ।",
+            "seconds": 2.462,
+            "ratio": 1.231,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "फिर उसकी पत्नी बन निकलो।",
+            "seconds": 1.787,
+            "ratio": 0.893,
+            "status": "fit"
+          },
+          {
+            "text": "उसकी पत्नी बन निकलो।",
+            "seconds": 1.512,
+            "ratio": 0.756,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Then become his wife again.",
+      "meaning_score": 2,
+      "meaning_note": "Changed 'leave' to 'become'",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E005-L005",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LORD ASHCROFT",
+      "gender": "M",
+      "emotion": "Harsh, Final",
+      "on_screen": true,
+      "start": 18.5,
+      "end": 20.8,
+      "window": 2.3,
+      "soft_window": 2.5,
+      "limit": 2.3,
+      "en": "You leave as no daughter of mine.",
+      "en_seconds": 1.688,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/53d6e3f3d9c69712.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "तुम मेरे किसी भी बेटी की तरह नहीं रहोगी।",
+        "syllables": 16,
+        "seconds": 2.85,
+        "ratio": 1.239,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/697a1c02cede3376.mp3"
+      },
+      "dubfit": {
+        "text": "तुम मेरी बेटी नहीं रहोगी।",
+        "syllables": 10,
+        "seconds": 1.775,
+        "ratio": 0.772,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/aeab8149a0f55c93.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम मेरे किसी भी बेटी की तरह नहीं रहोगी।",
+            "seconds": 2.85,
+            "ratio": 1.239,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम मेरी बेटी नहीं रहोगी।",
+            "seconds": 1.775,
+            "ratio": 0.772,
+            "status": "fit"
+          },
+          {
+            "text": "तुम बेटी नहीं बनोगी।",
+            "seconds": 1.45,
+            "ratio": 0.63,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You will not be my daughter.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L006",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LORD ASHCROFT",
+      "gender": "M",
+      "emotion": "",
+      "on_screen": false,
+      "start": 21.0,
+      "end": 23.0,
+      "window": 2.0,
+      "soft_window": 2.1,
+      "limit": 2.1,
+      "en": "Your dowry is revoked.",
+      "en_seconds": 1.35,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b25e46feac2db659.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "तुम्हारी दहेज रद्द कर दी गई है।",
+        "syllables": 11,
+        "seconds": 2.262,
+        "ratio": 1.077,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a148f68c126827b8.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हारी दहेज रद्द कर दी गई है।",
+        "syllables": 11,
+        "seconds": 2.262,
+        "ratio": 1.077,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a148f68c126827b8.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L007",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LORD ASHCROFT",
+      "gender": "M",
+      "emotion": "",
+      "on_screen": false,
+      "start": 23.1,
+      "end": 25.1,
+      "window": 2.0,
+      "soft_window": 2.3,
+      "limit": 2.3,
+      "en": "Your inheritance is revoked.",
+      "en_seconds": 1.612,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/34722bbb9b3da778.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "तुम्हारी विरासत रद्द कर दी गई है।",
+        "syllables": 12,
+        "seconds": 2.337,
+        "ratio": 1.016,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/eeeee0a5bc5e6066.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हारी विरासत रद्द कर दी गई है।",
+        "syllables": 12,
+        "seconds": 2.337,
+        "ratio": 1.016,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/eeeee0a5bc5e6066.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L008",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LORD ASHCROFT",
+      "gender": "M",
+      "emotion": "",
+      "on_screen": false,
+      "start": 25.4,
+      "end": 28.9,
+      "window": 3.5,
+      "soft_window": 4.1,
+      "limit": 4.1,
+      "en": "From this moment, you are dead to the Ashcroft family.",
+      "en_seconds": 2.762,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f288078272b47a6b.mp3",
+      "budget": 21,
+      "baseline": {
+        "text": "अब से तुम ऐशक्रॉफ्ट परिवार के लिए मर चुकी हो।",
+        "syllables": 16,
+        "seconds": 3.262,
+        "ratio": 0.796,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4da1c3d4be2c3135.mp3"
+      },
+      "dubfit": {
+        "text": "अब से तुम ऐशक्रॉफ्ट परिवार के लिए मर चुकी हो।",
+        "syllables": 16,
+        "seconds": 3.262,
+        "ratio": 0.796,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4da1c3d4be2c3135.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L009",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Shaking, Tearful",
+      "on_screen": true,
+      "start": 29.5,
+      "end": 33.4,
+      "window": 3.9,
+      "soft_window": 4.3,
+      "limit": 3.9,
+      "en": "You truly mean it? You are my father!",
+      "en_seconds": 3.0,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6bb5add486e4086b.mp3",
+      "budget": 19,
+      "baseline": {
+        "text": "क्या तुम सच में ऐसा कह रहे हो? तुम मेरे पिता हो!",
+        "syllables": 16,
+        "seconds": 4.25,
+        "ratio": 1.09,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/02481c75acca0e6a.mp3"
+      },
+      "dubfit": {
+        "text": "क्या तुम सच में ऐसा कह रहे हो? तुम मेरे पिता हो!",
+        "syllables": 16,
+        "seconds": 4.25,
+        "ratio": 1.09,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/02481c75acca0e6a.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L010",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LORD ASHCROFT",
+      "gender": "M",
+      "emotion": "",
+      "on_screen": false,
+      "start": 33.8,
+      "end": 36.8,
+      "window": 3.0,
+      "soft_window": 3.8,
+      "limit": 3.8,
+      "en": "And you have chosen to become a stranger.",
+      "en_seconds": 2.15,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/28d1c47956159ceb.mp3",
+      "budget": 19,
+      "baseline": {
+        "text": "और तुम एक अजनबी बनना चुन लिया है।",
+        "syllables": 14,
+        "seconds": 3.087,
+        "ratio": 0.812,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4875b6e141768d4b.mp3"
+      },
+      "dubfit": {
+        "text": "और तुम एक अजनबी बनना चुन लिया है।",
+        "syllables": 14,
+        "seconds": 3.087,
+        "ratio": 0.812,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4875b6e141768d4b.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L011",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Quietly Resolute",
+      "on_screen": true,
+      "start": 37.6,
+      "end": 41.5,
+      "window": 3.9,
+      "soft_window": 4.9,
+      "limit": 3.9,
+      "en": "No, Father. You chose that long before today.",
+      "en_seconds": 3.725,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/36ff5f3bf67bbc8c.mp3",
+      "budget": 17,
+      "baseline": {
+        "text": "नहीं, पिताजी। तुमने यह आज से बहुत पहले तय कर लिया था।",
+        "syllables": 21,
+        "seconds": 5.613,
+        "ratio": 1.439,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/85d0a4102320742d.mp3"
+      },
+      "dubfit": {
+        "text": "नहीं, पिताजी। तुम पहले ही तय कर चुके।",
+        "syllables": 14,
+        "seconds": 4.363,
+        "ratio": 1.119,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3641b70f8fcc7063.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "नहीं, पिताजी। तुमने यह आज से बहुत पहले तय कर लिया था।",
+            "seconds": 5.613,
+            "ratio": 1.439,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "नहीं, पिताजी। तुम पहले ही तय कर चुके।",
+            "seconds": 4.363,
+            "ratio": 1.119,
+            "status": "tight"
+          },
+          {
+            "text": "तुम पहले ही तय किया था।",
+            "seconds": 1.85,
+            "ratio": 0.474,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "No, father. You have already decided.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L012",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LADY ASHCROFT",
+      "gender": "F",
+      "emotion": "Sharply Dismissive",
+      "on_screen": true,
+      "start": 42.5,
+      "end": 44.2,
+      "window": 1.7,
+      "soft_window": 1.8,
+      "limit": 1.7,
+      "en": "Enough sentiment.",
+      "en_seconds": 1.0,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/75d4e4067edb51b3.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "बस, भावनाओं को छोड़ो।",
+        "syllables": 8,
+        "seconds": 2.362,
+        "ratio": 1.389,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0186f4eaca8354b7.mp3"
+      },
+      "dubfit": {
+        "text": "भावनाएँ बंद।",
+        "syllables": 6,
+        "seconds": 1.225,
+        "ratio": 0.721,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/346c69e289c09f6f.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "बस, भावनाओं को छोड़ो।",
+            "seconds": 2.362,
+            "ratio": 1.389,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "बस, भावनाएँ।",
+            "seconds": 1.775,
+            "ratio": 1.044,
+            "status": "tight"
+          },
+          {
+            "text": "भावनाएँ बंद।",
+            "seconds": 1.225,
+            "ratio": 0.721,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Emotions are closed.",
+      "meaning_score": 2,
+      "meaning_note": "Misinterpreted sentiment as closed",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E005-L013",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LADY ASHCROFT",
+      "gender": "F",
+      "emotion": "Cold, Demanding",
+      "on_screen": true,
+      "start": 44.3,
+      "end": 45.8,
+      "window": 1.5,
+      "soft_window": 2.5,
+      "limit": 1.5,
+      "en": "And the ledger...",
+      "en_seconds": 0.838,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7bb8d0853f9a8db1.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "और वह खाता...",
+        "syllables": 4,
+        "seconds": 1.1,
+        "ratio": 0.733,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/785c1d5de7f26b97.mp3"
+      },
+      "dubfit": {
+        "text": "और वह खाता...",
+        "syllables": 4,
+        "seconds": 1.1,
+        "ratio": 0.733,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/785c1d5de7f26b97.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L014",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LADY ASHCROFT",
+      "gender": "F",
+      "emotion": "Venomous",
+      "on_screen": true,
+      "start": 46.8,
+      "end": 48.8,
+      "window": 2.0,
+      "soft_window": 2.2,
+      "limit": 2.0,
+      "en": "...that belongs to this family.",
+      "en_seconds": 1.612,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2bf1ed95be34efcb.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "...जो इस परिवार का है।",
+        "syllables": 7,
+        "seconds": 1.512,
+        "ratio": 0.756,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/caa38441003130dd.mp3"
+      },
+      "dubfit": {
+        "text": "...जो इस परिवार का है।",
+        "syllables": 7,
+        "seconds": 1.512,
+        "ratio": 0.756,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/caa38441003130dd.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L015",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Alarmed, Protective",
+      "on_screen": true,
+      "start": 49.0,
+      "end": 51.8,
+      "window": 2.8,
+      "soft_window": 3.0,
+      "limit": 2.8,
+      "en": "It belonged to my mother! It is all I have left of her.",
+      "en_seconds": 3.6,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a520f779aa9d4c11.mp3",
+      "budget": 14,
+      "baseline": {
+        "text": "वह मेरी माँ की थी! यह ही मेरे पास उनका एकमात्र निशान है।",
+        "syllables": 20,
+        "seconds": 5.525,
+        "ratio": 1.973,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/67e5615865205ebb.mp3"
+      },
+      "dubfit": {
+        "text": "वह माँ की थी, यही सब।",
+        "syllables": 8,
+        "seconds": 2.3,
+        "ratio": 0.821,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bcc6001e0e6b04cb.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "वह मेरी माँ की थी! यह ही मेरे पास उनका एकमात्र निशान है।",
+            "seconds": 5.525,
+            "ratio": 1.973,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "माँ की थी! यही सब है।",
+            "seconds": 2.925,
+            "ratio": 1.045,
+            "status": "tight"
+          },
+          {
+            "text": "वह माँ की थी, यही सब।",
+            "seconds": 2.3,
+            "ratio": 0.821,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "It was mother's, that's all.",
+      "meaning_score": 3,
+      "meaning_note": "Reduced emotional emphasis",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E005-L016",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "LADY ASHCROFT",
+      "gender": "F",
+      "emotion": "Cruel",
+      "on_screen": true,
+      "start": 52.0,
+      "end": 54.0,
+      "window": 2.0,
+      "soft_window": 3.5,
+      "limit": 2.0,
+      "en": "Then you should have guarded it better.",
+      "en_seconds": 1.537,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a95db3ddb56695e1.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "तो तुम्हें इसे बेहतर ढंग से बचाना चाहिए था।",
+        "syllables": 17,
+        "seconds": 3.6,
+        "ratio": 1.8,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d46bc08d6b7b0728.mp3"
+      },
+      "dubfit": {
+        "text": "इसे बचाना चाहिए था।",
+        "syllables": 9,
+        "seconds": 1.762,
+        "ratio": 0.881,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/229012cd8d217fac.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तो तुम्हें इसे बेहतर ढंग से बचाना चाहिए था।",
+            "seconds": 3.6,
+            "ratio": 1.8,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "इसे बचाना चाहिए था।",
+            "seconds": 1.762,
+            "ratio": 0.881,
+            "status": "fit"
+          },
+          {
+            "text": "बेहतर बचाओ।",
+            "seconds": 1.237,
+            "ratio": 0.619,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "It should have been saved.",
+      "meaning_score": 3,
+      "meaning_note": "Subject and nuance omitted",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E005-L017",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Screaming, Desperate",
+      "on_screen": true,
+      "start": 55.5,
+      "end": 56.8,
+      "window": 1.3,
+      "soft_window": 3.5,
+      "limit": 1.3,
+      "en": "Barbara, don't!",
+      "en_seconds": 1.1,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/58f952edf0ce63d5.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "बार्बरा, मत करो!",
+        "syllables": 6,
+        "seconds": 1.8,
+        "ratio": 1.385,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/cda23dfa8e7fc2c0.mp3"
+      },
+      "dubfit": {
+        "text": "रुको!",
+        "syllables": 2,
+        "seconds": 0.625,
+        "ratio": 0.481,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/83bf8b42e56f49ee.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "बार्बरा, मत करो!",
+            "seconds": 1.8,
+            "ratio": 1.385,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "बार्बरा, रुक!",
+            "seconds": 1.55,
+            "ratio": 1.192,
+            "status": "overflow"
+          },
+          {
+            "text": "रुको!",
+            "seconds": 0.625,
+            "ratio": 0.481,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Stop!",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L018",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "CLARISSA",
+      "gender": "F",
+      "emotion": "Gleeful, Mocking",
+      "on_screen": true,
+      "start": 59.0,
+      "end": 62.5,
+      "window": 3.5,
+      "soft_window": 3.5,
+      "limit": 3.5,
+      "en": "Even your mother's precious legacy has been cast into the dirt!",
+      "en_seconds": 3.188,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d76f7a8f1c748ab8.mp3",
+      "budget": 17,
+      "baseline": {
+        "text": "तुम्हारी माँ की कीमती विरासत भी धूल में फेंक दी गई है!",
+        "syllables": 19,
+        "seconds": 4.025,
+        "ratio": 1.15,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1c3c1f1255c16149.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हारी माँ की कीमती विरासत धूल में फेंकी गई!",
+        "syllables": 17,
+        "seconds": 3.45,
+        "ratio": 0.986,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/37dae5018535f4a4.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम्हारी माँ की कीमती विरासत भी धूल में फेंक दी गई है!",
+            "seconds": 4.025,
+            "ratio": 1.15,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम्हारी माँ की कीमती विरासत धूल में फेंकी गई!",
+            "seconds": 3.45,
+            "ratio": 0.986,
+            "status": "fit"
+          },
+          {
+            "text": "तेरी माँ की विरासत धूल में फेंक दी!",
+            "seconds": 2.725,
+            "ratio": 0.779,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Your mother's precious heritage was thrown into dust!",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L019",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Smug, Cruel",
+      "on_screen": true,
+      "start": 62.4,
+      "end": 64.6,
+      "window": 2.2,
+      "soft_window": 15.4,
+      "limit": 2.2,
+      "en": "Perhaps that is where it belongs.",
+      "en_seconds": 1.812,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ba0a380599ece395.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "शायद यही उसकी जगह है।",
+        "syllables": 10,
+        "seconds": 1.987,
+        "ratio": 0.903,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/941cb0100d9759b6.mp3"
+      },
+      "dubfit": {
+        "text": "शायद यही उसकी जगह है।",
+        "syllables": 10,
+        "seconds": 1.987,
+        "ratio": 0.903,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/941cb0100d9759b6.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L020",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Low, Gentle",
+      "on_screen": true,
+      "start": 77.8,
+      "end": 79.0,
+      "window": 1.2,
+      "soft_window": 2.7,
+      "limit": 1.2,
+      "en": "Here you go.",
+      "en_seconds": 0.8,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/fb6268b1e3366b5d.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "ये लो।",
+        "syllables": 2,
+        "seconds": 0.525,
+        "ratio": 0.438,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e620f687a096a165.mp3"
+      },
+      "dubfit": {
+        "text": "ये लो।",
+        "syllables": 2,
+        "seconds": 0.525,
+        "ratio": 0.438,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e620f687a096a165.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L021",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Choked, Weeping",
+      "on_screen": true,
+      "start": 80.5,
+      "end": 82.0,
+      "window": 1.5,
+      "soft_window": 2.0,
+      "limit": 1.5,
+      "en": "They destroyed it.",
+      "en_seconds": 0.925,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/702c79617168f45b.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "उन्होंने इसे नष्ट कर दिया।",
+        "syllables": 9,
+        "seconds": 1.85,
+        "ratio": 1.233,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/952a13507e21ef8a.mp3"
+      },
+      "dubfit": {
+        "text": "उन्होंने नष्ट कर दिया।",
+        "syllables": 7,
+        "seconds": 1.475,
+        "ratio": 0.983,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78dc76f1f2e88067.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "उन्होंने इसे नष्ट कर दिया।",
+            "seconds": 1.85,
+            "ratio": 1.233,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "उन्होंने नष्ट कर दिया।",
+            "seconds": 1.475,
+            "ratio": 0.983,
+            "status": "fit"
+          },
+          {
+            "text": "वो इसे मार डाला।",
+            "seconds": 1.525,
+            "ratio": 1.017,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "They destroyed it.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L022",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Calm, Grounded",
+      "on_screen": true,
+      "start": 82.5,
+      "end": 85.4,
+      "window": 2.9,
+      "soft_window": 4.0,
+      "limit": 2.9,
+      "en": "They dirtied it. That is not the same thing.",
+      "en_seconds": 3.237,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/134987268d62a16a.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "उन्होंने इसे गंदा किया। वो वही नहीं है।",
+        "syllables": 15,
+        "seconds": 3.825,
+        "ratio": 1.319,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/be47e285d568c5bf.mp3"
+      },
+      "dubfit": {
+        "text": "गंदा किया, वही नहीं।",
+        "syllables": 8,
+        "seconds": 1.675,
+        "ratio": 0.578,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0143aa7343a2fd42.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "उन्होंने इसे गंदा किया। वो वही नहीं है।",
+            "seconds": 3.825,
+            "ratio": 1.319,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "गंदा किया, वही नहीं।",
+            "seconds": 1.675,
+            "ratio": 0.578,
+            "status": "fit"
+          },
+          {
+            "text": "गंदा किया, अलग बात है।",
+            "seconds": 1.887,
+            "ratio": 0.651,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "They dirtied it, not that.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L023",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Broken",
+      "on_screen": true,
+      "start": 86.5,
+      "end": 87.8,
+      "window": 1.3,
+      "soft_window": 1.4,
+      "limit": 1.3,
+      "en": "It was my mother's.",
+      "en_seconds": 1.125,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f837ce0a17863a51.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "यह मेरी माँ की थी।",
+        "syllables": 6,
+        "seconds": 1.625,
+        "ratio": 1.25,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3b4a4a683ff0eed9.mp3"
+      },
+      "dubfit": {
+        "text": "मेरी माँ की।",
+        "syllables": 4,
+        "seconds": 1.112,
+        "ratio": 0.855,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/af5c87b5f4c55ecd.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "यह मेरी माँ की थी।",
+            "seconds": 1.625,
+            "ratio": 1.25,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "माँ की थी।",
+            "seconds": 1.087,
+            "ratio": 0.836,
+            "status": "fit"
+          },
+          {
+            "text": "मेरी माँ की।",
+            "seconds": 1.112,
+            "ratio": 0.855,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "My mother's.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L024",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Gentle, Protective",
+      "on_screen": true,
+      "start": 87.9,
+      "end": 89.0,
+      "window": 1.1,
+      "soft_window": 1.5,
+      "limit": 1.1,
+      "en": "Then keep it.",
+      "en_seconds": 0.975,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e52151b28bb9df99.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "तो इसे रख लो।",
+        "syllables": 5,
+        "seconds": 1.087,
+        "ratio": 0.988,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9e47c0d2be9b85bf.mp3"
+      },
+      "dubfit": {
+        "text": "तो इसे रख लो।",
+        "syllables": 5,
+        "seconds": 1.087,
+        "ratio": 0.988,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9e47c0d2be9b85bf.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L025",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Firm, Comforting",
+      "on_screen": true,
+      "start": 89.4,
+      "end": 91.0,
+      "window": 1.6,
+      "soft_window": 2.1,
+      "limit": 1.6,
+      "en": "Let them keep everything else.",
+      "en_seconds": 1.575,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a0d70a5eea3772c2.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "बाकी सब कुछ उन्हें ही रहने दो।",
+        "syllables": 11,
+        "seconds": 2.225,
+        "ratio": 1.391,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6e59f5b380f46d77.mp3"
+      },
+      "dubfit": {
+        "text": "बाकी सब उन्हें छोड़ दो।",
+        "syllables": 7,
+        "seconds": 1.8,
+        "ratio": 1.125,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/71e1e973ba8c3e30.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "बाकी सब कुछ उन्हें ही रहने दो।",
+            "seconds": 2.225,
+            "ratio": 1.391,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "बाकी सब उन्हें छोड़ दो।",
+            "seconds": 1.8,
+            "ratio": 1.125,
+            "status": "tight"
+          },
+          {
+            "text": "बाकी सब उन्हें छोड़ो।",
+            "seconds": 1.625,
+            "ratio": 1.016,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Leave everything else to them.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L026",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Mocking, Arrogant",
+      "on_screen": true,
+      "start": 91.5,
+      "end": 92.8,
+      "window": 1.3,
+      "soft_window": 1.5,
+      "limit": 1.3,
+      "en": "Look at you.",
+      "en_seconds": 0.85,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0696bc23b030f88a.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "देखो तो सही।",
+        "syllables": 5,
+        "seconds": 1.062,
+        "ratio": 0.817,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6cf6a1ee40a095ef.mp3"
+      },
+      "dubfit": {
+        "text": "देखो तो सही।",
+        "syllables": 5,
+        "seconds": 1.062,
+        "ratio": 0.817,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6cf6a1ee40a095ef.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L027",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Scornful, Spiteful",
+      "on_screen": true,
+      "start": 93.0,
+      "end": 96.5,
+      "window": 3.5,
+      "soft_window": 5.0,
+      "limit": 3.5,
+      "en": "A noblewoman reduced to a beggar's wife!",
+      "en_seconds": 2.337,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9fe770784ad76630.mp3",
+      "budget": 18,
+      "baseline": {
+        "text": "एक कुलीन महिला अब भिखारी की पत्नी बन गई!",
+        "syllables": 16,
+        "seconds": 3.112,
+        "ratio": 0.889,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d270c126ed00d324.mp3"
+      },
+      "dubfit": {
+        "text": "एक कुलीन महिला अब भिखारी की पत्नी बन गई!",
+        "syllables": 16,
+        "seconds": 3.112,
+        "ratio": 0.889,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d270c126ed00d324.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L028",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Low, Lethally Cold",
+      "on_screen": true,
+      "start": 98.0,
+      "end": 100.8,
+      "window": 2.8,
+      "soft_window": 6.2,
+      "limit": 2.8,
+      "en": "Choose your next words carefully.",
+      "en_seconds": 1.675,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bc0eb578512401ba.mp3",
+      "budget": 14,
+      "baseline": {
+        "text": "अगले शब्द सावधानी से चुनो।",
+        "syllables": 11,
+        "seconds": 2.05,
+        "ratio": 0.732,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0f150120a1b2d7f5.mp3"
+      },
+      "dubfit": {
+        "text": "अगले शब्द सावधानी से चुनो।",
+        "syllables": 11,
+        "seconds": 2.05,
+        "ratio": 0.732,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0f150120a1b2d7f5.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E005-L029",
+      "episode": 5,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Soft, Reassuring",
+      "on_screen": true,
+      "start": 104.2,
+      "end": 105.2,
+      "window": 1.0,
+      "soft_window": 6.3,
+      "limit": 1.0,
+      "en": "Come.",
+      "en_seconds": 0.463,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a9aa2765c00776a4.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "आओ।",
+        "syllables": 2,
+        "seconds": 0.363,
+        "ratio": 0.363,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/71ef241b16c3945b.mp3"
+      },
+      "dubfit": {
+        "text": "आओ।",
+        "syllables": 2,
+        "seconds": 0.363,
+        "ratio": 0.363,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/71ef241b16c3945b.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    }
+  ]
+}

@@ -1,0 +1,1378 @@
+{
+  "episode": 6,
+  "lang": "hi",
+  "language": "Hindi",
+  "model": "groq/openai/gpt-oss-120b",
+  "engine": "edge",
+  "pipeline": "v2-fix-only-overflow",
+  "logline": "Seeking shelter from the cold rain, Juliana arrives at her new husband's modest woodland cottage and discovers an unexpected sense of peace beside the hearth.",
+  "duration": 115.0,
+  "syl_per_sec": {
+    "F": 5.016,
+    "M": 5.255
+  },
+  "summary": {
+    "lines": 28,
+    "baseline_fit": 0.5714,
+    "baseline_tight": 0.0714,
+    "baseline_overflow": 0.3571,
+    "dubfit_fit": 0.7143,
+    "dubfit_tight": 0.2857,
+    "dubfit_overflow": 0.0,
+    "changed": 10,
+    "needs_review": 3,
+    "meaning_avg": 3.5,
+    "meaning_low": 3,
+    "rewritten": 10
+  },
+  "usage": {
+    "calls": 22,
+    "cached": 7,
+    "prompt_tokens": 24333,
+    "completion_tokens": 19013,
+    "seconds": 56.515543699264526,
+    "cost_usd": 0.0,
+    "errors": []
+  },
+  "wall_seconds": 134.3,
+  "lines": [
+    {
+      "id": "E006-L001",
+      "episode": 6,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Solemn, Gentle",
+      "on_screen": true,
+      "start": 7.2,
+      "end": 9.85,
+      "window": 2.65,
+      "soft_window": 2.9,
+      "limit": 2.65,
+      "en": "I know this is not the life you came from.",
+      "en_seconds": 1.987,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3c1b2d22c18b9c2a.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "मुझे पता है कि यह वो जीवन नहीं है जिससे तुम आई हो।",
+        "syllables": 20,
+        "seconds": 4.163,
+        "ratio": 1.571,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a3e4a10de1e810dc.mp3"
+      },
+      "dubfit": {
+        "text": "ये तुम्हारा पुराना जीवन नहीं है।",
+        "syllables": 12,
+        "seconds": 2.362,
+        "ratio": 0.891,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d0cc65db59fe24bf.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मुझे पता है कि यह वो जीवन नहीं है जिससे तुम आई हो।",
+            "seconds": 4.163,
+            "ratio": 1.571,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मुझे पता है, ये वो जीवन नहीं है जहाँ से तुम आई।",
+            "seconds": 3.812,
+            "ratio": 1.438,
+            "status": "overflow"
+          },
+          {
+            "text": "ये तुम्हारा पुराना जीवन नहीं है।",
+            "seconds": 2.362,
+            "ratio": 0.891,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "This is not your old life.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L002",
+      "episode": 6,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Quiet, Melancholic",
+      "on_screen": true,
+      "start": 10.1,
+      "end": 11.2,
+      "window": 1.1,
+      "soft_window": 3.3,
+      "limit": 1.1,
+      "en": "No.",
+      "en_seconds": 0.5,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/db1579a8ff781f62.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "नहीं।",
+        "syllables": 2,
+        "seconds": 0.675,
+        "ratio": 0.614,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/44bac376a4253845.mp3"
+      },
+      "dubfit": {
+        "text": "नहीं।",
+        "syllables": 2,
+        "seconds": 0.675,
+        "ratio": 0.614,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/44bac376a4253845.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L003",
+      "episode": 6,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Resigned, Soft",
+      "on_screen": true,
+      "start": 13.4,
+      "end": 14.6,
+      "window": 1.2,
+      "soft_window": 1.8,
+      "limit": 1.2,
+      "en": "It isn't.",
+      "en_seconds": 0.688,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2c807c503a4beb85.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "ऐसा नहीं है।",
+        "syllables": 5,
+        "seconds": 1.2,
+        "ratio": 1.0,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/66d2be726bd62379.mp3"
+      },
+      "dubfit": {
+        "text": "ऐसा नहीं है।",
+        "syllables": 5,
+        "seconds": 1.2,
+        "ratio": 1.0,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/66d2be726bd62379.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L004",
+      "episode": 6,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Guilt-ridden",
+      "on_screen": true,
+      "start": 15.2,
+      "end": 18.2,
+      "window": 3.0,
+      "soft_window": 3.3,
+      "limit": 3.0,
+      "en": "You should not have had to walk through this rain tonight.",
+      "en_seconds": 2.462,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a6bda2c0c536c61a.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "तुम्हें आज रात इस बारिश में चलना नहीं पड़ना चाहिए था।",
+        "syllables": 20,
+        "seconds": 3.7,
+        "ratio": 1.233,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9f43c06214bc72bc.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हें आज रात इस बारिश में चलना नहीं चाहिए था।",
+        "syllables": 17,
+        "seconds": 3.275,
+        "ratio": 1.092,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/912ace7d7d705dd3.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम्हें आज रात इस बारिश में चलना नहीं पड़ना चाहिए था।",
+            "seconds": 3.7,
+            "ratio": 1.233,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम्हें आज रात इस बारिश में चलना नहीं चाहिए था।",
+            "seconds": 3.275,
+            "ratio": 1.092,
+            "status": "tight"
+          },
+          {
+            "text": "बारिश में तुम्हें चलना नहीं चाहिए था।",
+            "seconds": 2.4,
+            "ratio": 0.8,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You should not have walked in this rain tonight.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L005",
+      "episode": 6,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Faintly Ironic, Resilient",
+      "on_screen": true,
+      "start": 18.5,
+      "end": 20.9,
+      "window": 2.4,
+      "soft_window": 8.0,
+      "limit": 2.4,
+      "en": "I suppose the day was already ruined.",
+      "en_seconds": 1.962,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/637cc6a7e6e0d6ee.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "लगता है दिन ही पहले ही बर्बाद हो गया था।",
+        "syllables": 16,
+        "seconds": 2.962,
+        "ratio": 1.234,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/32fd47d0058a82ca.mp3"
+      },
+      "dubfit": {
+        "text": "लगता है दिन पहले ही बर्बाद हो गया।",
+        "syllables": 14,
+        "seconds": 2.562,
+        "ratio": 1.067,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1e308c93be385db9.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "लगता है दिन ही पहले ही बर्बाद हो गया था।",
+            "seconds": 2.962,
+            "ratio": 1.234,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "लगता है दिन पहले ही बर्बाद हो गया।",
+            "seconds": 2.562,
+            "ratio": 1.067,
+            "status": "tight"
+          },
+          {
+            "text": "दिन तो पहले ही बिगड़ गया।",
+            "seconds": 1.875,
+            "ratio": 0.781,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "It seems the day was wasted just yesterday.",
+      "meaning_score": 2,
+      "meaning_note": "Changed time and nuance",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E006-L006",
+      "episode": 6,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Surprised, Hesitant",
+      "on_screen": true,
+      "start": 26.5,
+      "end": 27.7,
+      "window": 1.2,
+      "soft_window": 1.6,
+      "limit": 1.2,
+      "en": "That is it?",
+      "en_seconds": 0.713,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a83a65659d0002ce.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "बस इतना ही?",
+        "syllables": 5,
+        "seconds": 1.137,
+        "ratio": 0.948,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/25d351bb55f62eb3.mp3"
+      },
+      "dubfit": {
+        "text": "बस इतना ही?",
+        "syllables": 5,
+        "seconds": 1.137,
+        "ratio": 0.948,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/25d351bb55f62eb3.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L007",
+      "episode": 6,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Low",
+      "on_screen": true,
+      "start": 28.1,
+      "end": 29.0,
+      "window": 0.9,
+      "soft_window": 2.05,
+      "limit": 0.9,
+      "en": "Yes.",
+      "en_seconds": 0.588,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/047762a1e17f1164.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "हां।",
+        "syllables": 1,
+        "seconds": 0.25,
+        "ratio": 0.278,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78135f25fdb34bc3.mp3"
+      },
+      "dubfit": {
+        "text": "हां।",
+        "syllables": 1,
+        "seconds": 0.25,
+        "ratio": 0.278,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78135f25fdb34bc3.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L008",
+      "episode": 6,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Determined, Defiant",
+      "on_screen": true,
+      "start": 30.15,
+      "end": 33.15,
+      "window": 3.0,
+      "soft_window": 3.55,
+      "limit": 3.0,
+      "en": "At least no one there will be waiting to humiliate me.",
+      "en_seconds": 2.712,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/032a7f78502a65d4.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "कम से कम यहाँ कोई नहीं होगा जो मुझे अपमानित करने के लिए इंतजार कर रहा हो।",
+        "syllables": 31,
+        "seconds": 5.163,
+        "ratio": 1.721,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/57112557009aa6f2.mp3"
+      },
+      "dubfit": {
+        "text": "कम से कम यहाँ कोई नहीं होगा जो मेरा अपमान करे।",
+        "syllables": 19,
+        "seconds": 3.325,
+        "ratio": 1.108,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ed578d088040a090.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कम से कम यहाँ कोई नहीं होगा जो मुझे अपमानित करने के लिए इंतजार कर रहा हो।",
+            "seconds": 5.163,
+            "ratio": 1.721,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कम से कम यहाँ कोई नहीं होगा जो मेरा अपमान करे।",
+            "seconds": 3.325,
+            "ratio": 1.108,
+            "status": "tight"
+          },
+          {
+            "text": "कम से कम यहाँ कोई मुझे नीचा नहीं दिखाएगा।",
+            "seconds": 3.137,
+            "ratio": 1.046,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "At least there will be no one here who will insult me.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L009",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Humble, Apologetic",
+      "on_screen": true,
+      "start": 40.7,
+      "end": 41.9,
+      "window": 1.2,
+      "soft_window": 2.9,
+      "limit": 1.2,
+      "en": "I am sorry.",
+      "en_seconds": 0.9,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/230ad0d827cb3f04.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "माफ़ कीजिए।",
+        "syllables": 4,
+        "seconds": 0.888,
+        "ratio": 0.74,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/04a7ded98e84fe92.mp3"
+      },
+      "dubfit": {
+        "text": "माफ़ कीजिए।",
+        "syllables": 4,
+        "seconds": 0.888,
+        "ratio": 0.74,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/04a7ded98e84fe92.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L010",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Grave, Sincere",
+      "on_screen": true,
+      "start": 43.6,
+      "end": 45.0,
+      "window": 1.4,
+      "soft_window": 1.5,
+      "limit": 1.4,
+      "en": "You came from comfort.",
+      "en_seconds": 1.35,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7e7678a9f7c51908.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "तुम आरामदायक जगह से आई हो।",
+        "syllables": 12,
+        "seconds": 2.288,
+        "ratio": 1.634,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/300d205d0b2efe09.mp3"
+      },
+      "dubfit": {
+        "text": "तुम आराम से थी।",
+        "syllables": 5,
+        "seconds": 1.275,
+        "ratio": 0.911,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c1bc8a1b8e130377.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम आरामदायक जगह से आई हो।",
+            "seconds": 2.288,
+            "ratio": 1.634,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम आराम से आई हो।",
+            "seconds": 1.612,
+            "ratio": 1.151,
+            "status": "overflow"
+          },
+          {
+            "text": "तुम आराम से थी।",
+            "seconds": 1.275,
+            "ratio": 0.911,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You were comfortable.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L011",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Grave, Sincere",
+      "on_screen": true,
+      "start": 45.1,
+      "end": 47.3,
+      "window": 2.2,
+      "soft_window": 6.2,
+      "limit": 2.2,
+      "en": "This is all I can give you now.",
+      "en_seconds": 1.562,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0439f1a4e2d08d21.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "ये ही अब मैं तुम्हें दे सकता हूँ।",
+        "syllables": 11,
+        "seconds": 2.288,
+        "ratio": 1.04,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bf5c955f33ff1475.mp3"
+      },
+      "dubfit": {
+        "text": "ये ही अब मैं तुम्हें दे सकता हूँ।",
+        "syllables": 11,
+        "seconds": 2.288,
+        "ratio": 1.04,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bf5c955f33ff1475.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L012",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Gentle, Peaceful",
+      "on_screen": true,
+      "start": 51.3,
+      "end": 52.7,
+      "window": 1.4,
+      "soft_window": 2.0,
+      "limit": 1.4,
+      "en": "It is quiet.",
+      "en_seconds": 0.912,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7945a5201ff3960d.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "यह शांति है।",
+        "syllables": 4,
+        "seconds": 1.162,
+        "ratio": 0.83,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/72c061c98785ef29.mp3"
+      },
+      "dubfit": {
+        "text": "यह शांति है।",
+        "syllables": 4,
+        "seconds": 1.162,
+        "ratio": 0.83,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/72c061c98785ef29.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L013",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Gentle, Peaceful",
+      "on_screen": true,
+      "start": 53.3,
+      "end": 54.6,
+      "window": 1.3,
+      "soft_window": 3.1,
+      "limit": 1.3,
+      "en": "Very quiet.",
+      "en_seconds": 0.925,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/fdf1b5eb810d0c1d.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "बहुत शांति।",
+        "syllables": 4,
+        "seconds": 1.125,
+        "ratio": 0.865,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/dcdbb8c6ebadcca9.mp3"
+      },
+      "dubfit": {
+        "text": "बहुत शांति।",
+        "syllables": 4,
+        "seconds": 1.125,
+        "ratio": 0.865,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/dcdbb8c6ebadcca9.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L014",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Earnest, Content",
+      "on_screen": true,
+      "start": 56.4,
+      "end": 58.0,
+      "window": 1.6,
+      "soft_window": 2.0,
+      "limit": 1.6,
+      "en": "I think I like that.",
+      "en_seconds": 1.237,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/fc269a309ff36b29.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "मुझे लगता है मुझे ये पसंद है।",
+        "syllables": 12,
+        "seconds": 2.112,
+        "ratio": 1.32,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d9c3c70ed27a859a.mp3"
+      },
+      "dubfit": {
+        "text": "मुझे ये पसंद आ रहा है।",
+        "syllables": 9,
+        "seconds": 1.662,
+        "ratio": 1.039,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c315e0e89edfc4a1.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मुझे लगता है मुझे ये पसंद है।",
+            "seconds": 2.112,
+            "ratio": 1.32,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मुझे ये पसंद आ रहा है।",
+            "seconds": 1.662,
+            "ratio": 1.039,
+            "status": "tight"
+          },
+          {
+            "text": "मैं इसे पसंद करती हूँ।",
+            "seconds": 1.925,
+            "ratio": 1.203,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "I am liking this.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L015",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Incredulous",
+      "on_screen": true,
+      "start": 58.4,
+      "end": 60.0,
+      "window": 1.6,
+      "soft_window": 1.9,
+      "limit": 1.6,
+      "en": "You are not disappointed?",
+      "en_seconds": 1.4,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/913ae96232e74d34.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "तुम निराश नहीं हो?",
+        "syllables": 6,
+        "seconds": 1.188,
+        "ratio": 0.742,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f5c4290616d06d77.mp3"
+      },
+      "dubfit": {
+        "text": "तुम निराश नहीं हो?",
+        "syllables": 6,
+        "seconds": 1.188,
+        "ratio": 0.742,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f5c4290616d06d77.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L016",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Direct, Soft",
+      "on_screen": true,
+      "start": 60.3,
+      "end": 61.3,
+      "window": 1.0,
+      "soft_window": 1.6,
+      "limit": 1.0,
+      "en": "I am.",
+      "en_seconds": 0.588,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ec9c992ed42d4df7.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "हूँ।",
+        "syllables": 1,
+        "seconds": 0.775,
+        "ratio": 0.775,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/776eca048c36c1ff.mp3"
+      },
+      "dubfit": {
+        "text": "हूँ।",
+        "syllables": 1,
+        "seconds": 0.775,
+        "ratio": 0.775,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/776eca048c36c1ff.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L017",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Warm, Reassuring",
+      "on_screen": true,
+      "start": 61.9,
+      "end": 64.1,
+      "window": 2.2,
+      "soft_window": 2.4,
+      "limit": 2.2,
+      "en": "But not because of you.",
+      "en_seconds": 1.225,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/16d4c9b281921be6.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "पर तुम्हारी वजह से नहीं।",
+        "syllables": 9,
+        "seconds": 1.925,
+        "ratio": 0.875,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/256a0a7af475cf43.mp3"
+      },
+      "dubfit": {
+        "text": "पर तुम्हारी वजह से नहीं।",
+        "syllables": 9,
+        "seconds": 1.925,
+        "ratio": 0.875,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/256a0a7af475cf43.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L018",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Determined, Practical",
+      "on_screen": true,
+      "start": 64.3,
+      "end": 66.8,
+      "window": 2.5,
+      "soft_window": 2.5,
+      "limit": 2.5,
+      "en": "If this is our home, I want it clean.",
+      "en_seconds": 2.025,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/37cf68bc8ab723bb.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "अगर ये हमारा घर है, तो मैं इसे साफ़ रखना चाहूँगी।",
+        "syllables": 19,
+        "seconds": 4.088,
+        "ratio": 1.635,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/30a3861c633ee716.mp3"
+      },
+      "dubfit": {
+        "text": "घर साफ़ रखूँगी।",
+        "syllables": 5,
+        "seconds": 1.55,
+        "ratio": 0.62,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1d0798349f726e67.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "अगर ये हमारा घर है, तो मैं इसे साफ़ रखना चाहूँगी।",
+            "seconds": 4.088,
+            "ratio": 1.635,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "अगर ये घर है, तो मैं इसे साफ़ रखूँगी।",
+            "seconds": 3.163,
+            "ratio": 1.265,
+            "status": "overflow"
+          },
+          {
+            "text": "घर साफ़ रखूँगी।",
+            "seconds": 1.55,
+            "ratio": 0.62,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I will keep the house clean.",
+      "meaning_score": 2,
+      "meaning_note": "Lost conditional intent",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E006-L019",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Caring, Tender",
+      "on_screen": true,
+      "start": 66.7,
+      "end": 68.7,
+      "window": 2.0,
+      "soft_window": 3.4,
+      "limit": 2.0,
+      "en": "You don't have to do that tonight.",
+      "en_seconds": 1.625,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/233eac6c48782760.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "तुम्हें आज रात ऐसा करने की ज़रूरत नहीं है।",
+        "syllables": 16,
+        "seconds": 3.062,
+        "ratio": 1.531,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4adad578294d598e.mp3"
+      },
+      "dubfit": {
+        "text": "आज रात तुम्हें नहीं करना।",
+        "syllables": 9,
+        "seconds": 1.7,
+        "ratio": 0.85,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/81e6cfc7e8baee1c.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम्हें आज रात ऐसा करने की ज़रूरत नहीं है।",
+            "seconds": 3.062,
+            "ratio": 1.531,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "आज रात तुम्हें नहीं करना।",
+            "seconds": 1.7,
+            "ratio": 0.85,
+            "status": "fit"
+          },
+          {
+            "text": "तुम्हें आज रात नहीं करना।",
+            "seconds": 1.787,
+            "ratio": 0.893,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You will not do it tonight.",
+      "meaning_score": 1,
+      "meaning_note": "Reversed obligation",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E006-L020",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Vulnerable, Trembling",
+      "on_screen": true,
+      "start": 70.1,
+      "end": 73.2,
+      "window": 3.1,
+      "soft_window": 18.9,
+      "limit": 3.1,
+      "en": "If I stop now, I will think about everything I lost.",
+      "en_seconds": 3.012,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0987ef58ecd87acf.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "अगर मैं अब रुक जाऊँ, तो मैं सब कुछ खोने के बारे में सोचूँगी।",
+        "syllables": 20,
+        "seconds": 4.725,
+        "ratio": 1.524,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ddd116f29bf10168.mp3"
+      },
+      "dubfit": {
+        "text": "अगर मैं अब रुकूँ, तो सब खोने का सोचूँगी।",
+        "syllables": 14,
+        "seconds": 3.525,
+        "ratio": 1.137,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/436cea4d12ecec96.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "अगर मैं अब रुक जाऊँ, तो मैं सब कुछ खोने के बारे में सोचूँगी।",
+            "seconds": 4.725,
+            "ratio": 1.524,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "अगर मैं अब रुकूँ, तो सब खोने का सोचूँगी।",
+            "seconds": 3.525,
+            "ratio": 1.137,
+            "status": "tight"
+          },
+          {
+            "text": "रुकूँ तो खोने का ख्याल आएगा।",
+            "seconds": 2.125,
+            "ratio": 0.685,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "If I stop now, I will think of losing everything.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L021",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Relieved",
+      "on_screen": true,
+      "start": 89.0,
+      "end": 89.8,
+      "window": 0.8,
+      "soft_window": 3.1,
+      "limit": 0.8,
+      "en": "There.",
+      "en_seconds": 0.613,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/43643490227dc944.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "ले लो।",
+        "syllables": 2,
+        "seconds": 0.5,
+        "ratio": 0.625,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9bf1783a184e69bd.mp3"
+      },
+      "dubfit": {
+        "text": "ले लो।",
+        "syllables": 2,
+        "seconds": 0.5,
+        "ratio": 0.625,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9bf1783a184e69bd.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L022",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Quiet, Modest",
+      "on_screen": true,
+      "start": 92.1,
+      "end": 93.6,
+      "window": 1.5,
+      "soft_window": 2.1,
+      "limit": 1.5,
+      "en": "It is not much.",
+      "en_seconds": 1.025,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3448642f1ee75281.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "ये ज़्यादा नहीं है।",
+        "syllables": 6,
+        "seconds": 1.312,
+        "ratio": 0.875,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0ce7fa71bf342d58.mp3"
+      },
+      "dubfit": {
+        "text": "ये ज़्यादा नहीं है।",
+        "syllables": 6,
+        "seconds": 1.312,
+        "ratio": 0.875,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0ce7fa71bf342d58.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L023",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Soft, Comforted",
+      "on_screen": true,
+      "start": 94.2,
+      "end": 96.2,
+      "window": 2.0,
+      "soft_window": 4.2,
+      "limit": 2.0,
+      "en": "It is enough for tonight.",
+      "en_seconds": 1.287,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/79771c0e91fccf4c.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "आज रात के लिए ये काफी है।",
+        "syllables": 9,
+        "seconds": 2.1,
+        "ratio": 1.05,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4b3bcf7468b23b46.mp3"
+      },
+      "dubfit": {
+        "text": "आज रात के लिए ये काफी है।",
+        "syllables": 9,
+        "seconds": 2.1,
+        "ratio": 1.05,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4b3bcf7468b23b46.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L024",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Reflective, Vulnerable",
+      "on_screen": false,
+      "start": 98.4,
+      "end": 100.4,
+      "window": 2.0,
+      "soft_window": 2.2,
+      "limit": 2.2,
+      "en": "I lost my home today.",
+      "en_seconds": 1.312,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/db8de655d61c2a2f.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "मैंने आज अपना घर खो दिया।",
+        "syllables": 10,
+        "seconds": 2.075,
+        "ratio": 0.943,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ad5756b83664a019.mp3"
+      },
+      "dubfit": {
+        "text": "मैंने आज अपना घर खो दिया।",
+        "syllables": 10,
+        "seconds": 2.075,
+        "ratio": 0.943,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ad5756b83664a019.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L025",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Reflective, Vulnerable",
+      "on_screen": false,
+      "start": 100.6,
+      "end": 101.8,
+      "window": 1.2,
+      "soft_window": 1.4,
+      "limit": 1.4,
+      "en": "My family.",
+      "en_seconds": 0.85,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/00d9796f65ed562d.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "अपना परिवार।",
+        "syllables": 7,
+        "seconds": 1.125,
+        "ratio": 0.804,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bc906333085d9666.mp3"
+      },
+      "dubfit": {
+        "text": "अपना परिवार।",
+        "syllables": 7,
+        "seconds": 1.125,
+        "ratio": 0.804,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bc906333085d9666.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L026",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Reflective, Vulnerable",
+      "on_screen": false,
+      "start": 102.0,
+      "end": 104.8,
+      "window": 2.8,
+      "soft_window": 3.0,
+      "limit": 3.0,
+      "en": "Everything I thought my life would be.",
+      "en_seconds": 1.762,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/01d5448516885d0c.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "वो सब कुछ जो मैं अपनी ज़िन्दगी से उम्मीद करती थी।",
+        "syllables": 18,
+        "seconds": 3.887,
+        "ratio": 1.296,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/336a6b143319ac75.mp3"
+      },
+      "dubfit": {
+        "text": "वो सब कुछ जो मैं ज़िन्दगी से चाहती थी।",
+        "syllables": 13,
+        "seconds": 3.062,
+        "ratio": 1.021,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4e789d98104cf158.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "वो सब कुछ जो मैं अपनी ज़िन्दगी से उम्मीद करती थी।",
+            "seconds": 3.887,
+            "ratio": 1.296,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "वो सब कुछ जो मैं ज़िन्दगी से चाहती थी।",
+            "seconds": 3.062,
+            "ratio": 1.021,
+            "status": "tight"
+          },
+          {
+            "text": "मैं जो ज़िन्दगी चाहती थी, वो सब।",
+            "seconds": 2.825,
+            "ratio": 0.942,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "All that I wanted from life.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L027",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Gentle, Surprised",
+      "on_screen": false,
+      "start": 105.0,
+      "end": 106.0,
+      "window": 1.0,
+      "soft_window": 1.2,
+      "limit": 1.2,
+      "en": "And yet...",
+      "en_seconds": 0.625,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9c4c118f56fa16a4.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "और फिर भी...",
+        "syllables": 3,
+        "seconds": 1.025,
+        "ratio": 0.854,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2b6887df64e7c4d1.mp3"
+      },
+      "dubfit": {
+        "text": "और फिर भी...",
+        "syllables": 3,
+        "seconds": 1.025,
+        "ratio": 0.854,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2b6887df64e7c4d1.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E006-L028",
+      "episode": 6,
+      "scene": 2,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Tender, Safe",
+      "on_screen": false,
+      "start": 106.2,
+      "end": 109.0,
+      "window": 2.8,
+      "soft_window": 8.8,
+      "limit": 8.8,
+      "en": "Sitting here with him, I don't feel afraid.",
+      "en_seconds": 2.137,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/07243c42d118dc28.mp3",
+      "budget": 38,
+      "baseline": {
+        "text": "उसके साथ यहाँ बैठकर, मुझे डर नहीं लग रहा।",
+        "syllables": 17,
+        "seconds": 3.262,
+        "ratio": 0.371,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d35f99334bcadf63.mp3"
+      },
+      "dubfit": {
+        "text": "उसके साथ यहाँ बैठकर, मुझे डर नहीं लग रहा।",
+        "syllables": 17,
+        "seconds": 3.262,
+        "ratio": 0.371,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d35f99334bcadf63.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    }
+  ]
+}

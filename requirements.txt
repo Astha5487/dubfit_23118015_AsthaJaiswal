@@ -1,0 +1,5 @@
+streamlit==1.67.0
+pandas==2.2.2
+plotly==5.22.0
+litellm==1.108.1
+edge-tts==7.3.1

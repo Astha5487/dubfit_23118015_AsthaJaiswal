@@ -1,0 +1,2052 @@
+{
+  "episode": 4,
+  "lang": "hi",
+  "language": "Hindi",
+  "model": "groq/openai/gpt-oss-120b",
+  "engine": "edge",
+  "pipeline": "v2-fix-only-overflow",
+  "logline": "Defying Gerald and Clarissa's cruel mockery, Juliana accepts the mysterious scarred warrior's solemn proposal and is officially wed, choosing exile and dignity over her family's cruelty as they walk out into the light together.",
+  "duration": 151.4,
+  "syl_per_sec": {
+    "F": 5.016,
+    "M": 5.255
+  },
+  "summary": {
+    "lines": 40,
+    "baseline_fit": 0.425,
+    "baseline_tight": 0.125,
+    "baseline_overflow": 0.45,
+    "dubfit_fit": 0.7,
+    "dubfit_tight": 0.3,
+    "dubfit_overflow": 0.0,
+    "changed": 18,
+    "needs_review": 7,
+    "meaning_avg": 3.56,
+    "meaning_low": 7,
+    "rewritten": 18
+  },
+  "usage": {
+    "calls": 15,
+    "cached": 5,
+    "prompt_tokens": 17537,
+    "completion_tokens": 12276,
+    "seconds": 38.71976566314697,
+    "cost_usd": 0.0,
+    "errors": []
+  },
+  "wall_seconds": 177.3,
+  "lines": [
+    {
+      "id": "E004-L001",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Mocking, Arrogant",
+      "on_screen": true,
+      "start": 3.4,
+      "end": 4.9,
+      "window": 1.5,
+      "soft_window": 1.6,
+      "limit": 1.5,
+      "en": "Look at him.",
+      "en_seconds": 0.863,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/662224e62f48e10c.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "इसे देखो।",
+        "syllables": 4,
+        "seconds": 0.75,
+        "ratio": 0.5,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d0c70fa3d84d9bdd.mp3"
+      },
+      "dubfit": {
+        "text": "इसे देखो।",
+        "syllables": 4,
+        "seconds": 0.75,
+        "ratio": 0.5,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d0c70fa3d84d9bdd.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L002",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Scornful",
+      "on_screen": true,
+      "start": 5.0,
+      "end": 7.5,
+      "window": 2.5,
+      "soft_window": 4.0,
+      "limit": 2.5,
+      "en": "A penniless nobody for a discarded bride.",
+      "en_seconds": 2.35,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e463fe04f76a34c8.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "एक बेकार कोई, फेंकी हुई दुल्हन के लिए।",
+        "syllables": 14,
+        "seconds": 2.875,
+        "ratio": 1.15,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7d5c741d40322c57.mp3"
+      },
+      "dubfit": {
+        "text": "एक बेकार कोई, फेंकी हुई दुल्हन के लिए।",
+        "syllables": 14,
+        "seconds": 2.875,
+        "ratio": 1.15,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7d5c741d40322c57.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L003",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "CLARISSA",
+      "gender": "F",
+      "emotion": "Gleeful, Condescending",
+      "on_screen": true,
+      "start": 9.0,
+      "end": 10.5,
+      "window": 1.5,
+      "soft_window": 1.6,
+      "limit": 1.5,
+      "en": "How fitting.",
+      "en_seconds": 0.738,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ea6f686a096d5caf.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "कितना मज़ेदार है।",
+        "syllables": 7,
+        "seconds": 1.4,
+        "ratio": 0.933,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9dc5125ad1c485a4.mp3"
+      },
+      "dubfit": {
+        "text": "कितना मज़ेदार है।",
+        "syllables": 7,
+        "seconds": 1.4,
+        "ratio": 0.933,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9dc5125ad1c485a4.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L004",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "CLARISSA",
+      "gender": "F",
+      "emotion": "Taunting",
+      "on_screen": true,
+      "start": 10.6,
+      "end": 14.2,
+      "window": 3.6,
+      "soft_window": 9.4,
+      "limit": 3.6,
+      "en": "You have finally found a man as worthless as everyone thinks you are.",
+      "en_seconds": 3.375,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ab06037644560817.mp3",
+      "budget": 18,
+      "baseline": {
+        "text": "तुम आखिरकार ऐसा आदमी ढूँढ ली जो तुम्हारी तरह ही बेकार हो।",
+        "syllables": 22,
+        "seconds": 4.675,
+        "ratio": 1.299,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/df89f7add17d822f.mp3"
+      },
+      "dubfit": {
+        "text": "तुम आखिरकार बेकार आदमी ढूँढ ली।",
+        "syllables": 12,
+        "seconds": 2.675,
+        "ratio": 0.743,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1f40d88c73eae774.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम आखिरकार ऐसा आदमी ढूँढ ली जो तुम्हारी तरह ही बेकार हो।",
+            "seconds": 4.675,
+            "ratio": 1.299,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम आखिरकार बेकार आदमी ढूँढ ली।",
+            "seconds": 2.675,
+            "ratio": 0.743,
+            "status": "fit"
+          },
+          {
+            "text": "तुम बेकार आदमी मिल गया।",
+            "seconds": 1.8,
+            "ratio": 0.5,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You finally found a useless man.",
+      "meaning_score": 2,
+      "meaning_note": "Subject shifted, nuance lost",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E004-L005",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Vulnerable, Trembling",
+      "on_screen": true,
+      "start": 20.0,
+      "end": 21.8,
+      "window": 1.8,
+      "soft_window": 3.5,
+      "limit": 1.8,
+      "en": "You don't even know me.",
+      "en_seconds": 1.15,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c7dd78ec9b3023f6.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "तुम तो मुझे ही नहीं जानते।",
+        "syllables": 10,
+        "seconds": 1.775,
+        "ratio": 0.986,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e857664953b1ac46.mp3"
+      },
+      "dubfit": {
+        "text": "तुम तो मुझे ही नहीं जानते।",
+        "syllables": 10,
+        "seconds": 1.775,
+        "ratio": 0.986,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e857664953b1ac46.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L006",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Conflicted, Pained",
+      "on_screen": true,
+      "start": 23.5,
+      "end": 25.8,
+      "window": 2.3,
+      "soft_window": 2.4,
+      "limit": 2.3,
+      "en": "You heard what they think I am.",
+      "en_seconds": 1.45,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1e0b8f49b87eb849.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "तुमने सुना है लोग मेरे बारे में क्या सोचते हैं।",
+        "syllables": 17,
+        "seconds": 3.137,
+        "ratio": 1.364,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d7b7ab2de4a50ccb.mp3"
+      },
+      "dubfit": {
+        "text": "लोगों की मेरी बात सुनी।",
+        "syllables": 8,
+        "seconds": 1.913,
+        "ratio": 0.832,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/40cec7bccce1b091.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुमने सुना है लोग मेरे बारे में क्या सोचते हैं।",
+            "seconds": 3.137,
+            "ratio": 1.364,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुमने सुना लोग मेरे बारे में क्या सोचते हैं।",
+            "seconds": 3.0,
+            "ratio": 1.304,
+            "status": "overflow"
+          },
+          {
+            "text": "लोगों की मेरी बात सुनी।",
+            "seconds": 1.913,
+            "ratio": 0.832,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "People listened to what I said.",
+      "meaning_score": 1,
+      "meaning_note": "Meaning reversed",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E004-L007",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Searching",
+      "on_screen": true,
+      "start": 25.9,
+      "end": 27.7,
+      "window": 1.8,
+      "soft_window": 2.1,
+      "limit": 1.8,
+      "en": "Why would you offer me your name?",
+      "en_seconds": 1.387,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/96777771a2f0d767.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "तुम मुझे अपना नाम क्यों देना चाहते हो?",
+        "syllables": 14,
+        "seconds": 2.612,
+        "ratio": 1.451,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3d6d4b6985c6f33f.mp3"
+      },
+      "dubfit": {
+        "text": "नाम क्यों देना चाहते हो?",
+        "syllables": 8,
+        "seconds": 1.737,
+        "ratio": 0.965,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a1541b86b202b1b6.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम मुझे अपना नाम क्यों देना चाहते हो?",
+            "seconds": 2.612,
+            "ratio": 1.451,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम मेरा नाम क्यों देना चाहते हो?",
+            "seconds": 2.2,
+            "ratio": 1.222,
+            "status": "overflow"
+          },
+          {
+            "text": "नाम क्यों देना चाहते हो?",
+            "seconds": 1.737,
+            "ratio": 0.965,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Why do you want to give a name?",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L008",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Grave, Certain",
+      "on_screen": true,
+      "start": 28.0,
+      "end": 30.2,
+      "window": 2.2,
+      "soft_window": 4.1,
+      "limit": 2.2,
+      "en": "Because I know what I see.",
+      "en_seconds": 1.362,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d1fd933efb92b55b.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "क्योंकि मैं जानता हूँ मैं क्या देख रहा हूँ।",
+        "syllables": 13,
+        "seconds": 2.663,
+        "ratio": 1.21,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8375e806d2ac5159.mp3"
+      },
+      "dubfit": {
+        "text": "मैं जो देखता हूँ, वही जानता हूँ।",
+        "syllables": 12,
+        "seconds": 2.487,
+        "ratio": 1.13,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e56419481c9db70d.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "क्योंकि मैं जानता हूँ मैं क्या देख रहा हूँ।",
+            "seconds": 2.663,
+            "ratio": 1.21,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "क्योंकि मैं देखता हूँ जो मैं देखता हूँ।",
+            "seconds": 2.612,
+            "ratio": 1.187,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं जो देखता हूँ, वही जानता हूँ।",
+            "seconds": 2.487,
+            "ratio": 1.13,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "I know only what I see.",
+      "meaning_score": 3,
+      "meaning_note": "Adds 'only', changes meaning",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E004-L009",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Quiet, Hesitant",
+      "on_screen": true,
+      "start": 32.1,
+      "end": 33.7,
+      "window": 1.6,
+      "soft_window": 1.9,
+      "limit": 1.6,
+      "en": "And what do you see?",
+      "en_seconds": 1.012,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7bf2cba117c1be36.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "और तुम क्या देखते हो?",
+        "syllables": 7,
+        "seconds": 1.688,
+        "ratio": 1.055,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/72ae31f6087d89ba.mp3"
+      },
+      "dubfit": {
+        "text": "और तुम क्या देखते हो?",
+        "syllables": 7,
+        "seconds": 1.688,
+        "ratio": 1.055,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/72ae31f6087d89ba.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L010",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Firm, Sincere",
+      "on_screen": true,
+      "start": 34.0,
+      "end": 36.0,
+      "window": 2.0,
+      "soft_window": 2.5,
+      "limit": 2.0,
+      "en": "A woman who was betrayed.",
+      "en_seconds": 1.487,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e5c8f4440fb3c12d.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "एक ऐसी औरत जो धोखा खा चुकी है।",
+        "syllables": 12,
+        "seconds": 2.762,
+        "ratio": 1.381,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/01bb5aefabca3dbc.mp3"
+      },
+      "dubfit": {
+        "text": "एक औरत जो धोखा खा चुकी है।",
+        "syllables": 10,
+        "seconds": 2.3,
+        "ratio": 1.15,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f53c93d3e0decbd5.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "एक ऐसी औरत जो धोखा खा चुकी है।",
+            "seconds": 2.762,
+            "ratio": 1.381,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "एक औरत जो धोखा खा चुकी है।",
+            "seconds": 2.3,
+            "ratio": 1.15,
+            "status": "tight"
+          },
+          {
+            "text": "धोखा खाई औरत।",
+            "seconds": 1.25,
+            "ratio": 0.625,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "A woman who has been cheated.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L011",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Resolute",
+      "on_screen": true,
+      "start": 36.5,
+      "end": 38.8,
+      "window": 2.3,
+      "soft_window": 5.5,
+      "limit": 2.3,
+      "en": "Not a woman who deserves to be discarded.",
+      "en_seconds": 2.288,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/89af505d5ec31c0a.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "ऐसी नहीं जो फेंकी जानी चाहिए।",
+        "syllables": 12,
+        "seconds": 2.225,
+        "ratio": 0.967,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c56294d422052723.mp3"
+      },
+      "dubfit": {
+        "text": "ऐसी नहीं जो फेंकी जानी चाहिए।",
+        "syllables": 12,
+        "seconds": 2.225,
+        "ratio": 0.967,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c56294d422052723.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L012",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Soft, Bitter",
+      "on_screen": true,
+      "start": 42.0,
+      "end": 44.8,
+      "window": 2.8,
+      "soft_window": 4.0,
+      "limit": 2.8,
+      "en": "You don't know what my family has done to me.",
+      "en_seconds": 2.012,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b1a7efd86dc173b5.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "तुम नहीं जानते मेरा परिवार मेरे साथ क्या कर चुका है।",
+        "syllables": 19,
+        "seconds": 3.55,
+        "ratio": 1.268,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f35656fc6e98bbd6.mp3"
+      },
+      "dubfit": {
+        "text": "तुम नहीं जानते मेरा परिवार ने क्या किया।",
+        "syllables": 15,
+        "seconds": 2.663,
+        "ratio": 0.951,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2d30a5f596e9c0bc.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम नहीं जानते मेरा परिवार मेरे साथ क्या कर चुका है।",
+            "seconds": 3.55,
+            "ratio": 1.268,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम नहीं जानते मेरा परिवार ने क्या किया।",
+            "seconds": 2.663,
+            "ratio": 0.951,
+            "status": "fit"
+          },
+          {
+            "text": "परिवार ने मेरे साथ क्या किया, तुम नहीं जानते।",
+            "seconds": 3.35,
+            "ratio": 1.196,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "You do not know what my family did.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L013",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Solemn",
+      "on_screen": true,
+      "start": 46.0,
+      "end": 48.8,
+      "window": 2.8,
+      "soft_window": 4.0,
+      "limit": 2.8,
+      "en": "I know they have made you stand alone.",
+      "en_seconds": 1.875,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2b68f652fda41b4e.mp3",
+      "budget": 14,
+      "baseline": {
+        "text": "मैं जानता हूँ उन्होंने तुम्हें अकेला छोड़ दिया।",
+        "syllables": 16,
+        "seconds": 3.038,
+        "ratio": 1.085,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3cc22380c9d1f65d.mp3"
+      },
+      "dubfit": {
+        "text": "मैं जानता हूँ उन्होंने तुम्हें अकेला छोड़ दिया।",
+        "syllables": 16,
+        "seconds": 3.038,
+        "ratio": 1.085,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3cc22380c9d1f65d.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L014",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Gentle",
+      "on_screen": true,
+      "start": 50.0,
+      "end": 52.5,
+      "window": 2.5,
+      "soft_window": 3.6,
+      "limit": 2.5,
+      "en": "You don't have to stand alone now.",
+      "en_seconds": 1.688,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/22c9bb60ccc6f4e0.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "अब तुम्हें अकेला नहीं रहना पड़ेगा।",
+        "syllables": 14,
+        "seconds": 2.262,
+        "ratio": 0.905,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ce5ed3aeae4a99dd.mp3"
+      },
+      "dubfit": {
+        "text": "अब तुम्हें अकेला नहीं रहना पड़ेगा।",
+        "syllables": 14,
+        "seconds": 2.262,
+        "ratio": 0.905,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ce5ed3aeae4a99dd.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L015",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Defiant, Dignified",
+      "on_screen": true,
+      "start": 53.6,
+      "end": 55.8,
+      "window": 2.2,
+      "soft_window": 3.2,
+      "limit": 2.2,
+      "en": "If this is pity, take back your ring.",
+      "en_seconds": 2.112,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/97eb3680f3236a58.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "अगर यह दया है, तो अपनी अंगूठी वापस ले लो।",
+        "syllables": 17,
+        "seconds": 3.737,
+        "ratio": 1.699,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/fc96eeda1f3674ff.mp3"
+      },
+      "dubfit": {
+        "text": "दया है तो अंगूठी ले लो।",
+        "syllables": 9,
+        "seconds": 2.062,
+        "ratio": 0.937,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8b3f091e32674a48.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "अगर यह दया है, तो अपनी अंगूठी वापस ले लो।",
+            "seconds": 3.737,
+            "ratio": 1.699,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "अगर दया है, तो अंगूठी वापस ले लो।",
+            "seconds": 3.087,
+            "ratio": 1.403,
+            "status": "overflow"
+          },
+          {
+            "text": "दया है तो अंगूठी ले लो।",
+            "seconds": 2.062,
+            "ratio": 0.937,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "If you have mercy, take the ring.",
+      "meaning_score": 3,
+      "meaning_note": "Pity vs mercy, take back vs take",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E004-L016",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Fierce",
+      "on_screen": true,
+      "start": 56.8,
+      "end": 58.8,
+      "window": 2.0,
+      "soft_window": 2.7,
+      "limit": 2.0,
+      "en": "I will not become anyone's charity.",
+      "en_seconds": 1.875,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ac5a6d030b90e0ad.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "मैं किसी की दया नहीं बनूँगी।",
+        "syllables": 11,
+        "seconds": 2.125,
+        "ratio": 1.062,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ef9c5d953f8be537.mp3"
+      },
+      "dubfit": {
+        "text": "मैं किसी की दया नहीं बनूँगी।",
+        "syllables": 11,
+        "seconds": 2.125,
+        "ratio": 1.062,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ef9c5d953f8be537.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L017",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Earnest",
+      "on_screen": true,
+      "start": 59.5,
+      "end": 62.5,
+      "window": 3.0,
+      "soft_window": 4.0,
+      "limit": 3.0,
+      "en": "It is not pity, Lady Juliana.",
+      "en_seconds": 2.05,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3448713b1a32d314.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "यह दया नहीं है, लेडी जूलियाना।",
+        "syllables": 12,
+        "seconds": 2.5,
+        "ratio": 0.833,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/59a4b7c5c24b498b.mp3"
+      },
+      "dubfit": {
+        "text": "यह दया नहीं है, लेडी जूलियाना।",
+        "syllables": 12,
+        "seconds": 2.5,
+        "ratio": 0.833,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/59a4b7c5c24b498b.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L018",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Deep, Absolute",
+      "on_screen": true,
+      "start": 63.5,
+      "end": 65.5,
+      "window": 2.0,
+      "soft_window": 2.5,
+      "limit": 2.0,
+      "en": "It is a vow.",
+      "en_seconds": 0.975,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/033d13c6675dd200.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "यह एक कसम है।",
+        "syllables": 5,
+        "seconds": 1.375,
+        "ratio": 0.688,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/5539451b212453f8.mp3"
+      },
+      "dubfit": {
+        "text": "यह एक कसम है।",
+        "syllables": 5,
+        "seconds": 1.375,
+        "ratio": 0.688,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/5539451b212453f8.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L019",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "",
+      "on_screen": false,
+      "start": 66.0,
+      "end": 68.0,
+      "window": 2.0,
+      "soft_window": 2.0,
+      "limit": 2.0,
+      "en": "I don't know this man.",
+      "en_seconds": 1.112,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/630deb7fd5721ec8.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "मैं इस आदमी को नहीं जानती।",
+        "syllables": 11,
+        "seconds": 2.15,
+        "ratio": 1.075,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78a94f7e64c03a27.mp3"
+      },
+      "dubfit": {
+        "text": "मैं इस आदमी को नहीं जानती।",
+        "syllables": 11,
+        "seconds": 2.15,
+        "ratio": 1.075,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78a94f7e64c03a27.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L020",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "",
+      "on_screen": false,
+      "start": 68.0,
+      "end": 69.6,
+      "window": 1.6,
+      "soft_window": 1.8,
+      "limit": 1.8,
+      "en": "I don't know what waits beyond these doors.",
+      "en_seconds": 2.038,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/30997d10e2e48459.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "मुझे नहीं पता इन दरवाज़ों के पीछे क्या है।",
+        "syllables": 16,
+        "seconds": 3.012,
+        "ratio": 1.673,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c21662b7ba6554e1.mp3"
+      },
+      "dubfit": {
+        "text": "पता नहीं क्या है आगे।",
+        "syllables": 8,
+        "seconds": 1.637,
+        "ratio": 0.909,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9fe78c6dbf919678.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मुझे नहीं पता इन दरवाज़ों के पीछे क्या है।",
+            "seconds": 3.012,
+            "ratio": 1.673,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "इन दरवाज़ों के पीछे क्या है, पता नहीं।",
+            "seconds": 3.087,
+            "ratio": 1.715,
+            "status": "overflow"
+          },
+          {
+            "text": "पता नहीं क्या है आगे।",
+            "seconds": 1.637,
+            "ratio": 0.909,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I don't know what lies ahead.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L021",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "",
+      "on_screen": false,
+      "start": 69.8,
+      "end": 72.0,
+      "window": 2.2,
+      "soft_window": 3.0,
+      "limit": 3.0,
+      "en": "But he looked at me when everyone else turned away.",
+      "en_seconds": 2.288,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/30f70d65520011f6.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "पर वह मेरी ओर देखता रहा जब सबने मुड़ कर देखा।",
+        "syllables": 18,
+        "seconds": 3.587,
+        "ratio": 1.196,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8d14899d4ab71410.mp3"
+      },
+      "dubfit": {
+        "text": "वह मेरी ओर देखता रहा जब सब मुड़ गए।",
+        "syllables": 14,
+        "seconds": 3.012,
+        "ratio": 1.004,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/490c598e86553ce1.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "पर वह मेरी ओर देखता रहा जब सबने मुड़ कर देखा।",
+            "seconds": 3.587,
+            "ratio": 1.196,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "वह मेरी ओर देखता रहा जब सब मुड़ गए।",
+            "seconds": 3.012,
+            "ratio": 1.004,
+            "status": "tight"
+          },
+          {
+            "text": "सब मुड़ते ही वह देखता रहा।",
+            "seconds": 2.15,
+            "ratio": 0.717,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "He kept looking at me while everyone else turned away.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L022",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Resolved",
+      "on_screen": true,
+      "start": 72.8,
+      "end": 74.5,
+      "window": 1.7,
+      "soft_window": 9.2,
+      "limit": 1.7,
+      "en": "Then I accept.",
+      "en_seconds": 0.987,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/70963cf454249702.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "तो मैं स्वीकार करती हूँ।",
+        "syllables": 8,
+        "seconds": 2.012,
+        "ratio": 1.184,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/01b4f9f69f645318.mp3"
+      },
+      "dubfit": {
+        "text": "मैं स्वीकार करती हूँ।",
+        "syllables": 7,
+        "seconds": 1.913,
+        "ratio": 1.125,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/cf90026efab616c1.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तो मैं स्वीकार करती हूँ।",
+            "seconds": 2.012,
+            "ratio": 1.184,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तो मैं स्वीकार करती हूँ।",
+            "seconds": 2.012,
+            "ratio": 1.184,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं स्वीकार करती हूँ।",
+            "seconds": 1.913,
+            "ratio": 1.125,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "I accept.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L023",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "THE PRIEST",
+      "gender": "M",
+      "emotion": "Hesitant, Anxious",
+      "on_screen": true,
+      "start": 82.0,
+      "end": 83.8,
+      "window": 1.8,
+      "soft_window": 2.0,
+      "limit": 1.8,
+      "en": "My- My Lady...",
+      "en_seconds": 0.938,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/07c3a24fa11f339e.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "मे- मेरी लेडी...",
+        "syllables": 5,
+        "seconds": 1.037,
+        "ratio": 0.576,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0391edeb36839caa.mp3"
+      },
+      "dubfit": {
+        "text": "मे- मेरी लेडी...",
+        "syllables": 5,
+        "seconds": 1.037,
+        "ratio": 0.576,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0391edeb36839caa.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L024",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "THE PRIEST",
+      "gender": "M",
+      "emotion": "Tentative",
+      "on_screen": true,
+      "start": 84.0,
+      "end": 85.8,
+      "window": 1.8,
+      "soft_window": 5.8,
+      "limit": 1.8,
+      "en": "Are you certain?",
+      "en_seconds": 0.938,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2fc9202592107d93.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "क्या तुम पक्की हो?",
+        "syllables": 5,
+        "seconds": 1.137,
+        "ratio": 0.632,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3177e5519723397c.mp3"
+      },
+      "dubfit": {
+        "text": "क्या तुम पक्की हो?",
+        "syllables": 5,
+        "seconds": 1.137,
+        "ratio": 0.632,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3177e5519723397c.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L025",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Unwavering",
+      "on_screen": true,
+      "start": 89.8,
+      "end": 91.0,
+      "window": 1.2,
+      "soft_window": 2.2,
+      "limit": 1.2,
+      "en": "I am.",
+      "en_seconds": 0.588,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ec9c992ed42d4df7.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "मैं पक्की हूँ।",
+        "syllables": 4,
+        "seconds": 1.425,
+        "ratio": 1.188,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4cf813efc614e53b.mp3"
+      },
+      "dubfit": {
+        "text": "मैं निश्चित हूँ।",
+        "syllables": 4,
+        "seconds": 1.337,
+        "ratio": 1.114,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4f17f007aa227dc3.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मैं पक्की हूँ।",
+            "seconds": 1.425,
+            "ratio": 1.188,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैं पक्की हूँ।",
+            "seconds": 1.425,
+            "ratio": 1.188,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं निश्चित हूँ।",
+            "seconds": 1.337,
+            "ratio": 1.114,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "I am certain.",
+      "meaning_score": 2,
+      "meaning_note": "Adds certainty",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E004-L026",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "THE PRIEST",
+      "gender": "M",
+      "emotion": "Resigned, Solemn",
+      "on_screen": true,
+      "start": 92.0,
+      "end": 94.5,
+      "window": 2.5,
+      "soft_window": 3.8,
+      "limit": 2.5,
+      "en": "Then... let us proceed.",
+      "en_seconds": 1.537,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/aea712523ad7964c.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "तो... चलो आगे बढ़ते हैं।",
+        "syllables": 9,
+        "seconds": 3.112,
+        "ratio": 1.245,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a756c18fa16b74a8.mp3"
+      },
+      "dubfit": {
+        "text": "चलो आगे बढ़ें।",
+        "syllables": 6,
+        "seconds": 1.112,
+        "ratio": 0.445,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/49745a74649f1cf0.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तो... चलो आगे बढ़ते हैं।",
+            "seconds": 3.112,
+            "ratio": 1.245,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तो... चलो आगे बढ़ते हैं।",
+            "seconds": 3.112,
+            "ratio": 1.245,
+            "status": "overflow"
+          },
+          {
+            "text": "चलो आगे बढ़ें।",
+            "seconds": 1.112,
+            "ratio": 0.445,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Let's move forward.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L027",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Low, Reassuring",
+      "on_screen": true,
+      "start": 95.8,
+      "end": 98.0,
+      "window": 2.2,
+      "soft_window": 2.4,
+      "limit": 2.2,
+      "en": "You need not say anything you do not mean.",
+      "en_seconds": 2.262,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/52c7f9d04e11ab4c.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "तुम्हें कुछ भी कहने की ज़रूरत नहीं जो तुम सच में नहीं मानते।",
+        "syllables": 22,
+        "seconds": 4.1,
+        "ratio": 1.864,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/dfbbce0e107b0b21.mp3"
+      },
+      "dubfit": {
+        "text": "जो नहीं मानते, कहो मत।",
+        "syllables": 10,
+        "seconds": 1.712,
+        "ratio": 0.778,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/293146084eeaa96f.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम्हें कुछ भी कहने की ज़रूरत नहीं जो तुम सच में नहीं मानते।",
+            "seconds": 4.1,
+            "ratio": 1.864,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम्हें कुछ भी कहने की ज़रूरत नहीं जो तुम नहीं मानते।",
+            "seconds": 3.4,
+            "ratio": 1.545,
+            "status": "overflow"
+          },
+          {
+            "text": "जो नहीं मानते, कहो मत।",
+            "seconds": 1.712,
+            "ratio": 0.778,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Those who do not believe, do not speak.",
+      "meaning_score": 1,
+      "meaning_note": "Completely different meaning",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E004-L028",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Warm, Sincere",
+      "on_screen": true,
+      "start": 98.2,
+      "end": 100.0,
+      "window": 1.8,
+      "soft_window": 4.3,
+      "limit": 1.8,
+      "en": "I truly mean it.",
+      "en_seconds": 1.062,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/692b791af6dafb61.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "मैं सच में इसका मतलब रखती हूँ।",
+        "syllables": 13,
+        "seconds": 2.663,
+        "ratio": 1.479,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e8d1008a355a9843.mp3"
+      },
+      "dubfit": {
+        "text": "मैं सच में कहती हूँ।",
+        "syllables": 7,
+        "seconds": 1.75,
+        "ratio": 0.972,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/305b69ebd4255513.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मैं सच में इसका मतलब रखती हूँ।",
+            "seconds": 2.663,
+            "ratio": 1.479,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैं सच में इसका मतलब रखती हूँ।",
+            "seconds": 2.663,
+            "ratio": 1.479,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं सच में कहती हूँ।",
+            "seconds": 1.75,
+            "ratio": 0.972,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I truly say it.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L029",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Solemn",
+      "on_screen": true,
+      "start": 102.5,
+      "end": 104.2,
+      "window": 1.7,
+      "soft_window": 2.7,
+      "limit": 1.7,
+      "en": "You have my protection.",
+      "en_seconds": 1.362,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/749c00fa8451dc2f.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "तुम्हें मेरी सुरक्षा है।",
+        "syllables": 8,
+        "seconds": 1.55,
+        "ratio": 0.912,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/49cb9e6269d42aac.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हें मेरी सुरक्षा है।",
+        "syllables": 8,
+        "seconds": 1.55,
+        "ratio": 0.912,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/49cb9e6269d42aac.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L030",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Steadfast",
+      "on_screen": true,
+      "start": 105.2,
+      "end": 107.0,
+      "window": 1.8,
+      "soft_window": 2.6,
+      "limit": 1.8,
+      "en": "You have my respect.",
+      "en_seconds": 1.3,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1841b1e8f2de4d91.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "तुम्हें मेरा सम्मान है।",
+        "syllables": 7,
+        "seconds": 1.612,
+        "ratio": 0.896,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1e3acb8a172fd614.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हें मेरा सम्मान है।",
+        "syllables": 7,
+        "seconds": 1.612,
+        "ratio": 0.896,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1e3acb8a172fd614.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L031",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Grave",
+      "on_screen": true,
+      "start": 107.8,
+      "end": 109.8,
+      "window": 2.0,
+      "soft_window": 2.2,
+      "limit": 2.0,
+      "en": "And you have my word.",
+      "en_seconds": 1.225,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/54401958da0ec6d0.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "और तुम्हें मेरा वादा है।",
+        "syllables": 8,
+        "seconds": 1.737,
+        "ratio": 0.869,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/aeeac52f82761ff5.mp3"
+      },
+      "dubfit": {
+        "text": "और तुम्हें मेरा वादा है।",
+        "syllables": 8,
+        "seconds": 1.737,
+        "ratio": 0.869,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/aeeac52f82761ff5.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L032",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "THE PRIEST",
+      "gender": "M",
+      "emotion": "Ceremonial",
+      "on_screen": true,
+      "start": 110.0,
+      "end": 113.0,
+      "window": 3.0,
+      "soft_window": 3.0,
+      "limit": 3.0,
+      "en": "By the authority entrusted to me, I now pronounce you...",
+      "en_seconds": 2.812,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ae1fb3cacbb4251c.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "मेरे पास सौंपे गए अधिकार से, मैं अब तुम्हें घोषित करता हूँ...",
+        "syllables": 21,
+        "seconds": 4.575,
+        "ratio": 1.525,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d813d2a8f27e5d7a.mp3"
+      },
+      "dubfit": {
+        "text": "मेरे अधिकार से, मैं तुम्हें घोषित करता हूँ...",
+        "syllables": 15,
+        "seconds": 2.987,
+        "ratio": 0.996,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8785f10d9b4f73ad.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मेरे पास सौंपे गए अधिकार से, मैं अब तुम्हें घोषित करता हूँ...",
+            "seconds": 4.575,
+            "ratio": 1.525,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मेरे अधिकार से, मैं तुम्हें घोषित करता हूँ...",
+            "seconds": 2.987,
+            "ratio": 0.996,
+            "status": "fit"
+          },
+          {
+            "text": "अधिकार से, मैं अब तुम्हें...",
+            "seconds": 1.938,
+            "ratio": 0.646,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "By my authority, I declare you...",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L033",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "THE PRIEST",
+      "gender": "M",
+      "emotion": "Booming",
+      "on_screen": false,
+      "start": 113.0,
+      "end": 114.8,
+      "window": 1.8,
+      "soft_window": 2.0,
+      "limit": 2.0,
+      "en": "...husband and wife!",
+      "en_seconds": 1.112,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a37ec6a1248ab010.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "...पति और पत्नी!",
+        "syllables": 5,
+        "seconds": 1.112,
+        "ratio": 0.556,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c605888edfc39a2d.mp3"
+      },
+      "dubfit": {
+        "text": "...पति और पत्नी!",
+        "syllables": 5,
+        "seconds": 1.112,
+        "ratio": 0.556,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c605888edfc39a2d.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L034",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Furious, Shouting",
+      "on_screen": true,
+      "start": 115.0,
+      "end": 116.8,
+      "window": 1.8,
+      "soft_window": 2.0,
+      "limit": 1.8,
+      "en": "You have thrown yourself away!",
+      "en_seconds": 1.688,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/00269f065a8fbc16.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "तुमने खुद को फेंक दिया!",
+        "syllables": 8,
+        "seconds": 1.525,
+        "ratio": 0.847,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6c8a01c2949ea89f.mp3"
+      },
+      "dubfit": {
+        "text": "तुमने खुद को फेंक दिया!",
+        "syllables": 8,
+        "seconds": 1.525,
+        "ratio": 0.847,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6c8a01c2949ea89f.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L035",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Livid",
+      "on_screen": true,
+      "start": 117.0,
+      "end": 119.0,
+      "window": 2.0,
+      "soft_window": 3.5,
+      "limit": 2.0,
+      "en": "For a penniless nobody!",
+      "en_seconds": 1.387,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7b14360d7ed4496a.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "एक बेकार किसी के लिए!",
+        "syllables": 8,
+        "seconds": 1.6,
+        "ratio": 0.8,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/82e28d58ceceaab6.mp3"
+      },
+      "dubfit": {
+        "text": "एक बेकार किसी के लिए!",
+        "syllables": 8,
+        "seconds": 1.6,
+        "ratio": 0.8,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/82e28d58ceceaab6.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L036",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Calm, Cutting",
+      "on_screen": true,
+      "start": 120.5,
+      "end": 122.8,
+      "window": 2.3,
+      "soft_window": 2.5,
+      "limit": 2.3,
+      "en": "I would rather choose my own life...",
+      "en_seconds": 1.775,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e8ba00870b1d2608.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "मैं अपनी ज़िंदगी खुद चुनना पसंद करूँगी...",
+        "syllables": 16,
+        "seconds": 3.087,
+        "ratio": 1.342,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d629acef20fb37b9.mp3"
+      },
+      "dubfit": {
+        "text": "मैं अपनी ज़िंदगी खुद चुनूँगी...",
+        "syllables": 11,
+        "seconds": 2.438,
+        "ratio": 1.06,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/acddfe48dea1a947.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मैं अपनी ज़िंदगी खुद चुनना पसंद करूँगी...",
+            "seconds": 3.087,
+            "ratio": 1.342,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैं अपनी ज़िंदगी खुद चुनूँगी...",
+            "seconds": 2.438,
+            "ratio": 1.06,
+            "status": "tight"
+          },
+          {
+            "text": "मैं अपनी ज़िंदगी चुनूँगी...",
+            "seconds": 2.112,
+            "ratio": 0.918,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I will choose my own life...",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L037",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Firm, Final",
+      "on_screen": true,
+      "start": 123.0,
+      "end": 125.5,
+      "window": 2.5,
+      "soft_window": 4.5,
+      "limit": 2.5,
+      "en": "...than spend another moment begging for yours.",
+      "en_seconds": 2.25,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e9073a006a15b00a.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "...ताकि तुम्हारे लिए फिर कभी भीख माँगना न पड़े।",
+        "syllables": 17,
+        "seconds": 3.425,
+        "ratio": 1.37,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0b5c48601913986d.mp3"
+      },
+      "dubfit": {
+        "text": "...ताकि फिर तुम्हें भीख न माँगनी पड़े।",
+        "syllables": 12,
+        "seconds": 2.737,
+        "ratio": 1.095,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/75439a84c1bdeccb.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "...ताकि तुम्हारे लिए फिर कभी भीख माँगना न पड़े।",
+            "seconds": 3.425,
+            "ratio": 1.37,
+            "status": "overflow"
+          },
+          {
+            "text": "...ताकि फिर कभी तुम्हें भीख न माँगनी पड़े।",
+            "seconds": 3.075,
+            "ratio": 1.23,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "...ताकि फिर तुम्हें भीख न माँगनी पड़े।",
+            "seconds": 2.737,
+            "ratio": 1.095,
+            "status": "tight"
+          },
+          {
+            "text": "...ताकि तुम्हें फिर भीख न माँगनी पड़े।",
+            "seconds": 2.762,
+            "ratio": 1.105,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "...so that you will not have to beg again.",
+      "meaning_score": 2,
+      "meaning_note": "Changed comparison",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E004-L038",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "LADY ASHCROFT",
+      "gender": "F",
+      "emotion": "Imperious, Shouting",
+      "on_screen": true,
+      "start": 127.5,
+      "end": 131.5,
+      "window": 4.0,
+      "soft_window": 4.5,
+      "limit": 4.0,
+      "en": "Do not bring this man anywhere near Ashcroft Manor!",
+      "en_seconds": 2.625,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bd1045e3e05fbd61.mp3",
+      "budget": 22,
+      "baseline": {
+        "text": "इस आदमी को एशक्राफ्ट मेनर के पास मत लाओ!",
+        "syllables": 15,
+        "seconds": 3.375,
+        "ratio": 0.844,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4bc960bd216b64e8.mp3"
+      },
+      "dubfit": {
+        "text": "इस आदमी को एशक्राफ्ट मेनर के पास मत लाओ!",
+        "syllables": 15,
+        "seconds": 3.375,
+        "ratio": 0.844,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4bc960bd216b64e8.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L039",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "LADY ASHCROFT",
+      "gender": "F",
+      "emotion": "Venomous",
+      "on_screen": true,
+      "start": 132.0,
+      "end": 134.5,
+      "window": 2.5,
+      "soft_window": 7.5,
+      "limit": 2.5,
+      "en": "You are disowned!",
+      "en_seconds": 0.925,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ac144508f144b9c6.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "तुम्हें तिरस्कार किया जाता है!",
+        "syllables": 10,
+        "seconds": 2.025,
+        "ratio": 0.81,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ca12bf124eb31355.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हें तिरस्कार किया जाता है!",
+        "syllables": 10,
+        "seconds": 2.025,
+        "ratio": 0.81,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ca12bf124eb31355.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E004-L040",
+      "episode": 4,
+      "scene": 1,
+      "speaker": "MYSTERIOUS BEARDED MAN",
+      "gender": "M",
+      "emotion": "Soft, Protective",
+      "on_screen": true,
+      "start": 139.5,
+      "end": 140.8,
+      "window": 1.3,
+      "soft_window": 11.9,
+      "limit": 1.3,
+      "en": "Come, Lady Juliana.",
+      "en_seconds": 1.625,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4b8bda2eb2a84823.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "आओ, लेडी जूलियाना।",
+        "syllables": 8,
+        "seconds": 1.55,
+        "ratio": 1.192,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/faae7bf1b8471f65.mp3"
+      },
+      "dubfit": {
+        "text": "आओ, जूलियाना।",
+        "syllables": 6,
+        "seconds": 1.175,
+        "ratio": 0.904,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1729cb3e0de7e931.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "आओ, लेडी जूलियाना।",
+            "seconds": 1.55,
+            "ratio": 1.192,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "आओ, जूलियाना।",
+            "seconds": 1.175,
+            "ratio": 0.904,
+            "status": "fit"
+          },
+          {
+            "text": "चलो, जूलियाना।",
+            "seconds": 1.125,
+            "ratio": 0.865,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Come, Juliana.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    }
+  ]
+}

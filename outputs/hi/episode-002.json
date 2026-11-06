@@ -1,0 +1,1785 @@
+{
+  "episode": 2,
+  "lang": "hi",
+  "language": "Hindi",
+  "model": "groq/openai/gpt-oss-120b",
+  "engine": "edge",
+  "pipeline": "v2-fix-only-overflow",
+  "logline": "Publicly cast aside at the altar by Gerald for her sister Clarissa and abandoned by her own family, Juliana stands tall and turns her public humiliation into an unyielding indictment of Gerald's honor.",
+  "duration": 110.0,
+  "syl_per_sec": {
+    "F": 5.016,
+    "M": 5.255
+  },
+  "summary": {
+    "lines": 31,
+    "baseline_fit": 0.2258,
+    "baseline_tight": 0.129,
+    "baseline_overflow": 0.6452,
+    "dubfit_fit": 0.3871,
+    "dubfit_tight": 0.5484,
+    "dubfit_overflow": 0.0645,
+    "changed": 20,
+    "needs_review": 6,
+    "meaning_avg": 4.4,
+    "meaning_low": 4,
+    "rewritten": 20
+  },
+  "usage": {
+    "calls": 7,
+    "cached": 3,
+    "prompt_tokens": 8687,
+    "completion_tokens": 6529,
+    "seconds": 19.989827156066895,
+    "cost_usd": 0.0,
+    "errors": []
+  },
+  "wall_seconds": 174.5,
+  "lines": [
+    {
+      "id": "E002-L001",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Cold, Callous",
+      "on_screen": true,
+      "start": 0.0,
+      "end": 2.5,
+      "window": 2.5,
+      "soft_window": 4.7,
+      "limit": 2.5,
+      "en": "I cannot marry you, Juliana.",
+      "en_seconds": 1.875,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/526e2541013bf198.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "मैं तुम्हारी शादी नहीं कर पाऊँगा, जूलियाना।",
+        "syllables": 16,
+        "seconds": 3.0,
+        "ratio": 1.2,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f2a1364f4dfb5463.mp3"
+      },
+      "dubfit": {
+        "text": "मैं तुम्हें नहीं ले सकता, जूलियाना।",
+        "syllables": 13,
+        "seconds": 2.45,
+        "ratio": 0.98,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2ecc1c24b970bee6.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मैं तुम्हारी शादी नहीं कर पाऊँगा, जूलियाना।",
+            "seconds": 3.0,
+            "ratio": 1.2,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैं तुम्हारी शादी नहीं कर पाऊँगा, जूलियाना।",
+            "seconds": 3.0,
+            "ratio": 1.2,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं तुम्हें नहीं ले सकता, जूलियाना।",
+            "seconds": 2.45,
+            "ratio": 0.98,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I cannot take you, Juliana.",
+      "meaning_score": 2,
+      "meaning_note": "Marriage vs taking changes meaning.",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true,
+      "human_label": "good"
+    },
+    {
+      "id": "E002-L002",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Cruel, Derisive",
+      "on_screen": true,
+      "start": 4.7,
+      "end": 6.5,
+      "window": 1.8,
+      "soft_window": 2.1,
+      "limit": 1.8,
+      "en": "You are far too plain...",
+      "en_seconds": 1.337,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/5a87c82a9a76e3c9.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "तुम बहुत ही साधारण हो...",
+        "syllables": 8,
+        "seconds": 1.65,
+        "ratio": 0.917,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d605bbe6030f63b5.mp3"
+      },
+      "dubfit": {
+        "text": "तुम बहुत ही साधारण हो...",
+        "syllables": 8,
+        "seconds": 1.65,
+        "ratio": 0.917,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d605bbe6030f63b5.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L003",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Dismissive",
+      "on_screen": false,
+      "start": 6.8,
+      "end": 9.5,
+      "window": 2.7,
+      "soft_window": 2.8,
+      "limit": 2.8,
+      "en": "...far too silent...",
+      "en_seconds": 1.237,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d2ad12820fcef6a3.mp3",
+      "budget": 14,
+      "baseline": {
+        "text": "...बहुत ही चुप हो...",
+        "syllables": 5,
+        "seconds": 1.125,
+        "ratio": 0.402,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c6fcb16c9d3ee06d.mp3"
+      },
+      "dubfit": {
+        "text": "...बहुत ही चुप हो...",
+        "syllables": 5,
+        "seconds": 1.125,
+        "ratio": 0.402,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c6fcb16c9d3ee06d.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L004",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Arrogant, Conceited",
+      "on_screen": true,
+      "start": 9.6,
+      "end": 12.0,
+      "window": 2.4,
+      "soft_window": 2.8,
+      "limit": 2.4,
+      "en": "...and completely beneath the future I deserve.",
+      "en_seconds": 2.387,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d49f1563556b4e5d.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "...और पूरी तरह उस भविष्य से नीचे हो जो मैं हक़ीक़त में लायक हूँ।",
+        "syllables": 21,
+        "seconds": 4.45,
+        "ratio": 1.854,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/5bf0866def4b0ddf.mp3"
+      },
+      "dubfit": {
+        "text": "...और मैं जो काबिल हूँ, उससे नीचे हूँ।",
+        "syllables": 12,
+        "seconds": 2.688,
+        "ratio": 1.12,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/02fa7d007ded8cea.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "...और पूरी तरह उस भविष्य से नीचे हो जो मैं हक़ीक़त में लायक हूँ।",
+            "seconds": 4.45,
+            "ratio": 1.854,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "...और मैं जिस भविष्य का हक़दार हूँ, उससे नीचे हूँ।",
+            "seconds": 3.413,
+            "ratio": 1.422,
+            "status": "overflow"
+          },
+          {
+            "text": "...और मैं जो काबिल हूँ, उससे नीचे हूँ।",
+            "seconds": 2.688,
+            "ratio": 1.12,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "...and I am below what I am capable of.",
+      "meaning_score": 2,
+      "meaning_note": "Future vs capability altered.",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true,
+      "human_label": "good"
+    },
+    {
+      "id": "E002-L005",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Desperate, Pleading",
+      "on_screen": true,
+      "start": 12.4,
+      "end": 15.5,
+      "window": 3.1,
+      "soft_window": 5.8,
+      "limit": 3.1,
+      "en": "Gerald... Look at me.",
+      "en_seconds": 2.137,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e8bb2d5b32b3bc6a.mp3",
+      "budget": 17,
+      "baseline": {
+        "text": "जेराल्ड... मेरी ओर देखो।",
+        "syllables": 7,
+        "seconds": 3.012,
+        "ratio": 0.972,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1897c7c78da32492.mp3"
+      },
+      "dubfit": {
+        "text": "जेराल्ड... मेरी ओर देखो।",
+        "syllables": 7,
+        "seconds": 3.012,
+        "ratio": 0.972,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1897c7c78da32492.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L006",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Trembling, Betrayed",
+      "on_screen": true,
+      "start": 18.2,
+      "end": 20.6,
+      "window": 2.4,
+      "soft_window": 2.7,
+      "limit": 2.4,
+      "en": "You gave me your word before both our families.",
+      "en_seconds": 2.375,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/14ddbdf887815cd7.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "तुमने हमारे दोनों परिवारों के सामने अपना वादा किया था।",
+        "syllables": 24,
+        "seconds": 3.9,
+        "ratio": 1.625,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/37c661780ae1b530.mp3"
+      },
+      "dubfit": {
+        "text": "तुमने दोनों को वादा किया।",
+        "syllables": 10,
+        "seconds": 1.825,
+        "ratio": 0.76,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/13150b250dab716c.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "तुमने हमारे दोनों परिवारों के सामने अपना वादा किया था।",
+            "seconds": 3.9,
+            "ratio": 1.625,
+            "status": "overflow"
+          },
+          {
+            "text": "तुमने हमारे परिवारों के सामने वादा किया।",
+            "seconds": 2.837,
+            "ratio": 1.182,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुमने दोनों को वादा किया।",
+            "seconds": 1.825,
+            "ratio": 0.76,
+            "status": "fit"
+          },
+          {
+            "text": "तुमने वादा तो किया था।",
+            "seconds": 1.65,
+            "ratio": 0.688,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You promised both of them.",
+      "meaning_score": 3,
+      "meaning_note": "Missing 'before families' nuance.",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true,
+      "human_label": "bad"
+    },
+    {
+      "id": "E002-L007",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Indifferent, Unapologetic",
+      "on_screen": true,
+      "start": 20.9,
+      "end": 23.7,
+      "window": 2.8,
+      "soft_window": 3.1,
+      "limit": 2.8,
+      "en": "Promises change when a better choice appears.",
+      "en_seconds": 2.35,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6116a013b2061fe1.mp3",
+      "budget": 14,
+      "baseline": {
+        "text": "जब बेहतर विकल्प आता है तो वादे बदल जाते हैं।",
+        "syllables": 17,
+        "seconds": 3.962,
+        "ratio": 1.415,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7e66c35142d58f5f.mp3"
+      },
+      "dubfit": {
+        "text": "बेहतर विकल्प आए तो वादे बदलते हैं।",
+        "syllables": 15,
+        "seconds": 3.025,
+        "ratio": 1.08,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1e67e8e1fdbaf517.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "जब बेहतर विकल्प आता है तो वादे बदल जाते हैं।",
+            "seconds": 3.962,
+            "ratio": 1.415,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "बेहतर विकल्प आए तो वादे बदलते हैं।",
+            "seconds": 3.025,
+            "ratio": 1.08,
+            "status": "tight"
+          },
+          {
+            "text": "जब नया विकल्प आता है, वादा बदलता है।",
+            "seconds": 3.075,
+            "ratio": 1.098,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "When a better option comes, promises change.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false,
+      "human_label": "good"
+    },
+    {
+      "id": "E002-L008",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Shattered, Disbelieving",
+      "on_screen": true,
+      "start": 24.0,
+      "end": 27.4,
+      "window": 3.4,
+      "soft_window": 3.8,
+      "limit": 3.4,
+      "en": "A better choice? Is that what she is?",
+      "en_seconds": 2.987,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/aeb5caa83dfe9769.mp3",
+      "budget": 17,
+      "baseline": {
+        "text": "बेहतर विकल्प? क्या वही वह है?",
+        "syllables": 10,
+        "seconds": 3.188,
+        "ratio": 0.938,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/db390918c31bd6c8.mp3"
+      },
+      "dubfit": {
+        "text": "बेहतर विकल्प? क्या वही वह है?",
+        "syllables": 10,
+        "seconds": 3.188,
+        "ratio": 0.938,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/db390918c31bd6c8.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L009",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Resolute, Harsh",
+      "on_screen": true,
+      "start": 27.8,
+      "end": 30.5,
+      "window": 2.7,
+      "soft_window": 3.1,
+      "limit": 2.7,
+      "en": "She is what I should have chosen from the beginning.",
+      "en_seconds": 2.337,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b97000615b3b9074.mp3",
+      "budget": 14,
+      "baseline": {
+        "text": "वह वही है जो मुझे शुरू से ही चुनना चाहिए था।",
+        "syllables": 18,
+        "seconds": 3.3,
+        "ratio": 1.222,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/62ea3b951f7fba56.mp3"
+      },
+      "dubfit": {
+        "text": "वह वही है जो मैं शुरू से ही चाहता था।",
+        "syllables": 14,
+        "seconds": 2.737,
+        "ratio": 1.014,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0b57149c5fa4e919.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "वह वही है जो मुझे शुरू से ही चुनना चाहिए था।",
+            "seconds": 3.3,
+            "ratio": 1.222,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "वह वही है जो मुझे पहले से चुनना चाहिए था।",
+            "seconds": 3.15,
+            "ratio": 1.167,
+            "status": "overflow"
+          },
+          {
+            "text": "वह वही है जो मैं शुरू से ही चाहता था।",
+            "seconds": 2.737,
+            "ratio": 1.014,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "He is exactly what I have wanted from the start.",
+      "meaning_score": 2,
+      "meaning_note": "Gender reversed.",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true,
+      "human_label": "bad"
+    },
+    {
+      "id": "E002-L010",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Vulnerable, Begging",
+      "on_screen": false,
+      "start": 30.9,
+      "end": 32.4,
+      "window": 1.5,
+      "soft_window": 3.4,
+      "limit": 3.4,
+      "en": "Father...",
+      "en_seconds": 0.588,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/635cb6adb66e979e.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "पिता...",
+        "syllables": 2,
+        "seconds": 0.625,
+        "ratio": 0.184,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7bff81bc37f76420.mp3"
+      },
+      "dubfit": {
+        "text": "पिता...",
+        "syllables": 2,
+        "seconds": 0.625,
+        "ratio": 0.184,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7bff81bc37f76420.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L011",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Choked with Tears",
+      "on_screen": true,
+      "start": 34.3,
+      "end": 37.1,
+      "window": 2.8,
+      "soft_window": 3.2,
+      "limit": 2.8,
+      "en": "Surely you will not let him humiliate me like this?",
+      "en_seconds": 2.675,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a446e043d4c78927.mp3",
+      "budget": 14,
+      "baseline": {
+        "text": "क्या आप वाकई उसे मुझे इस तरह अपमानित नहीं करने देंगे?",
+        "syllables": 23,
+        "seconds": 4.05,
+        "ratio": 1.446,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/43ecb1ffd9b05b03.mp3"
+      },
+      "dubfit": {
+        "text": "क्या आप उसे मुझे अपमानित करने नहीं देंगे?",
+        "syllables": 17,
+        "seconds": 2.938,
+        "ratio": 1.049,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1bd780bba6b1a80c.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "क्या आप वाकई उसे मुझे इस तरह अपमानित नहीं करने देंगे?",
+            "seconds": 4.05,
+            "ratio": 1.446,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "क्या आप उसे मुझे अपमानित करने नहीं देंगे?",
+            "seconds": 2.938,
+            "ratio": 1.049,
+            "status": "tight"
+          },
+          {
+            "text": "क्या आप उसे मुझे अपमानित नहीं करने देंगे?",
+            "seconds": 2.962,
+            "ratio": 1.058,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Won't you not let him insult me?",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false,
+      "human_label": "good"
+    },
+    {
+      "id": "E002-L012",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "BLOND NOBLEMAN",
+      "gender": "M",
+      "emotion": "Stern, Cold",
+      "on_screen": true,
+      "start": 37.5,
+      "end": 42.3,
+      "window": 4.8,
+      "soft_window": 5.0,
+      "limit": 4.8,
+      "en": "Gerald has made his choice. Accept it, Juliana.",
+      "en_seconds": 3.975,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/31e62b3871cbfb93.mp3",
+      "budget": 25,
+      "baseline": {
+        "text": "जेराल्ड ने अपना फैसला कर लिया है। इसे मान लो, जूलियाना।",
+        "syllables": 21,
+        "seconds": 5.725,
+        "ratio": 1.193,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a5a784de474d15c6.mp3"
+      },
+      "dubfit": {
+        "text": "जेराल्ड ने फैसला किया, इसे मान लो, जूलियाना।",
+        "syllables": 16,
+        "seconds": 3.525,
+        "ratio": 0.734,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4f5d9d78d69268c3.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "जेराल्ड ने अपना फैसला कर लिया है। इसे मान लो, जूलियाना।",
+            "seconds": 5.725,
+            "ratio": 1.193,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "जेराल्ड ने फैसला किया, इसे मान लो, जूलियाना।",
+            "seconds": 3.525,
+            "ratio": 0.734,
+            "status": "fit"
+          },
+          {
+            "text": "जेराल्ड ने तय किया, इसे स्वीकार करो, जूलियाना।",
+            "seconds": 3.6,
+            "ratio": 0.75,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Gerald decided, accept it, Juliana.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L013",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "BLOND NOBLEMAN",
+      "gender": "M",
+      "emotion": "Severely, Harsh",
+      "on_screen": true,
+      "start": 42.5,
+      "end": 44.7,
+      "window": 2.2,
+      "soft_window": 2.8,
+      "limit": 2.2,
+      "en": "Do not disgrace us further.",
+      "en_seconds": 1.537,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b12f83559b845f93.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "हमें आगे और अपमानित मत करो।",
+        "syllables": 12,
+        "seconds": 2.3,
+        "ratio": 1.045,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/33d62f08ea88194f.mp3"
+      },
+      "dubfit": {
+        "text": "हमें आगे और अपमानित मत करो।",
+        "syllables": 12,
+        "seconds": 2.3,
+        "ratio": 1.045,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/33d62f08ea88194f.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L014",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Whispering, Crushed",
+      "on_screen": true,
+      "start": 45.3,
+      "end": 47.4,
+      "window": 2.1,
+      "soft_window": 2.5,
+      "limit": 2.1,
+      "en": "You won't even look at me.",
+      "en_seconds": 1.225,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b19e165b79c0e717.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "तुम तो मेरी ओर भी नहीं देखते।",
+        "syllables": 11,
+        "seconds": 2.25,
+        "ratio": 1.071,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/60e3f360ceab5616.mp3"
+      },
+      "dubfit": {
+        "text": "तुम तो मेरी ओर भी नहीं देखते।",
+        "syllables": 11,
+        "seconds": 2.25,
+        "ratio": 1.071,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/60e3f360ceab5616.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L015",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY IN GOLD GOWN",
+      "gender": "F",
+      "emotion": "Mocking, Spiteful",
+      "on_screen": true,
+      "start": 47.8,
+      "end": 51.4,
+      "window": 3.6,
+      "soft_window": 3.8,
+      "limit": 3.6,
+      "en": "Why are you surprised, sister? Look at you.",
+      "en_seconds": 3.475,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4f9480e82b6d3a4f.mp3",
+      "budget": 18,
+      "baseline": {
+        "text": "तुम्हें आश्चर्य क्यों है, बहन? देखो तुम्हें।",
+        "syllables": 12,
+        "seconds": 4.375,
+        "ratio": 1.215,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6818fdc5ce4f56d1.mp3"
+      },
+      "dubfit": {
+        "text": "क्यों है आश्चर्य, बहन? देखो तो।",
+        "syllables": 9,
+        "seconds": 3.762,
+        "ratio": 1.045,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/68ef42e21b87377f.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम्हें आश्चर्य क्यों है, बहन? देखो तुम्हें।",
+            "seconds": 4.375,
+            "ratio": 1.215,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम्हें आश्चर्य क्यों, बहन? देखो तो।",
+            "seconds": 4.325,
+            "ratio": 1.201,
+            "status": "overflow"
+          },
+          {
+            "text": "क्यों है आश्चर्य, बहन? देखो तो।",
+            "seconds": 3.762,
+            "ratio": 1.045,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Why the surprise, sister? Just look.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false,
+      "human_label": "good"
+    },
+    {
+      "id": "E002-L016",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY IN GOLD GOWN",
+      "gender": "F",
+      "emotion": "Scornful",
+      "on_screen": false,
+      "start": 51.6,
+      "end": 53.2,
+      "window": 1.6,
+      "soft_window": 1.9,
+      "limit": 1.9,
+      "en": "That plain, old-fashioned gown.",
+      "en_seconds": 1.825,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f495ec2f7dc05280.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "वो साधारण, पुरानी शैली की पोशाक।",
+        "syllables": 13,
+        "seconds": 2.9,
+        "ratio": 1.526,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6cd1365a7a3cb1ba.mp3"
+      },
+      "dubfit": {
+        "text": "वो साधारण पुरानी पोशाक।",
+        "syllables": 10,
+        "seconds": 2.038,
+        "ratio": 1.073,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ef2568afbc494cca.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "वो साधारण, पुरानी शैली की पोशाक।",
+            "seconds": 2.9,
+            "ratio": 1.526,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "वो साधारण पुरानी पोशाक।",
+            "seconds": 2.038,
+            "ratio": 1.073,
+            "status": "tight"
+          },
+          {
+            "text": "वो सादा पुराना कपड़ा।",
+            "seconds": 1.775,
+            "ratio": 0.934,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "That plain old dress.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L017",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY IN GOLD GOWN",
+      "gender": "F",
+      "emotion": "Taunting, Giggling",
+      "on_screen": true,
+      "start": 53.5,
+      "end": 56.7,
+      "window": 3.2,
+      "soft_window": 3.3,
+      "limit": 3.2,
+      "en": "You look like a kitchen maid who wandered into the wrong wedding.",
+      "en_seconds": 2.8,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/62eab7612d1af653.mp3",
+      "budget": 16,
+      "baseline": {
+        "text": "तुम एक रसोई की नौकरानी जैसी लग रही हो जो गलत शादी में आ गई हो।",
+        "syllables": 26,
+        "seconds": 4.975,
+        "ratio": 1.555,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78c898d0184d0fed.mp3"
+      },
+      "dubfit": {
+        "text": "तुम गलत शादी में नौकरानी लग रही हो।",
+        "syllables": 14,
+        "seconds": 2.7,
+        "ratio": 0.844,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/47fbd47b62a3ea0c.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "तुम एक रसोई की नौकरानी जैसी लग रही हो जो गलत शादी में आ गई हो।",
+            "seconds": 4.975,
+            "ratio": 1.555,
+            "status": "overflow"
+          },
+          {
+            "text": "तुम एक नौकरानी जैसी लग रही हो, गलत शादी में।",
+            "seconds": 3.75,
+            "ratio": 1.172,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम नौकरानी जैसी, गलत शादी में।",
+            "seconds": 2.837,
+            "ratio": 0.887,
+            "status": "fit"
+          },
+          {
+            "text": "तुम गलत शादी में नौकरानी लग रही हो।",
+            "seconds": 2.7,
+            "ratio": 0.844,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You look like a maid in the wrong marriage.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L018",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY IN GOLD GOWN",
+      "gender": "F",
+      "emotion": "Snide",
+      "on_screen": false,
+      "start": 56.8,
+      "end": 58.2,
+      "window": 1.4,
+      "soft_window": 1.9,
+      "limit": 1.9,
+      "en": "And that quiet little face.",
+      "en_seconds": 1.55,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/087ca09e85b986c7.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "और वो चुप्पी भरा छोटा चेहरा।",
+        "syllables": 11,
+        "seconds": 2.462,
+        "ratio": 1.296,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/5a8d43123297482f.mp3"
+      },
+      "dubfit": {
+        "text": "और वो चुप्पा छोटा चेहरा।",
+        "syllables": 9,
+        "seconds": 2.125,
+        "ratio": 1.118,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2a4e37eeab6aee48.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "और वो चुप्पी भरा छोटा चेहरा।",
+            "seconds": 2.462,
+            "ratio": 1.296,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "और वो चुप्पा छोटा चेहरा।",
+            "seconds": 2.125,
+            "ratio": 1.118,
+            "status": "tight"
+          },
+          {
+            "text": "और वो शांत छोटा चेहरा।",
+            "seconds": 2.087,
+            "ratio": 1.098,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "And that silent little face.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L019",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY IN GOLD GOWN",
+      "gender": "F",
+      "emotion": "Conceited, Spiteful",
+      "on_screen": true,
+      "start": 58.7,
+      "end": 60.5,
+      "window": 1.8,
+      "soft_window": 1.9,
+      "limit": 1.8,
+      "en": "Gerald needs a real lady...",
+      "en_seconds": 1.387,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/21bf3ac261cdf995.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "जेराल्ड को एक असली महिला चाहिए...",
+        "syllables": 13,
+        "seconds": 2.65,
+        "ratio": 1.472,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c40d49d791d6bb9a.mp3"
+      },
+      "dubfit": {
+        "text": "जेराल्ड को सच्ची महिला चाहिए...",
+        "syllables": 11,
+        "seconds": 2.337,
+        "ratio": 1.298,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0da5de1d03c251e9.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "जेराल्ड को एक असली महिला चाहिए...",
+            "seconds": 2.65,
+            "ratio": 1.472,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "जेराल्ड को असली महिला चाहिए...",
+            "seconds": 2.35,
+            "ratio": 1.306,
+            "status": "overflow"
+          },
+          {
+            "text": "जेराल्ड को सच्ची महिला चाहिए...",
+            "seconds": 2.337,
+            "ratio": 1.298,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "Gerald needs a real woman...",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [
+        "still too long"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E002-L020",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY IN GOLD GOWN",
+      "gender": "F",
+      "emotion": "Vicious",
+      "on_screen": false,
+      "start": 60.6,
+      "end": 63.5,
+      "window": 2.9,
+      "soft_window": 3.0,
+      "limit": 3.0,
+      "en": "...not a dull creature who hides in her mother's apothecary herbs.",
+      "en_seconds": 3.262,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/157b608ceb73c249.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "...न कि एक नीरस प्राणी जो अपनी माँ की औषधि की दुकान में छिपी रहती है।",
+        "syllables": 26,
+        "seconds": 5.075,
+        "ratio": 1.692,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ca1f2abb32ef36a8.mp3"
+      },
+      "dubfit": {
+        "text": "...न कि नीरस जीव, माँ की औषधि में छिपा।",
+        "syllables": 13,
+        "seconds": 3.325,
+        "ratio": 1.108,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4a1dff3e713639e7.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "...न कि एक नीरस प्राणी जो अपनी माँ की औषधि की दुकान में छिपी रहती है।",
+            "seconds": 5.075,
+            "ratio": 1.692,
+            "status": "overflow"
+          },
+          {
+            "text": "...न कि वह नीरस जीव जो माँ की औषधि में छिपा रहे।",
+            "seconds": 3.712,
+            "ratio": 1.237,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "...न कि नीरस जीव, माँ की औषधि में छिपा।",
+            "seconds": 3.325,
+            "ratio": 1.108,
+            "status": "tight"
+          },
+          {
+            "text": "...न कि नीरस जीव, माँ की दवा में छिपा।",
+            "seconds": 3.125,
+            "ratio": 1.042,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "...not a dull being hidden in mother's medicine.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L021",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "OFF-SCREEN VOICE",
+      "gender": "M",
+      "emotion": "Cold, Scolding",
+      "on_screen": false,
+      "start": 63.6,
+      "end": 65.8,
+      "window": 2.2,
+      "soft_window": 2.5,
+      "limit": 2.5,
+      "en": "Oh, don't look so wounded, Juliana.",
+      "en_seconds": 2.375,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/87516cfd5fcc7a6a.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "अरे, इतना घायल मत दिखो, जूलियाना।",
+        "syllables": 14,
+        "seconds": 2.688,
+        "ratio": 1.075,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/afaf5eb14a8f4e95.mp3"
+      },
+      "dubfit": {
+        "text": "अरे, इतना घायल मत दिखो, जूलियाना।",
+        "syllables": 14,
+        "seconds": 2.688,
+        "ratio": 1.075,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/afaf5eb14a8f4e95.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L022",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "OFF-SCREEN VOICE",
+      "gender": "M",
+      "emotion": "Dismissive, Condescending",
+      "on_screen": false,
+      "start": 66.1,
+      "end": 69.3,
+      "window": 3.2,
+      "soft_window": 3.3,
+      "limit": 3.3,
+      "en": "You should be grateful you're at least allowed to attend the wedding.",
+      "en_seconds": 2.9,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f200088cd6173ff9.mp3",
+      "budget": 17,
+      "baseline": {
+        "text": "तुम्हें कृतज्ञ होना चाहिए कि तुम्हें कम से कम शादी में आने की इजाज़त है।",
+        "syllables": 25,
+        "seconds": 4.875,
+        "ratio": 1.477,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f2534208a25d2489.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हें शुक्रिया करना चाहिए, तुम्हें शादी में बुलाया गया।",
+        "syllables": 21,
+        "seconds": 3.487,
+        "ratio": 1.057,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4c1a1d0a37784a4e.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "तुम्हें कृतज्ञ होना चाहिए कि तुम्हें कम से कम शादी में आने की इजाज़त है।",
+            "seconds": 4.875,
+            "ratio": 1.477,
+            "status": "overflow"
+          },
+          {
+            "text": "तुम्हें शुक्रिया अदा करना चाहिए कि तुम्हें शादी में बुलाया गया।",
+            "seconds": 3.875,
+            "ratio": 1.174,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम्हें शुक्रिया करना चाहिए, तुम्हें शादी में बुलाया गया।",
+            "seconds": 3.487,
+            "ratio": 1.057,
+            "status": "tight"
+          },
+          {
+            "text": "शुक्रिया करो, कम से कम तुम्हें शादी में बुलाया गया।",
+            "seconds": 3.387,
+            "ratio": 1.026,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "You should thank them, you were invited to the wedding.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L023",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "THE FORMER GROOM",
+      "gender": "M",
+      "emotion": "Impatient, Commanding",
+      "on_screen": true,
+      "start": 69.4,
+      "end": 72.7,
+      "window": 3.3,
+      "soft_window": 5.0,
+      "limit": 3.3,
+      "en": "Go home quietly, Juliana. At least leave this chapel with some dignity.",
+      "en_seconds": 5.038,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/43c01fc00eab6b07.mp3",
+      "budget": 17,
+      "baseline": {
+        "text": "शांतिपूर्वक घर जाओ, जूलियाना। कम से कम इस चैपल से कुछ गरिमा के साथ निकलो।",
+        "syllables": 27,
+        "seconds": 6.863,
+        "ratio": 2.08,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6d3aa638ac41a9fb.mp3"
+      },
+      "dubfit": {
+        "text": "शांत रह कर घर जाओ, जूलियाना, सम्मान रखो।",
+        "syllables": 14,
+        "seconds": 3.55,
+        "ratio": 1.076,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e4b0945e81abd542.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "शांतिपूर्वक घर जाओ, जूलियाना। कम से कम इस चैपल से कुछ गरिमा के साथ निकलो।",
+            "seconds": 6.863,
+            "ratio": 2.08,
+            "status": "overflow"
+          },
+          {
+            "text": "शांत रह कर घर जाओ, जूलियाना, थोड़ा सम्मान रखो।",
+            "seconds": 3.988,
+            "ratio": 1.208,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "शांत रह कर घर जाओ, जूलियाना, सम्मान रखो।",
+            "seconds": 3.55,
+            "ratio": 1.076,
+            "status": "tight"
+          },
+          {
+            "text": "शांत रहो, घर जाओ, थोड़ा सम्मान रखो।",
+            "seconds": 2.987,
+            "ratio": 0.905,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Go home quietly, Juliana, keep your honor.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L024",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Bitter, Defiant",
+      "on_screen": true,
+      "start": 74.4,
+      "end": 76.4,
+      "window": 2.0,
+      "soft_window": 2.1,
+      "limit": 2.0,
+      "en": "Dignity?",
+      "en_seconds": 0.6,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b0dcc56180ad91af.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "गरिमा?",
+        "syllables": 3,
+        "seconds": 0.725,
+        "ratio": 0.362,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ac3182924de7ce95.mp3"
+      },
+      "dubfit": {
+        "text": "गरिमा?",
+        "syllables": 3,
+        "seconds": 0.725,
+        "ratio": 0.362,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/ac3182924de7ce95.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L025",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Clear, Accusing",
+      "on_screen": true,
+      "start": 76.5,
+      "end": 79.0,
+      "window": 2.5,
+      "soft_window": 2.7,
+      "limit": 2.5,
+      "en": "You abandoned a woman who trusted you...",
+      "en_seconds": 1.913,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/452c0198c392ae22.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "तुमने उस महिला को छोड़ दिया जो तुम पर भरोसा करती थी...",
+        "syllables": 21,
+        "seconds": 4.025,
+        "ratio": 1.61,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8d030cd1580881c9.mp3"
+      },
+      "dubfit": {
+        "text": "तुमने भरोसा करने वाली औरत को छोड़ दिया।",
+        "syllables": 17,
+        "seconds": 2.913,
+        "ratio": 1.165,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f3456b943b8ccddc.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "तुमने उस महिला को छोड़ दिया जो तुम पर भरोसा करती थी...",
+            "seconds": 4.025,
+            "ratio": 1.61,
+            "status": "overflow"
+          },
+          {
+            "text": "तुमने उस औरत को छोड़ दिया जो तुम पर भरोसा करती थी...",
+            "seconds": 3.95,
+            "ratio": 1.58,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुमने भरोसा करने वाली औरत को छोड़ दिया।",
+            "seconds": 2.913,
+            "ratio": 1.165,
+            "status": "overflow"
+          },
+          {
+            "text": "तुमने उस भरोसे वाली औरत को छोड़ दिया।",
+            "seconds": 2.913,
+            "ratio": 1.165,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "You left the woman who trusted you.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [
+        "still too long"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E002-L026",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Sharp, Piercing",
+      "on_screen": false,
+      "start": 79.2,
+      "end": 82.5,
+      "window": 3.3,
+      "soft_window": 3.8,
+      "limit": 3.8,
+      "en": "...because another woman promised you greater beauty and wealth.",
+      "en_seconds": 2.75,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/5f69781461a7a2c2.mp3",
+      "budget": 20,
+      "baseline": {
+        "text": "...क्योंकि किसी और महिला ने तुम्हें बड़ी खूबसूरती और धन का वादा किया।",
+        "syllables": 25,
+        "seconds": 4.788,
+        "ratio": 1.26,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9df3a523638ffa2f.mp3"
+      },
+      "dubfit": {
+        "text": "...क्योंकि किसी और ने तुम्हें बड़ी खूबसूरती और धन का वादा किया।",
+        "syllables": 22,
+        "seconds": 4.35,
+        "ratio": 1.145,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6b7b437793cb2f17.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "...क्योंकि किसी और महिला ने तुम्हें बड़ी खूबसूरती और धन का वादा किया।",
+            "seconds": 4.788,
+            "ratio": 1.26,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "...क्योंकि किसी और ने तुम्हें बड़ी खूबसूरती और धन का वादा किया।",
+            "seconds": 4.35,
+            "ratio": 1.145,
+            "status": "tight"
+          },
+          {
+            "text": "...क्योंकि किसी और ने तुम्हें अधिक सुंदरता और धन का वादा किया।",
+            "seconds": 4.213,
+            "ratio": 1.109,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "...because someone else promised you great beauty and wealth.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L027",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Steely, Resolute",
+      "on_screen": true,
+      "start": 83.0,
+      "end": 86.5,
+      "window": 3.5,
+      "soft_window": 3.8,
+      "limit": 3.5,
+      "en": "Do not mistake my heartbreak for your victory, Gerald.",
+      "en_seconds": 2.8,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f584c8e272416bb3.mp3",
+      "budget": 17,
+      "baseline": {
+        "text": "मेरे दिल टूटने को अपनी जीत मत समझो, जेराल्ड।",
+        "syllables": 18,
+        "seconds": 4.125,
+        "ratio": 1.179,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1f5782b3368f8385.mp3"
+      },
+      "dubfit": {
+        "text": "मेरी टूटन को अपनी जीत मत समझो, जेराल्ड।",
+        "syllables": 16,
+        "seconds": 3.85,
+        "ratio": 1.1,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/78505241649733bb.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मेरे दिल टूटने को अपनी जीत मत समझो, जेराल्ड।",
+            "seconds": 4.125,
+            "ratio": 1.179,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मेरे दिल टूटने को अपनी जीत मत समझो, जेराल्ड।",
+            "seconds": 4.125,
+            "ratio": 1.179,
+            "status": "overflow"
+          },
+          {
+            "text": "मेरी टूटन को अपनी जीत मत समझो, जेराल्ड।",
+            "seconds": 3.85,
+            "ratio": 1.1,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Do not consider my downfall as your victory, Gerald.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L028",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Powerful, Unyielding",
+      "on_screen": true,
+      "start": 86.8,
+      "end": 93.0,
+      "window": 6.2,
+      "soft_window": 6.6,
+      "limit": 6.2,
+      "en": "You wanted this entire chapel to believe that I was not worthy of you. But you have shown them something far more valuable.",
+      "en_seconds": 6.6,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0e437962c32e020e.mp3",
+      "budget": 31,
+      "baseline": {
+        "text": "तुम चाहते थे कि इस पूरे चैपल को लगे कि मैं तुम्हारे लायक नहीं हूँ। लेकिन तुमने उन्हें कुछ और भी अधिक मूल्यवान दिखा दिया।",
+        "syllables": 43,
+        "seconds": 10.55,
+        "ratio": 1.702,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/13010400deec7a21.mp3"
+      },
+      "dubfit": {
+        "text": "तुम चाहते थे सबको लगे मैं तुम्हारे लायक नहीं, पर तुमने कुछ और मूल्यवान दिखाया।",
+        "syllables": 30,
+        "seconds": 6.062,
+        "ratio": 0.978,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4101bd7927ad8481.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम चाहते थे कि इस पूरे चैपल को लगे कि मैं तुम्हारे लायक नहीं हूँ। लेकिन तुमने उन्हें कुछ और भी अधिक मूल्यवान दिखा दिया।",
+            "seconds": 10.55,
+            "ratio": 1.702,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम चाहते थे सबको लगे मैं तुम्हारे लायक नहीं, पर तुमने कुछ और दिखा दिया।",
+            "seconds": 5.425,
+            "ratio": 0.875,
+            "status": "fit"
+          },
+          {
+            "text": "तुम चाहते थे सबको लगे मैं तुम्हारे लायक नहीं, पर तुमने कुछ और मूल्यवान दिखाया।",
+            "seconds": 6.062,
+            "ratio": 0.978,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You wanted everyone to think I am not worthy of you, but you showed something else valuable.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L029",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Decisive, Scathing",
+      "on_screen": true,
+      "start": 93.4,
+      "end": 96.6,
+      "window": 3.2,
+      "soft_window": 5.1,
+      "limit": 3.2,
+      "en": "You have shown them exactly what your word is worth.",
+      "en_seconds": 2.487,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bfca4f09fb3c618c.mp3",
+      "budget": 16,
+      "baseline": {
+        "text": "तुमने उन्हें ठीक-ठीक दिखा दिया कि तुम्हारा वादा कितना बेकार है।",
+        "syllables": 23,
+        "seconds": 4.35,
+        "ratio": 1.359,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a871c0f81e3d4c3c.mp3"
+      },
+      "dubfit": {
+        "text": "तुमने दिखा दिया कि तुम्हारा वादा कितना बेकार है।",
+        "syllables": 19,
+        "seconds": 3.387,
+        "ratio": 1.058,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e00f5209a75ade77.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुमने उन्हें ठीक-ठीक दिखा दिया कि तुम्हारा वादा कितना बेकार है।",
+            "seconds": 4.35,
+            "ratio": 1.359,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुमने दिखा दिया कि तुम्हारा वादा कितना बेकार है।",
+            "seconds": 3.387,
+            "ratio": 1.058,
+            "status": "tight"
+          },
+          {
+            "text": "तुमने साफ़ दिखा दिया तुम्हारा वादा बेकार है।",
+            "seconds": 3.075,
+            "ratio": 0.961,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You showed how worthless your promise is.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false,
+      "human_label": "good"
+    },
+    {
+      "id": "E002-L030",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Resolute, Proud",
+      "on_screen": true,
+      "start": 98.5,
+      "end": 102.4,
+      "window": 3.9,
+      "soft_window": 4.5,
+      "limit": 3.9,
+      "en": "I may leave this chapel without a husband...",
+      "en_seconds": 2.038,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/38deff6f77831388.mp3",
+      "budget": 19,
+      "baseline": {
+        "text": "मैं इस चैपल को बिना पति के छोड़ सकती हूँ...",
+        "syllables": 15,
+        "seconds": 3.312,
+        "ratio": 0.849,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/34d0243484bd8e9c.mp3"
+      },
+      "dubfit": {
+        "text": "मैं इस चैपल को बिना पति के छोड़ सकती हूँ...",
+        "syllables": 15,
+        "seconds": 3.312,
+        "ratio": 0.849,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/34d0243484bd8e9c.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E002-L031",
+      "episode": 2,
+      "scene": 1,
+      "speaker": "LADY JULIANA",
+      "gender": "F",
+      "emotion": "Defiant, Triumphant in Spirit",
+      "on_screen": true,
+      "start": 103.0,
+      "end": 107.4,
+      "window": 4.4,
+      "soft_window": 7.0,
+      "limit": 4.4,
+      "en": "...but I will not leave it believing I was the one who should be ashamed.",
+      "en_seconds": 3.012,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/50bd4311e11d0a99.mp3",
+      "budget": 22,
+      "baseline": {
+        "text": "...पर मैं इसे यह सोचकर नहीं छोड़ूँगी कि मुझे ही शर्मिंदा होना चाहिए।",
+        "syllables": 25,
+        "seconds": 4.738,
+        "ratio": 1.077,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/121991f4e2ce704a.mp3"
+      },
+      "dubfit": {
+        "text": "...पर मैं इसे यह सोचकर नहीं छोड़ूँगी कि मुझे ही शर्मिंदा होना चाहिए।",
+        "syllables": 25,
+        "seconds": 4.738,
+        "ratio": 1.077,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/121991f4e2ce704a.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    }
+  ]
+}

@@ -1,0 +1,1072 @@
+{
+  "episode": 7,
+  "lang": "hi",
+  "language": "Hindi",
+  "model": "groq/openai/gpt-oss-120b",
+  "engine": "edge",
+  "pipeline": "v2-fix-only-overflow",
+  "logline": "When Gerald and his spiteful companion arrive at the woodland cottage to mock Juliana's fallen status, her stoic new husband returns from the forest to silently send them fleeing.",
+  "duration": 116.0,
+  "syl_per_sec": {
+    "F": 5.016,
+    "M": 5.255
+  },
+  "summary": {
+    "lines": 20,
+    "baseline_fit": 0.4,
+    "baseline_tight": 0.1,
+    "baseline_overflow": 0.5,
+    "dubfit_fit": 0.75,
+    "dubfit_tight": 0.25,
+    "dubfit_overflow": 0.0,
+    "changed": 10,
+    "needs_review": 3,
+    "meaning_avg": 3.7,
+    "meaning_low": 3,
+    "rewritten": 10
+  },
+  "usage": {
+    "calls": 26,
+    "cached": 8,
+    "prompt_tokens": 27570,
+    "completion_tokens": 20788,
+    "seconds": 62.808746337890625,
+    "cost_usd": 0.0,
+    "errors": []
+  },
+  "wall_seconds": 112.0,
+  "lines": [
+    {
+      "id": "E007-L001",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "ARISTOCRATIC WOMAN",
+      "gender": "F",
+      "emotion": "Mocking, Condescending",
+      "on_screen": true,
+      "start": 22.0,
+      "end": 24.5,
+      "window": 2.5,
+      "soft_window": 3.0,
+      "limit": 2.5,
+      "en": "This is where you live now?",
+      "en_seconds": 1.212,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f85d2a1fa35bdde6.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "ये अब तुम्हारा घर है?",
+        "syllables": 7,
+        "seconds": 1.662,
+        "ratio": 0.665,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2f8f0f22907074ea.mp3"
+      },
+      "dubfit": {
+        "text": "ये अब तुम्हारा घर है?",
+        "syllables": 7,
+        "seconds": 1.662,
+        "ratio": 0.665,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2f8f0f22907074ea.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L002",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Arrogant, Scornful",
+      "on_screen": true,
+      "start": 25.0,
+      "end": 29.8,
+      "window": 4.8,
+      "soft_window": 5.0,
+      "limit": 4.8,
+      "en": "A fitting home for a woman who threw away everything for a penniless soldier.",
+      "en_seconds": 3.587,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0cbb411ca55dbcf9.mp3",
+      "budget": 25,
+      "baseline": {
+        "text": "एक बेकार सैनिक के लिए सब कुछ छोड़ने वाली औरत के लिये ठीक-ठाक घर।",
+        "syllables": 24,
+        "seconds": 4.963,
+        "ratio": 1.034,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4a38098b0d5c7588.mp3"
+      },
+      "dubfit": {
+        "text": "एक बेकार सैनिक के लिए सब कुछ छोड़ने वाली औरत के लिये ठीक-ठाक घर।",
+        "syllables": 24,
+        "seconds": 4.963,
+        "ratio": 1.034,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4a38098b0d5c7588.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L003",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Sharp, Unintimidated",
+      "on_screen": true,
+      "start": 30.0,
+      "end": 32.6,
+      "window": 2.6,
+      "soft_window": 3.2,
+      "limit": 2.6,
+      "en": "You came all this way just to insult my home?",
+      "en_seconds": 2.163,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f5b6847d8dff5e2b.mp3",
+      "budget": 14,
+      "baseline": {
+        "text": "तुम यहाँ तक आए सिर्फ मेरे घर की बेइज्जती करने?",
+        "syllables": 18,
+        "seconds": 3.237,
+        "ratio": 1.245,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9779abdab5e802d3.mp3"
+      },
+      "dubfit": {
+        "text": "मेरे घर की बेइज्जती करने आए?",
+        "syllables": 13,
+        "seconds": 2.175,
+        "ratio": 0.837,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/44a678eeade6001e.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम यहाँ तक आए सिर्फ मेरे घर की बेइज्जती करने?",
+            "seconds": 3.237,
+            "ratio": 1.245,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम यहाँ तक आए सिर्फ मेरे घर की बेइज्जती करने?",
+            "seconds": 3.237,
+            "ratio": 1.245,
+            "status": "overflow"
+          },
+          {
+            "text": "मेरे घर की बेइज्जती करने आए?",
+            "seconds": 2.175,
+            "ratio": 0.837,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Came to disgrace my house?",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L004",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "ARISTOCRATIC WOMAN",
+      "gender": "F",
+      "emotion": "Gloating, Mocking",
+      "on_screen": true,
+      "start": 33.2,
+      "end": 37.8,
+      "window": 4.6,
+      "soft_window": 5.0,
+      "limit": 4.6,
+      "en": "Home? Look at your hands, Juliana.",
+      "en_seconds": 3.0,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/64d446ddd72a482e.mp3",
+      "budget": 23,
+      "baseline": {
+        "text": "घर? देखो अपने हाथ, जूलियाना।",
+        "syllables": 11,
+        "seconds": 4.163,
+        "ratio": 0.905,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4d66f1c4cdd14861.mp3"
+      },
+      "dubfit": {
+        "text": "घर? देखो अपने हाथ, जूलियाना।",
+        "syllables": 11,
+        "seconds": 4.163,
+        "ratio": 0.905,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4d66f1c4cdd14861.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L005",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "ARISTOCRATIC WOMAN",
+      "gender": "F",
+      "emotion": "Cruel",
+      "on_screen": false,
+      "start": 38.2,
+      "end": 39.8,
+      "window": 1.6,
+      "soft_window": 3.0,
+      "limit": 3.0,
+      "en": "You look like a servant.",
+      "en_seconds": 1.3,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/55bb33298589d0e7.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "तुम तो नौकर जैसी लग रही हो।",
+        "syllables": 10,
+        "seconds": 2.2,
+        "ratio": 0.733,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/413d6a4ca8a681fb.mp3"
+      },
+      "dubfit": {
+        "text": "तुम तो नौकर जैसी लग रही हो।",
+        "syllables": 10,
+        "seconds": 2.2,
+        "ratio": 0.733,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/413d6a4ca8a681fb.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L006",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Proud, Resolute",
+      "on_screen": true,
+      "start": 41.2,
+      "end": 44.8,
+      "window": 3.6,
+      "soft_window": 4.0,
+      "limit": 3.6,
+      "en": "I work with my hands. There is no shame in that.",
+      "en_seconds": 3.475,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/59719400d45af760.mp3",
+      "budget": 18,
+      "baseline": {
+        "text": "मैं अपने हाथों से काम करती हूँ। इसमें कोई शर्म नहीं है।",
+        "syllables": 21,
+        "seconds": 5.325,
+        "ratio": 1.479,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a4e70f23476dd407.mp3"
+      },
+      "dubfit": {
+        "text": "मैं हाथों से काम करती हूँ, इसमें कोई शर्म नहीं।",
+        "syllables": 17,
+        "seconds": 3.825,
+        "ratio": 1.062,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/fe2a681a9ae720f0.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मैं अपने हाथों से काम करती हूँ। इसमें कोई शर्म नहीं है।",
+            "seconds": 5.325,
+            "ratio": 1.479,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैं हाथों से काम करती हूँ, इसमें कोई शर्म नहीं।",
+            "seconds": 3.825,
+            "ratio": 1.062,
+            "status": "tight"
+          },
+          {
+            "text": "हाथों से काम करती हूँ, शर्म नहीं.",
+            "seconds": 2.975,
+            "ratio": 0.826,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I work with my hands, there is no shame in this.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L007",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Biting, Condescending",
+      "on_screen": true,
+      "start": 45.2,
+      "end": 46.8,
+      "window": 1.6,
+      "soft_window": 3.6,
+      "limit": 1.6,
+      "en": "You were born a lady.",
+      "en_seconds": 1.325,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3b192e454b92b845.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "तुम जन्म से लेडी थी।",
+        "syllables": 6,
+        "seconds": 1.438,
+        "ratio": 0.899,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e5174325eb7c9d0a.mp3"
+      },
+      "dubfit": {
+        "text": "तुम जन्म से लेडी थी।",
+        "syllables": 6,
+        "seconds": 1.438,
+        "ratio": 0.899,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e5174325eb7c9d0a.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L008",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Firm, Unapologetic",
+      "on_screen": true,
+      "start": 48.8,
+      "end": 50.4,
+      "window": 1.6,
+      "soft_window": 2.7,
+      "limit": 1.6,
+      "en": "And I remain one.",
+      "en_seconds": 1.05,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b761c433cd2dcab3.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "और मैं अभी भी वही हूँ।",
+        "syllables": 8,
+        "seconds": 2.125,
+        "ratio": 1.328,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/fe9c1ce04c52df04.mp3"
+      },
+      "dubfit": {
+        "text": "और मैं वही हूँ।",
+        "syllables": 5,
+        "seconds": 1.487,
+        "ratio": 0.929,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/19cddbf31ad2bd9d.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "और मैं अभी भी वही हूँ।",
+            "seconds": 2.125,
+            "ratio": 1.328,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "और मैं वही हूँ।",
+            "seconds": 1.487,
+            "ratio": 0.929,
+            "status": "fit"
+          },
+          {
+            "text": "मैं अभी भी वही हूँ।",
+            "seconds": 2.012,
+            "ratio": 1.257,
+            "status": "overflow"
+          }
+        ]
+      },
+      "back_translation": "And I am that.",
+      "meaning_score": 3,
+      "meaning_note": "Meaning altered",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E007-L009",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Bitter, Sneering",
+      "on_screen": true,
+      "start": 51.5,
+      "end": 54.6,
+      "window": 3.1,
+      "soft_window": 6.3,
+      "limit": 3.1,
+      "en": "You chose that scarred beggar over a life of comfort.",
+      "en_seconds": 2.737,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/268dd86b546f7c73.mp3",
+      "budget": 16,
+      "baseline": {
+        "text": "तुमने उस जख्मी भिखारी को आरामदायक ज़िंदगी के ऊपर चुना।",
+        "syllables": 23,
+        "seconds": 3.975,
+        "ratio": 1.282,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f3b4e4695a0a806e.mp3"
+      },
+      "dubfit": {
+        "text": "तुमने उस जख्मी भिखारी को आराम से ऊपर चुना।",
+        "syllables": 17,
+        "seconds": 3.25,
+        "ratio": 1.048,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/5b9e291854c34a14.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुमने उस जख्मी भिखारी को आरामदायक ज़िंदगी के ऊपर चुना।",
+            "seconds": 3.975,
+            "ratio": 1.282,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुमने उस जख्मी भिखारी को आराम से ऊपर चुना।",
+            "seconds": 3.25,
+            "ratio": 1.048,
+            "status": "tight"
+          },
+          {
+            "text": "तुमने भिखारी को आराम से ऊपर चुना।",
+            "seconds": 2.562,
+            "ratio": 0.826,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You chose that wounded beggar up comfortably.",
+      "meaning_score": 2,
+      "meaning_note": "Lost meaning",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E007-L010",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Passionate, Defiant",
+      "on_screen": true,
+      "start": 57.8,
+      "end": 61.0,
+      "window": 3.2,
+      "soft_window": 4.0,
+      "limit": 3.2,
+      "en": "I chose a man who stood beside me when you walked away.",
+      "en_seconds": 2.712,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a48769e065daeaa9.mp3",
+      "budget": 16,
+      "baseline": {
+        "text": "मैंने उस आदमी को चुना जो तुम्हारे जाने पर मेरे साथ खड़ा रहा।",
+        "syllables": 23,
+        "seconds": 4.4,
+        "ratio": 1.375,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7361b19eed1430f7.mp3"
+      },
+      "dubfit": {
+        "text": "मैंने ऐसा आदमी चुना जो तुम चले तो साथ रहा।",
+        "syllables": 17,
+        "seconds": 3.55,
+        "ratio": 1.109,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d29cc5a5a207a25a.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "मैंने उस आदमी को चुना जो तुम्हारे जाने पर मेरे साथ खड़ा रहा।",
+            "seconds": 4.4,
+            "ratio": 1.375,
+            "status": "overflow"
+          },
+          {
+            "text": "मैंने ऐसे आदमी को चुना जो तुम चले तो साथ रहा।",
+            "seconds": 3.788,
+            "ratio": 1.184,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैंने ऐसा आदमी चुना जो तुम चले तो साथ रहा।",
+            "seconds": 3.55,
+            "ratio": 1.109,
+            "status": "tight"
+          },
+          {
+            "text": "मैंने वही चुना जो तुम छोड़ दो तो साथ दे।",
+            "seconds": 3.212,
+            "ratio": 1.004,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "I chose a man who was with you when you walked.",
+      "meaning_score": 1,
+      "meaning_note": "Reversed subject",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E007-L011",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Cold, Commanding",
+      "on_screen": true,
+      "start": 61.8,
+      "end": 64.8,
+      "window": 3.0,
+      "soft_window": 3.8,
+      "limit": 3.0,
+      "en": "You have no authority here. Leave.",
+      "en_seconds": 2.725,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/73e3f568afa2880a.mp3",
+      "budget": 15,
+      "baseline": {
+        "text": "तुम्हारा यहाँ कोई अधिकार नहीं है। चलो।",
+        "syllables": 15,
+        "seconds": 4.05,
+        "ratio": 1.35,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/af9eb2a1a4f8875f.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हारा यहाँ अधिकार नहीं, चलो।",
+        "syllables": 12,
+        "seconds": 2.875,
+        "ratio": 0.958,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0693ff37bef4b55f.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम्हारा यहाँ कोई अधिकार नहीं है। चलो।",
+            "seconds": 4.05,
+            "ratio": 1.35,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम्हारा यहाँ अधिकार नहीं, चलो।",
+            "seconds": 2.875,
+            "ratio": 0.958,
+            "status": "fit"
+          },
+          {
+            "text": "यहाँ तुम्हारा अधिकार नहीं, जा।",
+            "seconds": 2.75,
+            "ratio": 0.917,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You have no authority here, go.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L012",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Furious, Threatening",
+      "on_screen": true,
+      "start": 65.6,
+      "end": 68.5,
+      "window": 2.9,
+      "soft_window": 3.0,
+      "limit": 2.9,
+      "en": "I have enough influence to make a beggar disappear.",
+      "en_seconds": 2.675,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8be6ac220e1dc05a.mp3",
+      "budget": 16,
+      "baseline": {
+        "text": "मेरे पास इतना असर है कि एक भिखारी को गायब कर सकूँ।",
+        "syllables": 20,
+        "seconds": 4.15,
+        "ratio": 1.431,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2c3c11723139604a.mp3"
+      },
+      "dubfit": {
+        "text": "मैं भिखारी को गायब कर सकता हूँ।",
+        "syllables": 12,
+        "seconds": 2.212,
+        "ratio": 0.763,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f5b1dd930c672055.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मेरे पास इतना असर है कि एक भिखारी को गायब कर सकूँ।",
+            "seconds": 4.15,
+            "ratio": 1.431,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मेरे पास इतना असर है कि भिखारी गायब हो जाए।",
+            "seconds": 3.487,
+            "ratio": 1.202,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं भिखारी को गायब कर सकता हूँ।",
+            "seconds": 2.212,
+            "ratio": 0.763,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I can make the beggar disappear.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L013",
+      "episode": 7,
+      "scene": 1,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Spiteful, Boastful",
+      "on_screen": true,
+      "start": 68.6,
+      "end": 69.5,
+      "window": 0.9,
+      "soft_window": 0.9,
+      "limit": 0.9,
+      "en": "And your husband?",
+      "en_seconds": 1.0,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a940a636af4ec564.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "और तुम्हारा पति?",
+        "syllables": 6,
+        "seconds": 1.225,
+        "ratio": 1.361,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4b3e900efa96b872.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हारा पति?",
+        "syllables": 5,
+        "seconds": 0.9,
+        "ratio": 1.0,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/54149a1196510824.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "और तुम्हारा पति?",
+            "seconds": 1.225,
+            "ratio": 1.361,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "और तुम्हारा पति?",
+            "seconds": 1.225,
+            "ratio": 1.361,
+            "status": "overflow"
+          },
+          {
+            "text": "तुम्हारा पति?",
+            "seconds": 0.9,
+            "ratio": 1.0,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Your husband?",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L014",
+      "episode": 7,
+      "scene": 2,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Snarl",
+      "on_screen": false,
+      "start": 69.5,
+      "end": 71.2,
+      "window": 1.7,
+      "soft_window": 6.0,
+      "limit": 6.0,
+      "en": "Where is that beggar husband?",
+      "en_seconds": 1.475,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/29103e81610d2407.mp3",
+      "budget": 31,
+      "baseline": {
+        "text": "वो भिखारी पति कहाँ है?",
+        "syllables": 9,
+        "seconds": 1.725,
+        "ratio": 0.288,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e67806ea7427558e.mp3"
+      },
+      "dubfit": {
+        "text": "वो भिखारी पति कहाँ है?",
+        "syllables": 9,
+        "seconds": 1.725,
+        "ratio": 0.288,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e67806ea7427558e.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L015",
+      "episode": 7,
+      "scene": 3,
+      "speaker": "ARISTOCRATIC WOMAN",
+      "gender": "F",
+      "emotion": "Urgent, Annoyed",
+      "on_screen": false,
+      "start": 86.5,
+      "end": 88.5,
+      "window": 2.0,
+      "soft_window": 2.1,
+      "limit": 2.1,
+      "en": "Gerald, don't let him frighten you.",
+      "en_seconds": 1.775,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6b52a6f8ad4d5809.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "जेराल्ड, उसे तुम्हें डराने मत देना।",
+        "syllables": 12,
+        "seconds": 2.962,
+        "ratio": 1.41,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/03fb3fc51fc5ca8d.mp3"
+      },
+      "dubfit": {
+        "text": "जेराल्ड, डर मत.",
+        "syllables": 4,
+        "seconds": 1.737,
+        "ratio": 0.827,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/531445ce84895c85.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "जेराल्ड, उसे तुम्हें डराने मत देना।",
+            "seconds": 2.962,
+            "ratio": 1.41,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "जेराल्ड, उसे तुम्हें डराने मत दो।",
+            "seconds": 2.887,
+            "ratio": 1.375,
+            "status": "overflow"
+          },
+          {
+            "text": "जेराल्ड, डर मत.",
+            "seconds": 1.737,
+            "ratio": 0.827,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Gerald, don't be afraid.",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L016",
+      "episode": 7,
+      "scene": 3,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Trembling, Trying to Save Face",
+      "on_screen": true,
+      "start": 88.6,
+      "end": 90.0,
+      "window": 1.4,
+      "soft_window": 1.5,
+      "limit": 1.4,
+      "en": "What are you staring at?",
+      "en_seconds": 1.188,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bf16a315bab70472.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "तुम क्या देख रहे हो?",
+        "syllables": 6,
+        "seconds": 1.312,
+        "ratio": 0.937,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8785126f66126540.mp3"
+      },
+      "dubfit": {
+        "text": "तुम क्या देख रहे हो?",
+        "syllables": 6,
+        "seconds": 1.312,
+        "ratio": 0.937,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8785126f66126540.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L017",
+      "episode": 7,
+      "scene": 3,
+      "speaker": "GERALD",
+      "gender": "M",
+      "emotion": "Nervous, Hurried",
+      "on_screen": true,
+      "start": 90.1,
+      "end": 91.4,
+      "window": 1.3,
+      "soft_window": 1.9,
+      "limit": 1.3,
+      "en": "We are leaving.",
+      "en_seconds": 0.95,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/76f3a4269d08ac52.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "हम जा रहे हैं।",
+        "syllables": 5,
+        "seconds": 1.275,
+        "ratio": 0.981,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/eeafa260b8000f05.mp3"
+      },
+      "dubfit": {
+        "text": "हम जा रहे हैं।",
+        "syllables": 5,
+        "seconds": 1.275,
+        "ratio": 0.981,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/eeafa260b8000f05.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L018",
+      "episode": 7,
+      "scene": 3,
+      "speaker": "ARISTOCRATIC WOMAN",
+      "gender": "F",
+      "emotion": "Outraged, Flustered",
+      "on_screen": true,
+      "start": 92.0,
+      "end": 93.8,
+      "window": 1.8,
+      "soft_window": 8.8,
+      "limit": 1.8,
+      "en": "Leaving? Gerald!",
+      "en_seconds": 1.9,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/990837242685e38d.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "जा रहे हो? जेराल्ड!",
+        "syllables": 6,
+        "seconds": 2.625,
+        "ratio": 1.458,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bd9652738ad7d09d.mp3"
+      },
+      "dubfit": {
+        "text": "जेराल्ड, जा रहे?",
+        "syllables": 5,
+        "seconds": 1.6,
+        "ratio": 0.889,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/13db8bea07283f6f.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "जा रहे हो? जेराल्ड!",
+            "seconds": 2.625,
+            "ratio": 1.458,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "जा रहे हो? जेराल्ड!",
+            "seconds": 2.625,
+            "ratio": 1.458,
+            "status": "overflow"
+          },
+          {
+            "text": "जेराल्ड, जा रहे?",
+            "seconds": 1.6,
+            "ratio": 0.889,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Gerald, are you leaving?",
+      "meaning_score": 4,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L019",
+      "episode": 7,
+      "scene": 3,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Impressed, Softly Amused",
+      "on_screen": true,
+      "start": 100.8,
+      "end": 103.2,
+      "window": 2.4,
+      "soft_window": 5.2,
+      "limit": 2.4,
+      "en": "You didn't say a word.",
+      "en_seconds": 1.125,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/dcca95ac6ee641b0.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "तुमने एक शब्द भी नहीं कहा।",
+        "syllables": 10,
+        "seconds": 2.05,
+        "ratio": 0.854,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8a29381bf41351bd.mp3"
+      },
+      "dubfit": {
+        "text": "तुमने एक शब्द भी नहीं कहा।",
+        "syllables": 10,
+        "seconds": 2.05,
+        "ratio": 0.854,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8a29381bf41351bd.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E007-L020",
+      "episode": 7,
+      "scene": 3,
+      "speaker": "SCARRED BEARDED MAN",
+      "gender": "M",
+      "emotion": "Low, Gentle, Confident",
+      "on_screen": true,
+      "start": 106.0,
+      "end": 107.8,
+      "window": 1.8,
+      "soft_window": 10.0,
+      "limit": 1.8,
+      "en": "I didn't need to.",
+      "en_seconds": 1.087,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e5a3aa12b9aa3417.mp3",
+      "budget": 8,
+      "baseline": {
+        "text": "मुझे कहने की ज़रूरत नहीं थी।",
+        "syllables": 12,
+        "seconds": 1.95,
+        "ratio": 1.083,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e38c39e2be34661f.mp3"
+      },
+      "dubfit": {
+        "text": "मुझे कहने की ज़रूरत नहीं थी।",
+        "syllables": 12,
+        "seconds": 1.95,
+        "ratio": 1.083,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e38c39e2be34661f.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    }
+  ]
+}

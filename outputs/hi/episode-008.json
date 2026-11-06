@@ -1,0 +1,1404 @@
+{
+  "episode": 8,
+  "lang": "hi",
+  "language": "Hindi",
+  "model": "groq/openai/gpt-oss-120b",
+  "engine": "edge",
+  "pipeline": "v2-fix-only-overflow",
+  "logline": "As Juliana inspects her late mother's weathered herbal grimoire, Alexander bonds with her over rustic medicinal knowledge and war-worn memories, gently altering her perception of what true wealth means.",
+  "duration": 78.0,
+  "syl_per_sec": {
+    "F": 5.016,
+    "M": 5.255
+  },
+  "summary": {
+    "lines": 26,
+    "baseline_fit": 0.4231,
+    "baseline_tight": 0.0769,
+    "baseline_overflow": 0.5,
+    "dubfit_fit": 0.6538,
+    "dubfit_tight": 0.3462,
+    "dubfit_overflow": 0.0,
+    "changed": 13,
+    "needs_review": 8,
+    "meaning_avg": 3.62,
+    "meaning_low": 8,
+    "rewritten": 13
+  },
+  "usage": {
+    "calls": 31,
+    "cached": 9,
+    "prompt_tokens": 33418,
+    "completion_tokens": 27704,
+    "seconds": 91.87851667404175,
+    "cost_usd": 0.0,
+    "errors": [
+      "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "RateLimitError: litellm.RateLimitError: RateLimitError: GroqException - {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m6r47gbwe",
+      "RateLimitError: litellm.RateLimitError: RateLimitError: GroqException - {\"error\":{\"message\":\"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m6r47gbwe"
+    ]
+  },
+  "wall_seconds": 214.9,
+  "lines": [
+    {
+      "id": "E008-L001",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Gentle, Somber",
+      "on_screen": true,
+      "start": 0.2,
+      "end": 3.2,
+      "window": 3.0,
+      "soft_window": 4.9,
+      "limit": 3.0,
+      "en": "Some of the pages are ruined. Careful.",
+      "en_seconds": 2.975,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6cae4a2c66836c67.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "कुछ पन्ने बिगड़ गए हैं। सावधान रहो।",
+        "syllables": 13,
+        "seconds": 3.737,
+        "ratio": 1.246,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d4e8f154ecae1702.mp3"
+      },
+      "dubfit": {
+        "text": "कुछ पन्ने बिगड़ गए हैं, सावधान रहो।",
+        "syllables": 13,
+        "seconds": 3.038,
+        "ratio": 1.013,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/68250cd6530e4768.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "कुछ पन्ने बिगड़ गए हैं। सावधान रहो।",
+            "seconds": 3.737,
+            "ratio": 1.246,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कुछ पन्ने बिगड़ गए हैं, सावधान रहो।",
+            "seconds": 3.038,
+            "ratio": 1.013,
+            "status": "tight"
+          },
+          {
+            "text": "पन्ने बिगड़े हैं, ध्यान रखो।",
+            "seconds": 2.312,
+            "ratio": 0.771,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Some pages have gone bad, be careful.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L002",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Reflective, Reverent",
+      "on_screen": true,
+      "start": 5.1,
+      "end": 7.8,
+      "window": 2.7,
+      "soft_window": 5.4,
+      "limit": 2.7,
+      "en": "Mother spent years writing this.",
+      "en_seconds": 1.762,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/950c6438e8c2d31d.mp3",
+      "budget": 11,
+      "baseline": {
+        "text": "माँ ने सालों तक इसे लिखा था।",
+        "syllables": 10,
+        "seconds": 2.15,
+        "ratio": 0.796,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d27e7ac3c3a7f829.mp3"
+      },
+      "dubfit": {
+        "text": "माँ ने सालों तक इसे लिखा था।",
+        "syllables": 10,
+        "seconds": 2.15,
+        "ratio": 0.796,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d27e7ac3c3a7f829.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L003",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Curious, Recognizing",
+      "on_screen": true,
+      "start": 10.5,
+      "end": 11.8,
+      "window": 1.3,
+      "soft_window": 1.5,
+      "limit": 1.3,
+      "en": "Yarrow.",
+      "en_seconds": 0.588,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/f88509ea5232886b.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "यारो।",
+        "syllables": 2,
+        "seconds": 0.688,
+        "ratio": 0.529,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e237e53a309fddce.mp3"
+      },
+      "dubfit": {
+        "text": "यारो।",
+        "syllables": 2,
+        "seconds": 0.688,
+        "ratio": 0.529,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e237e53a309fddce.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L004",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Calm, Knowledgeable",
+      "on_screen": true,
+      "start": 12.0,
+      "end": 14.6,
+      "window": 2.6,
+      "soft_window": 3.1,
+      "limit": 2.6,
+      "en": "Good for wounds. Fever, too.",
+      "en_seconds": 3.0,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/3f4337e1193446e5.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "घावों के लिए अच्छा। बुखार के लिए भी।",
+        "syllables": 13,
+        "seconds": 3.637,
+        "ratio": 1.399,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2c6302c961cab927.mp3"
+      },
+      "dubfit": {
+        "text": "घाव और बुखार दोनों के लिए अच्छा।",
+        "syllables": 11,
+        "seconds": 2.462,
+        "ratio": 0.947,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d781ebc7c1e71c69.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "घावों के लिए अच्छा। बुखार के लिए भी।",
+            "seconds": 3.637,
+            "ratio": 1.399,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "घाव और बुखार दोनों के लिए अच्छा।",
+            "seconds": 2.462,
+            "ratio": 0.947,
+            "status": "fit"
+          },
+          {
+            "text": "घाव‑बुखार दोनों में मददगार।",
+            "seconds": 1.987,
+            "ratio": 0.764,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Good for both wounds and fever.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L005",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Inquiring, Soft",
+      "on_screen": true,
+      "start": 15.1,
+      "end": 16.1,
+      "window": 1.0,
+      "soft_window": 1.2,
+      "limit": 1.0,
+      "en": "How do you know that?",
+      "en_seconds": 0.975,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/81349e8363db7699.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "तुम्हें यह कैसे पता?",
+        "syllables": 7,
+        "seconds": 1.55,
+        "ratio": 1.55,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/00228557d933fb75.mp3"
+      },
+      "dubfit": {
+        "text": "क्यों जानते हो?",
+        "syllables": 5,
+        "seconds": 1.112,
+        "ratio": 1.112,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d22b243aa933d34a.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "तुम्हें यह कैसे पता?",
+            "seconds": 1.55,
+            "ratio": 1.55,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "कैसे पता?",
+            "seconds": 0.9,
+            "ratio": 0.9,
+            "status": "fit"
+          },
+          {
+            "text": "क्यों जानते हो?",
+            "seconds": 1.112,
+            "ratio": 1.112,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Why do you know?",
+      "meaning_score": 3,
+      "meaning_note": "How vs why changed",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E008-L006",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Somber, Matter-of-Fact",
+      "on_screen": true,
+      "start": 16.3,
+      "end": 18.9,
+      "window": 2.6,
+      "soft_window": 3.1,
+      "limit": 2.6,
+      "en": "Soldiers learn quickly which plants keep a man alive.",
+      "en_seconds": 2.8,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/04897ecdd1f7d3a8.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "सिपाहियों को जल्दी पता चल जाता है कौन‑से पौधे ज़िन्दा रख सकते हैं।",
+        "syllables": 24,
+        "seconds": 5.213,
+        "ratio": 2.005,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8eae44da23660553.mp3"
+      },
+      "dubfit": {
+        "text": "पता है कौन‑से पौधे बचाते हैं।",
+        "syllables": 11,
+        "seconds": 2.725,
+        "ratio": 1.048,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/12b954767997d765.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "सिपाहियों को जल्दी पता चल जाता है कौन‑से पौधे ज़िन्दा रख सकते हैं।",
+            "seconds": 5.213,
+            "ratio": 2.005,
+            "status": "overflow"
+          },
+          {
+            "text": "सिपाहियों को पता चलता है कौन‑से पौधे बचाते हैं।",
+            "seconds": 4.062,
+            "ratio": 1.562,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "पता है कौन‑से पौधे बचाते हैं।",
+            "seconds": 2.725,
+            "ratio": 1.048,
+            "status": "tight"
+          },
+          {
+            "text": "कौन‑से पौधे जीवन बचाते हैं?",
+            "seconds": 2.538,
+            "ratio": 0.976,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Know which plants save.",
+      "meaning_score": 2,
+      "meaning_note": "Subject and nuance lost",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E008-L007",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Observant, Lightly Teasing",
+      "on_screen": true,
+      "start": 19.4,
+      "end": 21.8,
+      "window": 2.4,
+      "soft_window": 3.4,
+      "limit": 2.4,
+      "en": "You know more about healing than you let on.",
+      "en_seconds": 1.962,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/58271e4ea97be65e.mp3",
+      "budget": 12,
+      "baseline": {
+        "text": "तुम इलाज में उतना ही जानते हो जितना तुम दिखाते नहीं।",
+        "syllables": 21,
+        "seconds": 3.887,
+        "ratio": 1.62,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8d3eedcc35dc0239.mp3"
+      },
+      "dubfit": {
+        "text": "तुम इलाज में ज्यादा जानते हो।",
+        "syllables": 10,
+        "seconds": 2.075,
+        "ratio": 0.865,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6ccf46a3a9571ac1.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "तुम इलाज में उतना ही जानते हो जितना तुम दिखाते नहीं।",
+            "seconds": 3.887,
+            "ratio": 1.62,
+            "status": "overflow"
+          },
+          {
+            "text": "तुम इलाज में दिखाए से ज्यादा जानते हो।",
+            "seconds": 2.8,
+            "ratio": 1.167,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "तुम इलाज में ज्यादा जानते हो।",
+            "seconds": 2.075,
+            "ratio": 0.865,
+            "status": "fit"
+          },
+          {
+            "text": "तुम इलाज में बहुत जानती हो।",
+            "seconds": 2.05,
+            "ratio": 0.854,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "You know more about treatment.",
+      "meaning_score": 3,
+      "meaning_note": "Concealment omitted",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E008-L008",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Quiet, Gritty",
+      "on_screen": true,
+      "start": 22.8,
+      "end": 24.2,
+      "window": 1.4,
+      "soft_window": 2.2,
+      "limit": 1.4,
+      "en": "Enough to survive.",
+      "en_seconds": 1.162,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1b51b4b34765ded0.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "जिंदा रहने के लिए काफी है।",
+        "syllables": 11,
+        "seconds": 1.975,
+        "ratio": 1.411,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/be37c2db795ac066.mp3"
+      },
+      "dubfit": {
+        "text": "बचने के लिए पर्याप्त।",
+        "syllables": 9,
+        "seconds": 1.475,
+        "ratio": 1.054,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/50c85e00e73bdab1.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "जिंदा रहने के लिए काफी है।",
+            "seconds": 1.975,
+            "ratio": 1.411,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "जिंदा रहने के लिए काफी है।",
+            "seconds": 1.975,
+            "ratio": 1.411,
+            "status": "overflow"
+          },
+          {
+            "text": "बचने के लिए पर्याप्त।",
+            "seconds": 1.475,
+            "ratio": 1.054,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Sufficient for survival.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L009",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Hesitant, Soft",
+      "on_screen": true,
+      "start": 25.0,
+      "end": 26.8,
+      "window": 1.8,
+      "soft_window": 5.1,
+      "limit": 1.8,
+      "en": "Your hair and beard...",
+      "en_seconds": 1.062,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8a0a0c4b729738aa.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "तुम्हारे बाल और दाढ़ी…",
+        "syllables": 7,
+        "seconds": 1.688,
+        "ratio": 0.938,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d9f401b2f90c3a06.mp3"
+      },
+      "dubfit": {
+        "text": "तुम्हारे बाल और दाढ़ी…",
+        "syllables": 7,
+        "seconds": 1.688,
+        "ratio": 0.938,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d9f401b2f90c3a06.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L010",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Gentle, Tender",
+      "on_screen": true,
+      "start": 30.1,
+      "end": 31.9,
+      "window": 1.8,
+      "soft_window": 3.1,
+      "limit": 1.8,
+      "en": "I could trim them for you.",
+      "en_seconds": 1.237,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9aae228af2190b29.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "मैं उन्हें तुम्हारे लिए ट्रिम कर दूँगी।",
+        "syllables": 12,
+        "seconds": 2.625,
+        "ratio": 1.458,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7a5b8646fbccbd7f.mp3"
+      },
+      "dubfit": {
+        "text": "मैं ट्रिम कर दूँगी।",
+        "syllables": 5,
+        "seconds": 1.387,
+        "ratio": 0.771,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8cb075bceeef43a0.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मैं उन्हें तुम्हारे लिए ट्रिम कर दूँगी।",
+            "seconds": 2.625,
+            "ratio": 1.458,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मैं तुम्हारे लिए ट्रिम करूँगी।",
+            "seconds": 2.125,
+            "ratio": 1.181,
+            "status": "overflow"
+          },
+          {
+            "text": "मैं ट्रिम कर दूँगी।",
+            "seconds": 1.387,
+            "ratio": 0.771,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "I will trim.",
+      "meaning_score": 3,
+      "meaning_note": "Could vs will changed",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E008-L011",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Firm, Low",
+      "on_screen": true,
+      "start": 33.2,
+      "end": 34.5,
+      "window": 1.3,
+      "soft_window": 2.6,
+      "limit": 1.3,
+      "en": "Not yet.",
+      "en_seconds": 0.8,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4151526085f2f483.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "अभी नहीं।",
+        "syllables": 4,
+        "seconds": 0.675,
+        "ratio": 0.519,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d75b63f88d36ae44.mp3"
+      },
+      "dubfit": {
+        "text": "अभी नहीं।",
+        "syllables": 4,
+        "seconds": 0.675,
+        "ratio": 0.519,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d75b63f88d36ae44.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L012",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Puzzled, Curious",
+      "on_screen": true,
+      "start": 35.8,
+      "end": 36.9,
+      "window": 1.1,
+      "soft_window": 1.9,
+      "limit": 1.1,
+      "en": "Not yet?",
+      "en_seconds": 0.7,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a5470e618aba608f.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "अभी नहीं?",
+        "syllables": 4,
+        "seconds": 0.787,
+        "ratio": 0.715,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/af0f0c6dd4370e0b.mp3"
+      },
+      "dubfit": {
+        "text": "अभी नहीं?",
+        "syllables": 4,
+        "seconds": 0.787,
+        "ratio": 0.715,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/af0f0c6dd4370e0b.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L013",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Grounded, Steady",
+      "on_screen": true,
+      "start": 37.7,
+      "end": 38.9,
+      "window": 1.2,
+      "soft_window": 2.2,
+      "limit": 1.2,
+      "en": "Let them grow.",
+      "en_seconds": 0.912,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/34486d6b23742d21.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "उन्हें बढ़ने दो।",
+        "syllables": 6,
+        "seconds": 1.087,
+        "ratio": 0.906,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6c05bbcb0fdf008a.mp3"
+      },
+      "dubfit": {
+        "text": "उन्हें बढ़ने दो।",
+        "syllables": 6,
+        "seconds": 1.087,
+        "ratio": 0.906,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6c05bbcb0fdf008a.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L014",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Playful, Amused",
+      "on_screen": true,
+      "start": 39.9,
+      "end": 42.0,
+      "window": 2.1,
+      "soft_window": 3.8,
+      "limit": 2.1,
+      "en": "You prefer looking like a forest hermit?",
+      "en_seconds": 1.987,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e102560355c0e56a.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "तुम जंगल के साधु जैसा दिखना पसंद करते हो?",
+        "syllables": 17,
+        "seconds": 3.288,
+        "ratio": 1.566,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/94b886792c1b0ece.mp3"
+      },
+      "dubfit": {
+        "text": "साधु जैसा दिखना चाहो?",
+        "syllables": 9,
+        "seconds": 2.075,
+        "ratio": 0.988,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/8dd784209d51b457.mp3",
+        "attempts": 3,
+        "history": [
+          {
+            "text": "तुम जंगल के साधु जैसा दिखना पसंद करते हो?",
+            "seconds": 3.288,
+            "ratio": 1.566,
+            "status": "overflow"
+          },
+          {
+            "text": "जंगल साधु जैसा दिखना पसंद?",
+            "seconds": 2.55,
+            "ratio": 1.214,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "जंगल साधु जैसा दिखना पसंद?",
+            "seconds": 2.55,
+            "ratio": 1.214,
+            "status": "overflow"
+          },
+          {
+            "text": "साधु जैसा दिखना चाहो?",
+            "seconds": 2.075,
+            "ratio": 0.988,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Do you want to look like a sage?",
+      "meaning_score": 2,
+      "meaning_note": "Different meaning",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E008-L015",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Dry, Droll",
+      "on_screen": true,
+      "start": 43.7,
+      "end": 44.9,
+      "window": 1.2,
+      "soft_window": 1.8,
+      "limit": 1.2,
+      "en": "It has advantages.",
+      "en_seconds": 1.262,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7cd3eaafc77f58d9.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "इसके भी फायदे हैं।",
+        "syllables": 8,
+        "seconds": 1.775,
+        "ratio": 1.479,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/aff4cf9f9461848e.mp3"
+      },
+      "dubfit": {
+        "text": "ये भी फायदेमंद।",
+        "syllables": 7,
+        "seconds": 1.137,
+        "ratio": 0.948,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0374c041d0e2b3c8.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "इसके भी फायदे हैं।",
+            "seconds": 1.775,
+            "ratio": 1.479,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "फायदे हैं।",
+            "seconds": 1.225,
+            "ratio": 1.021,
+            "status": "tight"
+          },
+          {
+            "text": "ये भी फायदेमंद।",
+            "seconds": 1.137,
+            "ratio": 0.948,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "This is also beneficial.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L016",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Fond, Resigned",
+      "on_screen": true,
+      "start": 45.5,
+      "end": 46.8,
+      "window": 1.3,
+      "soft_window": 2.6,
+      "limit": 1.3,
+      "en": "Very well.",
+      "en_seconds": 0.787,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/88f21381cf6da749.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "ठीक है।",
+        "syllables": 2,
+        "seconds": 0.713,
+        "ratio": 0.548,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1f364f32fadf4a85.mp3"
+      },
+      "dubfit": {
+        "text": "ठीक है।",
+        "syllables": 2,
+        "seconds": 0.713,
+        "ratio": 0.548,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1f364f32fadf4a85.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L017",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Teasing, Determined",
+      "on_screen": true,
+      "start": 48.1,
+      "end": 49.6,
+      "window": 1.5,
+      "soft_window": 2.0,
+      "limit": 1.5,
+      "en": "But one day, I am trimming that beard.",
+      "en_seconds": 2.137,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a2b20dac793c8c71.mp3",
+      "budget": 7,
+      "baseline": {
+        "text": "पर एक दिन, मैं वो दाढ़ी ट्रिम करूँगी।",
+        "syllables": 11,
+        "seconds": 3.1,
+        "ratio": 2.067,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/fc2e03c3af7192e5.mp3"
+      },
+      "dubfit": {
+        "text": "एक दिन ट्रिम करूँगी।",
+        "syllables": 6,
+        "seconds": 1.612,
+        "ratio": 1.075,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/68a2841b07b2b0fb.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "पर एक दिन, मैं वो दाढ़ी ट्रिम करूँगी।",
+            "seconds": 3.1,
+            "ratio": 2.067,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "दाढ़ी कटूँगी।",
+            "seconds": 1.325,
+            "ratio": 0.883,
+            "status": "fit"
+          },
+          {
+            "text": "एक दिन ट्रिम करूँगी।",
+            "seconds": 1.612,
+            "ratio": 1.075,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "One day I will trim.",
+      "meaning_score": 3,
+      "meaning_note": "Missing context and but",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E008-L018",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Low, Amused",
+      "on_screen": true,
+      "start": 50.1,
+      "end": 51.2,
+      "window": 1.1,
+      "soft_window": 3.2,
+      "limit": 1.1,
+      "en": "We'll see.",
+      "en_seconds": 0.888,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/9181360ef87e84df.mp3",
+      "budget": 5,
+      "baseline": {
+        "text": "देखेंगे।",
+        "syllables": 3,
+        "seconds": 0.688,
+        "ratio": 0.625,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0526db0f6ad202cc.mp3"
+      },
+      "dubfit": {
+        "text": "देखेंगे।",
+        "syllables": 3,
+        "seconds": 0.688,
+        "ratio": 0.625,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/0526db0f6ad202cc.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L019",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Instructional, Calm",
+      "on_screen": true,
+      "start": 53.3,
+      "end": 57.0,
+      "window": 3.7,
+      "soft_window": 5.4,
+      "limit": 3.7,
+      "en": "That one grows near the northern stream. Crushed leaves ease swelling.",
+      "en_seconds": 4.363,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/e83f5b1d042627a9.mp3",
+      "budget": 19,
+      "baseline": {
+        "text": "वो उत्तर की धारा के पास उगता है। कुचले हुए पत्ते सूजन कम करते हैं।",
+        "syllables": 26,
+        "seconds": 6.925,
+        "ratio": 1.872,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/6d22a9a1c0ee1cdd.mp3"
+      },
+      "dubfit": {
+        "text": "उत्तरी धारा के पास उगता, पत्ते कुचल कर सूजन घटाएँ।",
+        "syllables": 20,
+        "seconds": 3.988,
+        "ratio": 1.078,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/bf13fb8011efccd5.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "वो उत्तर की धारा के पास उगता है। कुचले हुए पत्ते सूजन कम करते हैं।",
+            "seconds": 6.925,
+            "ratio": 1.872,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "उत्तरी धारा के पास उगता है, कुचले पत्ते सूजन कम करते हैं।",
+            "seconds": 4.875,
+            "ratio": 1.318,
+            "status": "overflow"
+          },
+          {
+            "text": "उत्तरी धारा के पास उगता, पत्ते कुचल कर सूजन घटाएँ।",
+            "seconds": 3.988,
+            "ratio": 1.078,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "Grows near the northern stream, crush the leaves to reduce swelling.",
+      "meaning_score": 5,
+      "meaning_note": "",
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L020",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Soft, Nostalgic",
+      "on_screen": true,
+      "start": 58.7,
+      "end": 60.2,
+      "window": 1.5,
+      "soft_window": 1.8,
+      "limit": 1.5,
+      "en": "My mother wrote the same thing.",
+      "en_seconds": 1.6,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2363e57792d25c4d.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "मेरी माँ ने भी वही लिखा था।",
+        "syllables": 10,
+        "seconds": 2.012,
+        "ratio": 1.341,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/55fbc92b7ec6a7dd.mp3"
+      },
+      "dubfit": {
+        "text": "मेरी माँ ने भी लिखा।",
+        "syllables": 7,
+        "seconds": 1.525,
+        "ratio": 1.017,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b51b02b106a7c298.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "मेरी माँ ने भी वही लिखा था।",
+            "seconds": 2.012,
+            "ratio": 1.341,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "मेरी माँ ने भी वही लिखा।",
+            "seconds": 1.787,
+            "ratio": 1.191,
+            "status": "overflow"
+          },
+          {
+            "text": "मेरी माँ ने भी लिखा।",
+            "seconds": 1.525,
+            "ratio": 1.017,
+            "status": "tight"
+          }
+        ]
+      },
+      "back_translation": "My mother also wrote.",
+      "meaning_score": 3,
+      "meaning_note": "Lost \"same thing\"",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E008-L021",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Hesitant, Compassionate",
+      "on_screen": true,
+      "start": 60.5,
+      "end": 62.8,
+      "window": 2.3,
+      "soft_window": 2.7,
+      "limit": 2.3,
+      "en": "And the scars... were they from the war?",
+      "en_seconds": 1.962,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/c9e3243b75929e1b.mp3",
+      "budget": 10,
+      "baseline": {
+        "text": "और वो घाव… क्या वो युद्ध से थे?",
+        "syllables": 8,
+        "seconds": 3.475,
+        "ratio": 1.511,
+        "status": "overflow",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/41851f7de6cd0876.mp3"
+      },
+      "dubfit": {
+        "text": "क्या घाव युद्ध के थे?",
+        "syllables": 5,
+        "seconds": 1.712,
+        "ratio": 0.744,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/484a9cc68b0b1575.mp3",
+        "attempts": 2,
+        "history": [
+          {
+            "text": "और वो घाव… क्या वो युद्ध से थे?",
+            "seconds": 3.475,
+            "ratio": 1.511,
+            "status": "overflow"
+          }
+        ],
+        "changed": true,
+        "candidates": [
+          {
+            "text": "क्या घाव युद्ध के थे?",
+            "seconds": 1.712,
+            "ratio": 0.744,
+            "status": "fit"
+          },
+          {
+            "text": "युद्ध के घाव थे?",
+            "seconds": 1.475,
+            "ratio": 0.641,
+            "status": "fit"
+          }
+        ]
+      },
+      "back_translation": "Were the wounds from war?",
+      "meaning_score": 3,
+      "meaning_note": "Scars vs wounds changed",
+      "review_reasons": [
+        "meaning drift"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "E008-L022",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Quiet, Subdued",
+      "on_screen": true,
+      "start": 63.2,
+      "end": 64.2,
+      "window": 1.0,
+      "soft_window": 1.7,
+      "limit": 1.0,
+      "en": "Some were.",
+      "en_seconds": 0.763,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/a34dd923e27af7ed.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "कुछ तो थे।",
+        "syllables": 3,
+        "seconds": 0.713,
+        "ratio": 0.713,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/20fc5d1871ccdd9c.mp3"
+      },
+      "dubfit": {
+        "text": "कुछ तो थे।",
+        "syllables": 3,
+        "seconds": 0.713,
+        "ratio": 0.713,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/20fc5d1871ccdd9c.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L023",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Tender, Aching",
+      "on_screen": true,
+      "start": 64.9,
+      "end": 66.3,
+      "window": 1.4,
+      "soft_window": 1.8,
+      "limit": 1.4,
+      "en": "It must have been terrible.",
+      "en_seconds": 1.35,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/d2bd3690f02b06af.mp3",
+      "budget": 6,
+      "baseline": {
+        "text": "बहुत बुरा रहा होगा।",
+        "syllables": 8,
+        "seconds": 1.587,
+        "ratio": 1.134,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/277dd494cecb9170.mp3"
+      },
+      "dubfit": {
+        "text": "बहुत बुरा रहा होगा।",
+        "syllables": 8,
+        "seconds": 1.587,
+        "ratio": 1.134,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/277dd494cecb9170.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L024",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "ALEXANDER",
+      "gender": "M",
+      "emotion": "Heavy, Somber",
+      "on_screen": true,
+      "start": 66.7,
+      "end": 67.6,
+      "window": 0.9,
+      "soft_window": 2.3,
+      "limit": 0.9,
+      "en": "It was.",
+      "en_seconds": 0.787,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/2aa4e09348aba05c.mp3",
+      "budget": 4,
+      "baseline": {
+        "text": "है।",
+        "syllables": 1,
+        "seconds": 0.325,
+        "ratio": 0.361,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1f480bb554239e7b.mp3"
+      },
+      "dubfit": {
+        "text": "है।",
+        "syllables": 1,
+        "seconds": 0.325,
+        "ratio": 0.361,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/1f480bb554239e7b.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L025",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Reflective, Vulnerable",
+      "on_screen": true,
+      "start": 69.0,
+      "end": 72.1,
+      "window": 3.1,
+      "soft_window": 4.2,
+      "limit": 3.1,
+      "en": "I thought losing wealth meant losing everything.",
+      "en_seconds": 2.262,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/b29a188d791fafa8.mp3",
+      "budget": 13,
+      "baseline": {
+        "text": "मैं सोचती थी धन खोना मतलब सब कुछ खो देना।",
+        "syllables": 16,
+        "seconds": 3.5,
+        "ratio": 1.129,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/aeb7e19aac469daf.mp3"
+      },
+      "dubfit": {
+        "text": "मैं सोचती थी धन खोना मतलब सब कुछ खो देना।",
+        "syllables": 16,
+        "seconds": 3.5,
+        "ratio": 1.129,
+        "status": "tight",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/aeb7e19aac469daf.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    },
+    {
+      "id": "E008-L026",
+      "episode": 8,
+      "scene": 1,
+      "speaker": "JULIANA",
+      "gender": "F",
+      "emotion": "Quiet, Transformed",
+      "on_screen": true,
+      "start": 73.2,
+      "end": 75.3,
+      "window": 2.1,
+      "soft_window": 4.8,
+      "limit": 2.1,
+      "en": "Perhaps I was wrong.",
+      "en_seconds": 1.162,
+      "en_audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/4bffcce8b071bfae.mp3",
+      "budget": 9,
+      "baseline": {
+        "text": "शायद मैं गलत थी।",
+        "syllables": 6,
+        "seconds": 1.562,
+        "ratio": 0.744,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7523ad8b4fbc1d89.mp3"
+      },
+      "dubfit": {
+        "text": "शायद मैं गलत थी।",
+        "syllables": 6,
+        "seconds": 1.562,
+        "ratio": 0.744,
+        "status": "fit",
+        "audio": "/Users/asthajaiswal/Downloads/dubfit/.cache/tts/7523ad8b4fbc1d89.mp3",
+        "attempts": 1,
+        "history": [],
+        "changed": false
+      },
+      "review_reasons": [],
+      "needs_review": false
+    }
+  ]
+}
