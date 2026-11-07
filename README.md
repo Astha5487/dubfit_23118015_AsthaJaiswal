@@ -12,7 +12,7 @@ rushes, gets cut off or falls out of lip-sync, and an editor has to fix lines by
 > **One person · one step · one checkable output**
 > The localization editor · English script → dub-ready script · a translated script with a measured fit for every line
 
-🔗 **Live app:** [[your Streamlit link]](https://dubfit-23118015-asthajaiswal.streamlit.app/studio)  ·  🎥 **Walkthrough:** [your video link]
+🔗 **Live app:** [[your Streamlit link]](https://dubfit-23118015-asthajaiswal.streamlit.app/studio)  ·  🎥 **Walkthrough:** [[your video link](https://drive.google.com/file/d/1p_eVSNdlhRx9DG4tTqt6tieKSFRL7_An/view?usp=drive_link)]
 
 ---
 
